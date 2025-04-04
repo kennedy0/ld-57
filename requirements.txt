@@ -1,0 +1,12 @@
+# engine
+colorama==0.4.6
+PySDL2==0.9.16
+pysdl2-dll==2.28.5
+python-ulid==2.4.0
+pillow==10.3.0
+pyinstaller==6.5.0
+
+# content build
+bont @ git+https://github.com/kennedy0/bont@41d7e57
+sprak @ git+https://github.com/kennedy0/sprak@118c7c9
+aseprite-reader @ git+https://github.com/kennedy0/aseprite-reader@81cff16
