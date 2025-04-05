@@ -1,10 +1,10 @@
 from potion import *
 
 
-class GoombaFx(Entity):
+class ScoreFx(Entity):
     def __init__(self) -> None:
         super().__init__()
-        self.sprite = AnimatedSprite.from_atlas("atlas.png", "goomba_fx")
+        self.sprite = AnimatedSprite.from_atlas("atlas.png", "score_fx")
         self.sprite.pivot.set_bottom_left()
         self.sprite.get_animation("default").loop = False
         self.sprite.play("default")

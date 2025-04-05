@@ -213,6 +213,41 @@
 				"color": 2943221,
 				"customFields" : {}
 			}
+		],
+		"MarioCoin": [
+			{
+				"id": "MarioCoin",
+				"iid": "8ffb1030-1030-11f0-ac40-37e13c76b474",
+				"layer": "Entities",
+				"x": 88,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 16705377,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioCoin",
+				"iid": "90353300-1030-11f0-ac40-0da7294c6ded",
+				"layer": "Entities",
+				"x": 96,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 16705377,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioCoin",
+				"iid": "907c4e20-1030-11f0-ac40-07b2227bb513",
+				"layer": "Entities",
+				"x": 104,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 16705377,
+				"customFields" : {}
+			}
 		]
 	}
 }

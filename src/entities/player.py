@@ -412,8 +412,8 @@ class Player(Entity):
         if "Enemy" in other.tags:
             if self.invincibility_timer:
                 pass
-            # elif self.character == "Mario" and self.bbox().bottom() <= other.bbox().top():
-            elif self.character == "Mario":
+            elif self.character == "Mario" and self.bbox().bottom() <= other.bbox().top():
+            # elif self.character == "Mario":
                 if Input.get_button("Jump"):
                     self.dy = self.jump_force * -1
                 else:
@@ -425,6 +425,8 @@ class Player(Entity):
             else:
                 print(f"Damaged by touching {other.name}")
                 self.damage()
+        elif "Coin" in other.tags:
+            other.destroy()
 
     def damage(self) -> None:
         self.hp -= 1

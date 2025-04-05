@@ -3,6 +3,7 @@ from potion import *
 from entities.mario_brick import MarioBrick
 from entities.goomba import Goomba
 from entities.player import Player
+from entities.mario_coin import MarioCoin
 
 
 class MainScene(Scene):
@@ -17,6 +18,8 @@ class MainScene(Scene):
             match ldtk_entity.metadata["ldtk_entity_name"]:
                 case "MarioBrick":
                     e = MarioBrick()
+                case "MarioCoin":
+                    e = MarioCoin()
                 case "Goomba":
                     e = Goomba()
                 case _:

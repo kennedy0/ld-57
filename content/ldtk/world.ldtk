@@ -11,7 +11,7 @@
 	"iid": "a8cc0ba0-1030-11f0-adbd-c544c00a2df5",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 9,
+	"nextUid": 10,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -216,6 +216,41 @@
 			"pivotX": 0,
 			"pivotY": 0,
 			"fieldDefs": []
+		},
+		{
+			"identifier": "MarioCoin",
+			"uid": 9,
+			"tags": [],
+			"exportToToc": false,
+			"allowOutOfBounds": false,
+			"doc": null,
+			"width": 8,
+			"height": 8,
+			"resizableX": false,
+			"resizableY": false,
+			"minWidth": null,
+			"maxWidth": null,
+			"minHeight": null,
+			"maxHeight": null,
+			"keepAspectRatio": false,
+			"tileOpacity": 1,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#FEE761",
+			"renderMode": "Ellipse",
+			"showName": true,
+			"tilesetId": null,
+			"tileRenderMode": "FitInside",
+			"tileRect": null,
+			"uiTileRect": null,
+			"nineSliceBorders": [],
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -236,8 +271,8 @@
 			"customData": [],
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "1100000000000000000000000000000000000000000000000000000000000000",
-				"averageColors": "f446f44600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"opaqueTiles": "1111000000000000000000000000000000000000000000000000000000000000",
+				"averageColors": "f446f446f567f557d567d4560000000000000000d557d446d567d45600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		},
 		{
@@ -615,6 +650,54 @@
 							"fieldInstances": [],
 							"__worldX": 256,
 							"__worldY": 152
+						},
+						{
+							"__identifier": "MarioCoin",
+							"__grid": [11,16],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#FEE761",
+							"iid": "8ffb1030-1030-11f0-ac40-37e13c76b474",
+							"width": 8,
+							"height": 8,
+							"defUid": 9,
+							"px": [88,128],
+							"fieldInstances": [],
+							"__worldX": 88,
+							"__worldY": 128
+						},
+						{
+							"__identifier": "MarioCoin",
+							"__grid": [12,16],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#FEE761",
+							"iid": "90353300-1030-11f0-ac40-0da7294c6ded",
+							"width": 8,
+							"height": 8,
+							"defUid": 9,
+							"px": [96,128],
+							"fieldInstances": [],
+							"__worldX": 96,
+							"__worldY": 128
+						},
+						{
+							"__identifier": "MarioCoin",
+							"__grid": [13,16],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#FEE761",
+							"iid": "907c4e20-1030-11f0-ac40-07b2227bb513",
+							"width": 8,
+							"height": 8,
+							"defUid": 9,
+							"px": [104,128],
+							"fieldInstances": [],
+							"__worldX": 104,
+							"__worldY": 128
 						}
 					]
 				},
