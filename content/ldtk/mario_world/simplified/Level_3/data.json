@@ -1,0 +1,433 @@
+{
+	"identifier": "Level_3",
+	"uniqueIdentifer": "f8f4f130-1030-11f0-ac40-0dad854e383a",
+	"x": -1,
+	"y": -1,
+	"width": 320,
+	"height": 180,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles.png"
+	],
+	"entities": {
+		"MarioBrick": [
+			{
+				"id": "MarioBrick",
+				"iid": "2d417620-1030-11f0-ac40-c78c959d4ca3",
+				"layer": "Entities",
+				"x": 32,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2dc91cb0-1030-11f0-ac40-4d9ecc456cc7",
+				"layer": "Entities",
+				"x": 32,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2e178ad0-1030-11f0-ac40-ff388540549f",
+				"layer": "Entities",
+				"x": 32,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2e53f790-1030-11f0-ac40-8d551be7c200",
+				"layer": "Entities",
+				"x": 40,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2e84a480-1030-11f0-ac40-535026cc3195",
+				"layer": "Entities",
+				"x": 48,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2eb355a0-1030-11f0-ac40-edbc41718a63",
+				"layer": "Entities",
+				"x": 56,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2ee2f120-1030-11f0-ac40-af14aec0c428",
+				"layer": "Entities",
+				"x": 64,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2f16f970-1030-11f0-ac40-779d4a19ef46",
+				"layer": "Entities",
+				"x": 72,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2f4694f0-1030-11f0-ac40-2b5b4017c630",
+				"layer": "Entities",
+				"x": 80,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2faa38c0-1030-11f0-ac40-5ffb145936c0",
+				"layer": "Entities",
+				"x": 88,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "2fdf2b70-1030-11f0-ac40-b11455974ed8",
+				"layer": "Entities",
+				"x": 96,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "30164100-1030-11f0-ac40-b124d034e87e",
+				"layer": "Entities",
+				"x": 104,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "304fa080-1030-11f0-ac40-2f0ce8b72260",
+				"layer": "Entities",
+				"x": 112,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "30a561a0-1030-11f0-ac40-0f65837adeed",
+				"layer": "Entities",
+				"x": 112,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "310d4b30-1030-11f0-ac40-25c9a147d3ad",
+				"layer": "Entities",
+				"x": 112,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "328bd4e0-1030-11f0-ac40-05a56a6f1fbc",
+				"layer": "Entities",
+				"x": 104,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "32e4f160-1030-11f0-ac40-13aacfc21815",
+				"layer": "Entities",
+				"x": 104,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "33358260-1030-11f0-ac40-eb0e048eaf11",
+				"layer": "Entities",
+				"x": 96,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3370b6a0-1030-11f0-ac40-3133111a97ab",
+				"layer": "Entities",
+				"x": 88,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "339f67c0-1030-11f0-ac40-3dde3ab81b0e",
+				"layer": "Entities",
+				"x": 80,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "33d592f0-1030-11f0-ac40-a784bd5a468c",
+				"layer": "Entities",
+				"x": 72,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3413fb80-1030-11f0-ac40-e97537dedc6a",
+				"layer": "Entities",
+				"x": 64,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3454ae00-1030-11f0-ac40-69f49c360abb",
+				"layer": "Entities",
+				"x": 56,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "34877dd0-1030-11f0-ac40-3bf734573c3b",
+				"layer": "Entities",
+				"x": 48,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "35223730-1030-11f0-ac40-f3181375771d",
+				"layer": "Entities",
+				"x": 40,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "368bb240-1030-11f0-ac40-450b9e6c16a6",
+				"layer": "Entities",
+				"x": 40,
+				"y": 112,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "37e0e200-1030-11f0-ac40-45d60e935ed6",
+				"layer": "Entities",
+				"x": 48,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3859bb80-1030-11f0-ac40-f5e95c055556",
+				"layer": "Entities",
+				"x": 56,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "38a3e3e0-1030-11f0-ac40-b1e08ef0eb8e",
+				"layer": "Entities",
+				"x": 64,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "38e49660-1030-11f0-ac40-07214169eb9d",
+				"layer": "Entities",
+				"x": 72,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "39cecf50-1030-11f0-ac40-f38d7183fe4e",
+				"layer": "Entities",
+				"x": 80,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3a17e640-1030-11f0-ac40-9f8823510f00",
+				"layer": "Entities",
+				"x": 88,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "3c05d390-1030-11f0-ac40-451ce5971427",
+				"layer": "Entities",
+				"x": 96,
+				"y": 120,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			}
+		],
+		"Goomba": [
+			{
+				"id": "Goomba",
+				"iid": "6d3ba2a0-1030-11f0-ac40-498b5c128369",
+				"layer": "Entities",
+				"x": 208,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 2943221,
+				"customFields" : {}
+			},
+			{
+				"id": "Goomba",
+				"iid": "6e8cb3b0-1030-11f0-ac40-71d928c138e1",
+				"layer": "Entities",
+				"x": 192,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 2943221,
+				"customFields" : {}
+			},
+			{
+				"id": "Goomba",
+				"iid": "6fec91d0-1030-11f0-ac40-211c0966ee55",
+				"layer": "Entities",
+				"x": 176,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 2943221,
+				"customFields" : {}
+			}
+		],
+		"MovingPlatform": [
+			{
+				"id": "MovingPlatform",
+				"iid": "92bbdae0-1030-11f0-ac40-bf2cb19a714a",
+				"layer": "Entities",
+				"x": 240,
+				"y": 152,
+				"width": 32,
+				"height": 8,
+				"color": 39387,
+				"customFields": {
+					"CycleTime": 60,
+					"XDistance": 0,
+					"YDistance": 32
+				}
+			}
+		]
+	}
+}

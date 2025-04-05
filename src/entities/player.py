@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from potion import *
 
-from entities.fireball import Fireball
 from entities.sword import Sword
 from entities.player_death_fx import PlayerDeathFx
 
@@ -65,6 +64,7 @@ class Player(Entity):
         self.early_jump_timer = 0
         self.early_jump_timer_max = 8
         self.gravity_enabled = True
+        self.riding: Entity | None = None
 
         # Input
         self.facing_x = 1
@@ -335,21 +335,52 @@ class Player(Entity):
         self.grounded_last_frame = self.grounded
         self.grounded = False
         self.head_hit = False
+        if self.riding:
+            try:
+                self.riding.carrying = None
+            except:
+                pass
+            self.riding = None
         for entity in self.scene.entities.active_entities():
             if entity == self:
                 continue
             if entity.solid:
                 if entity.intersects(self.grounded_rect()):
                     self.grounded = True
-                    self.scene_start = False
                 if entity.intersects(self.head_hit_rect()):
                     self.head_hit = True
                     if hasattr(entity, "on_head_hit"):
                         entity.on_head_hit()
+            elif "Platform" in entity.tags:
+                if entity.intersects(self.grounded_rect()):
+                    self.grounded = True
+                    if "MovingPlatform" in entity.tags and not (self.jump and self.coyote_timer):
+                        self.riding = entity
+                        try:
+                            self.riding.carrying = self
+                        except:
+                            pass
+
+        # If riding an object, override the Y position
+        if self.riding:
+            self.grounded = True
+            self.dy = 0
 
         # Can never go past the left side of the screen
         if self.x < 0:
             self.x = 0
+
+        if self.y > 180:
+            screen = self.x // 320
+            print(screen)
+            if screen == len(list(self.scene.levels)) - 1:
+                Log.warning("IMPLEMENT LEVEL TRANSITION")
+            else:
+                self.force_kill()
+
+        # Give player control when they're grounded
+        if self.grounded:
+            self.scene_start = False
 
     def update_special(self) -> None:
         if self.special:
@@ -455,7 +486,6 @@ class Player(Entity):
             if self.invincibility_timer:
                 pass
             elif self.character == "Mario" and self.bbox().bottom() <= other.bbox().top():
-            # elif self.character == "Mario":
                 if Input.get_button("Jump"):
                     self.dy = self.jump_force * -1
                 else:
@@ -465,7 +495,6 @@ class Player(Entity):
                 except:
                     Log.warning(f"{other.name} has no damage() method")
             else:
-                print(f"Damaged by touching {other.name}")
                 self.damage()
         elif "Coin" in other.tags:
             other.on_collect()
@@ -475,6 +504,10 @@ class Player(Entity):
         self.invincibility_timer = 60
         if self.hp <= 0:
             self.on_death()
+
+    def force_kill(self) -> None:
+        self.hp = 0
+        self.on_death()
 
     def on_death(self) -> None:
         fx = PlayerDeathFx.instantiate()
@@ -486,8 +519,7 @@ class Player(Entity):
     def _debug_input(self) -> None:
         # Die
         if Keyboard.get_key_down(Keyboard.ESCAPE):
-            self.hp = 0
-            self.on_death()
+            self.force_kill()
 
         # Switch Character
         if Keyboard.get_key_down(Keyboard.NUM_0):

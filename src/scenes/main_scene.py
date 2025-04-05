@@ -6,6 +6,7 @@ from entities.screen_wipe import ScreenWipe
 from entities.camera_controller import CameraController
 from entities.mario_brick import MarioBrick
 from entities.mario_question import MarioQuestion
+from entities.moving_platform import MovingPlatform
 from entities.goomba import Goomba
 from entities.player import Player
 from entities.mario_coin import MarioCoin
@@ -41,6 +42,8 @@ class MainScene(Scene):
                     e = MarioCoin()
                 case "Goomba":
                     e = Goomba()
+                case "MovingPlatform":
+                    e = MovingPlatform()
                 case _:
                     Log.warning(f"Could not swap '{ldtk_entity.name}'")
                     e = None
