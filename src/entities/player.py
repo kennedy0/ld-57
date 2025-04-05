@@ -123,6 +123,8 @@ class Player(Entity):
                     self.grounded = True
                 if entity.intersects(self.head_hit_rect()):
                     self.head_hit = True
+                    if hasattr(entity, "on_head_hit"):
+                        entity.on_head_hit()
 
     def update_state(self) -> None:
         if not self.grounded:

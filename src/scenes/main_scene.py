@@ -1,5 +1,6 @@
 from potion import *
 
+from entities.mario_brick import MarioBrick
 from entities.player import Player
 
 
@@ -12,9 +13,12 @@ class MainScene(Scene):
 
         # Load LDTK
         for ldtk_entity in LDtk.ldtk_entities(self):
-            pass
-            # if ldtk_entity.metadata['ldtk_entity_name'] == "Door":
-            #     door = Door()
-            #     LDtk.swap_entity(ldtk_entity, door)
+            match ldtk_entity.metadata["ldtk_entity_name"]:
+                case "MarioBrick":
+                    e = MarioBrick()
+                case _:
+                    e = None
+            if e:
+                LDtk.swap_entity(ldtk_entity, e)
 
         self.entities.add(Player())

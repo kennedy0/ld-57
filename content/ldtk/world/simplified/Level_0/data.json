@@ -11,5 +11,52 @@
 	"layers": [
 		"Tiles.png"
 	],
-	"entities" : {}
+	"entities": {
+		"MarioBrick": [
+			{
+				"id": "MarioBrick",
+				"iid": "c1aa7750-1030-11f0-adbd-710667d9afc9",
+				"layer": "Entities",
+				"x": 200,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "c39d94c0-1030-11f0-adbd-310a612e2cc4",
+				"layer": "Entities",
+				"x": 192,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "c50f7440-1030-11f0-adbd-c1fc3d9a51df",
+				"layer": "Entities",
+				"x": 208,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			},
+			{
+				"id": "MarioBrick",
+				"iid": "c5437c90-1030-11f0-adbd-a5090357e0b6",
+				"layer": "Entities",
+				"x": 216,
+				"y": 128,
+				"width": 8,
+				"height": 8,
+				"color": 12470831,
+				"customFields" : {}
+			}
+		]
+	}
 }
