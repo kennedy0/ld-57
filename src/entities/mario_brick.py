@@ -8,6 +8,7 @@ class MarioBrick(Entity):
         super().__init__()
         self.sprite = Sprite.from_atlas("atlas.png", "mario_brick")
 
+        self.collisions_enabled = True
         self.solid = True
         self.width = 8
         self.height = 8

@@ -17,6 +17,12 @@ class Player(Entity):
         self.hands_sprite = AnimatedSprite.from_atlas("atlas.png", "player_hands")
         self.hands_outline_sprite = AnimatedSprite.from_atlas("atlas.png", "player_hands_outline")
 
+        # Special Sprite
+        self.special_sprite = AnimatedSprite.empty()
+
+        # Held item
+        self.item: Entity | None = None
+
         # Collision
         self.collisions_enabled = True
         self.solid = False
@@ -26,7 +32,7 @@ class Player(Entity):
         # Movement
         self.move_speed = 1
         self.gravity = .2
-        self.jump_force = 3
+        self.jump_force = 3.5
 
         # Input
         self.input_x = 0
@@ -51,6 +57,16 @@ class Player(Entity):
             sprite.get_animation("Hang").loop = False
             sprite.get_animation("Fall").loop = False
             sprite.get_animation("Land").loop = False
+            sprite.get_animation("Land").set_duration(100)
+
+    def animation_name(self) -> str:
+        return self.body_sprite.animation
+
+    def animation_frame(self) -> int:
+        return self.body_sprite.frame
+
+    def get_animation(self, name: str) -> Animation | None:
+        return self.body_sprite.get_animation(name)
 
     def sprites(self) -> Generator[AnimatedSprite]:
         yield self.body_sprite
@@ -59,6 +75,43 @@ class Player(Entity):
         yield self.head_outline_sprite
         yield self.hands_sprite
         yield self.hands_outline_sprite
+
+    def hand_offset(self) -> Point:
+
+        if self.animation_name() == "Idle":
+            p = Point(4, 12)
+        elif self.animation_name() == "Run":
+            if self.animation_frame() == 1:
+                p = Point(11, 9)
+            elif self.animation_frame() == 2:
+                p = Point(10, 10)
+            elif self.animation_frame() == 3:
+                p = Point(4, 11)
+            elif self.animation_frame() == 4:
+                p = Point(3, 10)
+            elif self.animation_frame() == 5:
+                p = Point(2, 9)
+            elif self.animation_frame() == 6:
+                p = Point(2, 10)
+            elif self.animation_frame() == 7:
+                p = Point(4, 11)
+            elif self.animation_frame() == 8:
+                p = Point(8, 10)
+            else:
+                p = Point.zero()
+        elif self.animation_name() == "Jump":
+            p = Point(3, 10)
+        elif self.animation_name() == "Hang":
+            p = Point(3, 9)
+        elif self.animation_name() == "Fall":
+            p = Point(4, 8)
+        elif self.animation_name() == "Land":
+            p = Point(3, 11)
+        else:
+            p = Point.zero()
+
+        return p
+
 
     def grounded_rect(self) -> Rect:
         return Rect(self.x, self.y + self.height, self.width, 1)
@@ -71,6 +124,7 @@ class Player(Entity):
         self.update_physics()
         self.update_state()
         self.update_animation()
+        self.update_item_position()
         for sprite in self.sprites():
             sprite.update()
 
@@ -146,7 +200,7 @@ class Player(Entity):
 
     def update_animation(self) -> None:
         # Get the animation to play
-        animation = self.body_sprite.animation
+        animation = self.animation_name()
         if self.state == "Idle":
             if not self.grounded_last_frame and self.grounded:
                 animation = "Land"
@@ -164,17 +218,35 @@ class Player(Entity):
 
         # Play the animation if it's new
         if animation != self.body_sprite.animation:
-            if animation == "Idle" and self.body_sprite.get_animation("Land").is_playing:
+            if animation == "Idle" and self.get_animation("Land").is_playing:
                 # If the "Land" animation is playing, let it finish before idling
                 pass
             else:
                 for sprite in self.sprites():
                     sprite.play(animation)
 
+    def update_item_position(self) -> None:
+        if self.item:
+            self.item.set_position(self.position() + self.hand_offset())
+
     def draw(self, camera: Camera) -> None:
         sprite_position = Point(self.x - 3, self.y - 1)
+
+        if __debug__:
+            if Engine.debug_mode():
+                return
+
         for sprite in self.sprites():
             sprite.draw(camera, sprite_position)
 
     def debug_draw(self, camera: Camera) -> None:
+        self.bbox().draw(camera, Color.gray(), solid=True)
         self.bbox().draw(camera, Color.white())
+        if self.head_hit:
+            self.head_hit_rect().draw(camera, Color.green())
+        else:
+            self.head_hit_rect().draw(camera, Color(0, 100, 0, 255))
+        if self.grounded:
+            self.grounded_rect().draw(camera, Color.red())
+        else:
+            self.grounded_rect().draw(camera, Color(100, 0, 0, 255))
