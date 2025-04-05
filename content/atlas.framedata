@@ -1,8 +1,8 @@
 {
   "_item_template.0001": {
     "name": "_item_template.0001",
-    "x": 127,
-    "y": 50,
+    "x": 124,
+    "y": 100,
     "frame_width": 1,
     "frame_height": 1,
     "offset_x": 15,
@@ -15,6 +15,156 @@
       "tags": [],
       "duration": 100,
       "frame_number": 1
+    }
+  },
+  "fireball.0001": {
+    "name": "fireball.0001",
+    "x": 120,
+    "y": 40,
+    "frame_width": 6,
+    "frame_height": 6,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 7,
+    "sprite_height": 7,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fireball",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "goomba.0001": {
+    "name": "goomba.0001",
+    "x": 117,
+    "y": 60,
+    "frame_width": 10,
+    "frame_height": 9,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 10,
+    "sprite_height": 9,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "goomba.0002": {
+    "name": "goomba.0002",
+    "x": 84,
+    "y": 70,
+    "frame_width": 10,
+    "frame_height": 9,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 10,
+    "sprite_height": 9,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba",
+      "tags": [
+        "Walk"
+      ],
+      "duration": 400,
+      "frame_number": 2
+    }
+  },
+  "goomba.0003": {
+    "name": "goomba.0003",
+    "x": 94,
+    "y": 70,
+    "frame_width": 10,
+    "frame_height": 9,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 10,
+    "sprite_height": 9,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba",
+      "tags": [
+        "Walk"
+      ],
+      "duration": 400,
+      "frame_number": 3
+    }
+  },
+  "goomba_fx.0001": {
+    "name": "goomba_fx.0001",
+    "x": 28,
+    "y": 102,
+    "frame_width": 9,
+    "frame_height": 4,
+    "offset_x": 0,
+    "offset_y": 3,
+    "sprite_width": 9,
+    "sprite_height": 7,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba_fx",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "goomba_fx.0002": {
+    "name": "goomba_fx.0002",
+    "x": 37,
+    "y": 102,
+    "frame_width": 9,
+    "frame_height": 4,
+    "offset_x": 0,
+    "offset_y": 2,
+    "sprite_width": 9,
+    "sprite_height": 7,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba_fx",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 2
+    }
+  },
+  "goomba_fx.0003": {
+    "name": "goomba_fx.0003",
+    "x": 46,
+    "y": 102,
+    "frame_width": 9,
+    "frame_height": 4,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 9,
+    "sprite_height": 7,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba_fx",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 3
+    }
+  },
+  "goomba_fx.0004": {
+    "name": "goomba_fx.0004",
+    "x": 55,
+    "y": 102,
+    "frame_width": 9,
+    "frame_height": 4,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 9,
+    "sprite_height": 7,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "goomba_fx",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 4
     }
   },
   "mario_brick.0001": {
@@ -37,8 +187,8 @@
   },
   "mario_brick_fx.0001": {
     "name": "mario_brick_fx.0001",
-    "x": 121,
-    "y": 58,
+    "x": 124,
+    "y": 96,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 0,
@@ -48,24 +198,6 @@
     "metadata": {
       "source_format": "aseprite",
       "sprite_name": "mario_brick_fx",
-      "tags": [],
-      "duration": 100,
-      "frame_number": 1
-    }
-  },
-  "master_sword.0001": {
-    "name": "master_sword.0001",
-    "x": 80,
-    "y": 40,
-    "frame_width": 18,
-    "frame_height": 8,
-    "offset_x": 13,
-    "offset_y": 7,
-    "sprite_width": 31,
-    "sprite_height": 21,
-    "metadata": {
-      "source_format": "aseprite",
-      "sprite_name": "master_sword",
       "tags": [],
       "duration": 100,
       "frame_number": 1
@@ -373,8 +505,8 @@
   },
   "player_body.0001": {
     "name": "player_body.0001",
-    "x": 0,
-    "y": 65,
+    "x": 96,
+    "y": 96,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -393,8 +525,8 @@
   },
   "player_body.0002": {
     "name": "player_body.0002",
-    "x": 98,
-    "y": 40,
+    "x": 12,
+    "y": 80,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -413,8 +545,8 @@
   },
   "player_body.0003": {
     "name": "player_body.0003",
-    "x": 66,
-    "y": 50,
+    "x": 114,
+    "y": 80,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -433,8 +565,8 @@
   },
   "player_body.0004": {
     "name": "player_body.0004",
-    "x": 77,
-    "y": 50,
+    "x": 0,
+    "y": 89,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -453,8 +585,8 @@
   },
   "player_body.0005": {
     "name": "player_body.0005",
-    "x": 39,
-    "y": 58,
+    "x": 89,
+    "y": 89,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -473,8 +605,8 @@
   },
   "player_body.0006": {
     "name": "player_body.0006",
-    "x": 110,
-    "y": 40,
+    "x": 24,
+    "y": 80,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -493,8 +625,8 @@
   },
   "player_body.0007": {
     "name": "player_body.0007",
-    "x": 86,
-    "y": 50,
+    "x": 9,
+    "y": 89,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -513,8 +645,8 @@
   },
   "player_body.0008": {
     "name": "player_body.0008",
-    "x": 96,
-    "y": 50,
+    "x": 19,
+    "y": 89,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -533,8 +665,8 @@
   },
   "player_body.0009": {
     "name": "player_body.0009",
-    "x": 49,
-    "y": 58,
+    "x": 99,
+    "y": 89,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -553,8 +685,8 @@
   },
   "player_body.0010": {
     "name": "player_body.0010",
-    "x": 60,
-    "y": 58,
+    "x": 110,
+    "y": 89,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -573,8 +705,8 @@
   },
   "player_body.0011": {
     "name": "player_body.0011",
-    "x": 105,
-    "y": 50,
+    "x": 28,
+    "y": 89,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -593,8 +725,8 @@
   },
   "player_body.0012": {
     "name": "player_body.0012",
-    "x": 0,
-    "y": 50,
+    "x": 36,
+    "y": 80,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -613,8 +745,8 @@
   },
   "player_body.0013": {
     "name": "player_body.0013",
-    "x": 70,
-    "y": 58,
+    "x": 0,
+    "y": 96,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -633,8 +765,8 @@
   },
   "player_body.0014": {
     "name": "player_body.0014",
-    "x": 9,
-    "y": 65,
+    "x": 105,
+    "y": 96,
     "frame_width": 10,
     "frame_height": 5,
     "offset_x": 4,
@@ -653,8 +785,8 @@
   },
   "player_body.0015": {
     "name": "player_body.0015",
-    "x": 19,
-    "y": 65,
+    "x": 115,
+    "y": 96,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -673,8 +805,8 @@
   },
   "player_body_outline.0001": {
     "name": "player_body_outline.0001",
-    "x": 28,
-    "y": 65,
+    "x": 0,
+    "y": 102,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -693,8 +825,8 @@
   },
   "player_body_outline.0002": {
     "name": "player_body_outline.0002",
-    "x": 11,
-    "y": 50,
+    "x": 47,
+    "y": 80,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -713,8 +845,8 @@
   },
   "player_body_outline.0003": {
     "name": "player_body_outline.0003",
-    "x": 116,
-    "y": 50,
+    "x": 39,
+    "y": 89,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -733,8 +865,8 @@
   },
   "player_body_outline.0004": {
     "name": "player_body_outline.0004",
-    "x": 0,
-    "y": 58,
+    "x": 50,
+    "y": 89,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -753,8 +885,8 @@
   },
   "player_body_outline.0005": {
     "name": "player_body_outline.0005",
-    "x": 80,
-    "y": 58,
+    "x": 10,
+    "y": 96,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -773,8 +905,8 @@
   },
   "player_body_outline.0006": {
     "name": "player_body_outline.0006",
-    "x": 23,
-    "y": 50,
+    "x": 59,
+    "y": 80,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -793,8 +925,8 @@
   },
   "player_body_outline.0007": {
     "name": "player_body_outline.0007",
-    "x": 9,
-    "y": 58,
+    "x": 59,
+    "y": 89,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -813,8 +945,8 @@
   },
   "player_body_outline.0008": {
     "name": "player_body_outline.0008",
-    "x": 19,
-    "y": 58,
+    "x": 69,
+    "y": 89,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -833,8 +965,8 @@
   },
   "player_body_outline.0009": {
     "name": "player_body_outline.0009",
-    "x": 90,
-    "y": 58,
+    "x": 20,
+    "y": 96,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -853,8 +985,8 @@
   },
   "player_body_outline.0010": {
     "name": "player_body_outline.0010",
-    "x": 101,
-    "y": 58,
+    "x": 31,
+    "y": 96,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -873,8 +1005,8 @@
   },
   "player_body_outline.0011": {
     "name": "player_body_outline.0011",
-    "x": 28,
-    "y": 58,
+    "x": 78,
+    "y": 89,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -893,8 +1025,8 @@
   },
   "player_body_outline.0012": {
     "name": "player_body_outline.0012",
-    "x": 35,
-    "y": 50,
+    "x": 71,
+    "y": 80,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -913,8 +1045,8 @@
   },
   "player_body_outline.0013": {
     "name": "player_body_outline.0013",
-    "x": 111,
-    "y": 58,
+    "x": 41,
+    "y": 96,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -933,8 +1065,8 @@
   },
   "player_body_outline.0014": {
     "name": "player_body_outline.0014",
-    "x": 37,
-    "y": 65,
+    "x": 9,
+    "y": 102,
     "frame_width": 10,
     "frame_height": 5,
     "offset_x": 4,
@@ -953,8 +1085,8 @@
   },
   "player_body_outline.0015": {
     "name": "player_body_outline.0015",
-    "x": 47,
-    "y": 65,
+    "x": 19,
+    "y": 102,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -973,8 +1105,8 @@
   },
   "player_hands.0001": {
     "name": "player_hands.0001",
-    "x": 122,
-    "y": 40,
+    "x": 120,
+    "y": 46,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -993,8 +1125,8 @@
   },
   "player_hands.0002": {
     "name": "player_hands.0002",
-    "x": 122,
-    "y": 44,
+    "x": 124,
+    "y": 46,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 10,
@@ -1013,8 +1145,8 @@
   },
   "player_hands.0003": {
     "name": "player_hands.0003",
-    "x": 56,
-    "y": 65,
+    "x": 124,
+    "y": 70,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 9,
@@ -1033,8 +1165,8 @@
   },
   "player_hands.0004": {
     "name": "player_hands.0004",
-    "x": 60,
-    "y": 65,
+    "x": 124,
+    "y": 74,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1053,8 +1185,8 @@
   },
   "player_hands.0005": {
     "name": "player_hands.0005",
-    "x": 64,
-    "y": 65,
+    "x": 120,
+    "y": 89,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1073,8 +1205,8 @@
   },
   "player_hands.0006": {
     "name": "player_hands.0006",
-    "x": 68,
-    "y": 65,
+    "x": 124,
+    "y": 89,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -1093,8 +1225,8 @@
   },
   "player_hands.0007": {
     "name": "player_hands.0007",
-    "x": 72,
-    "y": 65,
+    "x": 120,
+    "y": 50,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -1113,8 +1245,8 @@
   },
   "player_hands.0008": {
     "name": "player_hands.0008",
-    "x": 76,
-    "y": 65,
+    "x": 124,
+    "y": 50,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1133,8 +1265,8 @@
   },
   "player_hands.0009": {
     "name": "player_hands.0009",
-    "x": 80,
-    "y": 65,
+    "x": 120,
+    "y": 54,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 7,
@@ -1153,8 +1285,8 @@
   },
   "player_hands.0010": {
     "name": "player_hands.0010",
-    "x": 84,
-    "y": 65,
+    "x": 124,
+    "y": 54,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1173,8 +1305,8 @@
   },
   "player_hands.0011": {
     "name": "player_hands.0011",
-    "x": 88,
-    "y": 65,
+    "x": 64,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1193,8 +1325,8 @@
   },
   "player_hands.0012": {
     "name": "player_hands.0012",
-    "x": 92,
-    "y": 65,
+    "x": 68,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1213,8 +1345,8 @@
   },
   "player_hands.0013": {
     "name": "player_hands.0013",
-    "x": 96,
-    "y": 65,
+    "x": 72,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1233,8 +1365,8 @@
   },
   "player_hands.0014": {
     "name": "player_hands.0014",
-    "x": 100,
-    "y": 65,
+    "x": 76,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1253,8 +1385,8 @@
   },
   "player_hands.0015": {
     "name": "player_hands.0015",
-    "x": 104,
-    "y": 65,
+    "x": 80,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1273,8 +1405,8 @@
   },
   "player_hands_outline.0001": {
     "name": "player_hands_outline.0001",
-    "x": 108,
-    "y": 65,
+    "x": 84,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1293,8 +1425,8 @@
   },
   "player_hands_outline.0002": {
     "name": "player_hands_outline.0002",
-    "x": 112,
-    "y": 65,
+    "x": 88,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 10,
@@ -1313,8 +1445,8 @@
   },
   "player_hands_outline.0003": {
     "name": "player_hands_outline.0003",
-    "x": 116,
-    "y": 65,
+    "x": 92,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 9,
@@ -1333,8 +1465,8 @@
   },
   "player_hands_outline.0004": {
     "name": "player_hands_outline.0004",
-    "x": 120,
-    "y": 65,
+    "x": 96,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1353,8 +1485,8 @@
   },
   "player_hands_outline.0005": {
     "name": "player_hands_outline.0005",
-    "x": 124,
-    "y": 65,
+    "x": 100,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1373,8 +1505,8 @@
   },
   "player_hands_outline.0006": {
     "name": "player_hands_outline.0006",
-    "x": 0,
-    "y": 70,
+    "x": 104,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -1393,8 +1525,8 @@
   },
   "player_hands_outline.0007": {
     "name": "player_hands_outline.0007",
-    "x": 4,
-    "y": 70,
+    "x": 108,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -1413,8 +1545,8 @@
   },
   "player_hands_outline.0008": {
     "name": "player_hands_outline.0008",
-    "x": 8,
-    "y": 70,
+    "x": 112,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1433,8 +1565,8 @@
   },
   "player_hands_outline.0009": {
     "name": "player_hands_outline.0009",
-    "x": 12,
-    "y": 70,
+    "x": 116,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 7,
@@ -1453,8 +1585,8 @@
   },
   "player_hands_outline.0010": {
     "name": "player_hands_outline.0010",
-    "x": 16,
-    "y": 70,
+    "x": 120,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1473,8 +1605,8 @@
   },
   "player_hands_outline.0011": {
     "name": "player_hands_outline.0011",
-    "x": 20,
-    "y": 70,
+    "x": 124,
+    "y": 102,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1493,8 +1625,8 @@
   },
   "player_hands_outline.0012": {
     "name": "player_hands_outline.0012",
-    "x": 24,
-    "y": 70,
+    "x": 0,
+    "y": 107,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1513,8 +1645,8 @@
   },
   "player_hands_outline.0013": {
     "name": "player_hands_outline.0013",
-    "x": 28,
-    "y": 70,
+    "x": 4,
+    "y": 107,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1533,8 +1665,8 @@
   },
   "player_hands_outline.0014": {
     "name": "player_hands_outline.0014",
-    "x": 32,
-    "y": 70,
+    "x": 8,
+    "y": 107,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -1553,8 +1685,8 @@
   },
   "player_hands_outline.0015": {
     "name": "player_hands_outline.0015",
-    "x": 36,
-    "y": 70,
+    "x": 12,
+    "y": 107,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -1813,8 +1945,8 @@
   },
   "player_head.0013": {
     "name": "player_head.0013",
-    "x": 46,
-    "y": 50,
+    "x": 82,
+    "y": 80,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -1833,8 +1965,8 @@
   },
   "player_head.0014": {
     "name": "player_head.0014",
-    "x": 60,
-    "y": 40,
+    "x": 104,
+    "y": 70,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 3,
@@ -2113,8 +2245,8 @@
   },
   "player_head_outline.0013": {
     "name": "player_head_outline.0013",
-    "x": 56,
-    "y": 50,
+    "x": 92,
+    "y": 80,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -2133,8 +2265,8 @@
   },
   "player_head_outline.0014": {
     "name": "player_head_outline.0014",
-    "x": 70,
-    "y": 40,
+    "x": 114,
+    "y": 70,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 3,
@@ -2169,6 +2301,660 @@
       ],
       "duration": 100,
       "frame_number": 15
+    }
+  },
+  "player_head_outline_link.0001": {
+    "name": "player_head_outline_link.0001",
+    "x": 60,
+    "y": 40,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_head_outline_link.0002": {
+    "name": "player_head_outline_link.0002",
+    "x": 75,
+    "y": 40,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_head_outline_link.0003": {
+    "name": "player_head_outline_link.0003",
+    "x": 90,
+    "y": 40,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_head_outline_link.0004": {
+    "name": "player_head_outline_link.0004",
+    "x": 105,
+    "y": 40,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_head_outline_link.0005": {
+    "name": "player_head_outline_link.0005",
+    "x": 0,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_head_outline_link.0006": {
+    "name": "player_head_outline_link.0006",
+    "x": 15,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_head_outline_link.0007": {
+    "name": "player_head_outline_link.0007",
+    "x": 30,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_head_outline_link.0008": {
+    "name": "player_head_outline_link.0008",
+    "x": 45,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_head_outline_link.0009": {
+    "name": "player_head_outline_link.0009",
+    "x": 60,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_head_outline_link.0010": {
+    "name": "player_head_outline_link.0010",
+    "x": 75,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_head_outline_link.0011": {
+    "name": "player_head_outline_link.0011",
+    "x": 90,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_head_outline_link.0012": {
+    "name": "player_head_outline_link.0012",
+    "x": 105,
+    "y": 50,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_head_outline_link.0013": {
+    "name": "player_head_outline_link.0013",
+    "x": 0,
+    "y": 60,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_head_outline_link.0014": {
+    "name": "player_head_outline_link.0014",
+    "x": 15,
+    "y": 60,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_head_outline_link.0015": {
+    "name": "player_head_outline_link.0015",
+    "x": 30,
+    "y": 60,
+    "frame_width": 15,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_link",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_head_outline_mario.0001": {
+    "name": "player_head_outline_mario.0001",
+    "x": 45,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_head_outline_mario.0002": {
+    "name": "player_head_outline_mario.0002",
+    "x": 57,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_head_outline_mario.0003": {
+    "name": "player_head_outline_mario.0003",
+    "x": 69,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_head_outline_mario.0004": {
+    "name": "player_head_outline_mario.0004",
+    "x": 81,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_head_outline_mario.0005": {
+    "name": "player_head_outline_mario.0005",
+    "x": 93,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_head_outline_mario.0006": {
+    "name": "player_head_outline_mario.0006",
+    "x": 105,
+    "y": 60,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_head_outline_mario.0007": {
+    "name": "player_head_outline_mario.0007",
+    "x": 0,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_head_outline_mario.0008": {
+    "name": "player_head_outline_mario.0008",
+    "x": 12,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_head_outline_mario.0009": {
+    "name": "player_head_outline_mario.0009",
+    "x": 24,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_head_outline_mario.0010": {
+    "name": "player_head_outline_mario.0010",
+    "x": 36,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_head_outline_mario.0011": {
+    "name": "player_head_outline_mario.0011",
+    "x": 48,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_head_outline_mario.0012": {
+    "name": "player_head_outline_mario.0012",
+    "x": 60,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_head_outline_mario.0013": {
+    "name": "player_head_outline_mario.0013",
+    "x": 102,
+    "y": 80,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 3,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_head_outline_mario.0014": {
+    "name": "player_head_outline_mario.0014",
+    "x": 0,
+    "y": 80,
+    "frame_width": 12,
+    "frame_height": 9,
+    "offset_x": 3,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_head_outline_mario.0015": {
+    "name": "player_head_outline_mario.0015",
+    "x": 72,
+    "y": 70,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_mario",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "sword.0001": {
+    "name": "sword.0001",
+    "x": 51,
+    "y": 96,
+    "frame_width": 14,
+    "frame_height": 6,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 8,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "sword",
+      "tags": [],
+      "duration": 50,
+      "frame_number": 1
+    }
+  },
+  "sword.0002": {
+    "name": "sword.0002",
+    "x": 65,
+    "y": 96,
+    "frame_width": 15,
+    "frame_height": 6,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 8,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "sword",
+      "tags": [],
+      "duration": 50,
+      "frame_number": 2
+    }
+  },
+  "sword.0003": {
+    "name": "sword.0003",
+    "x": 80,
+    "y": 96,
+    "frame_width": 16,
+    "frame_height": 6,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 8,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "sword",
+      "tags": [],
+      "duration": 50,
+      "frame_number": 3
     }
   }
 }
