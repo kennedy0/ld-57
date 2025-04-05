@@ -2,6 +2,7 @@ import sys
 
 from potion import *
 
+import game_globals
 from scenes.main_scene import MainScene
 
 
@@ -12,6 +13,7 @@ def main() -> int:
     Renderer.init_default()
     _init_input()
 
+    game_globals.LDTK_WORLD_NAME = "mario_world"
     scene = MainScene()
     Engine.start(scene)
     return 0

@@ -17,6 +17,12 @@ class Goomba(Enemy):
 
         self.dx = -.2
 
+    def wall_rect(self) -> Rect:
+        if self.dx > 0:
+            return Rect(self.bbox().right(), self.bbox().top(), 2, 2)
+        else:
+            return Rect(self.bbox().left() - 2, self.bbox().top(), 2, 2)
+
     def update(self) -> None:
         self.sprite.update()
 
@@ -26,6 +32,12 @@ class Goomba(Enemy):
             self.sprite.flip_horizontal = False
 
         self.move_x(self.dx)
+
+        for entity in self.scene.entities.active_entities():
+            if entity.solid:
+                if entity.intersects(self.wall_rect()):
+                    self.dx *= -1
+                    break
 
     def draw(self, camera: Camera) -> None:
         self.sprite.draw(camera, self.position() - Point(1, 1))

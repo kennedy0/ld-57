@@ -1,3 +1,4 @@
+import shutil
 from pathlib import Path
 
 from aseprite_reader import AsepriteFile
@@ -21,5 +22,8 @@ for root, dirs, files in ASSET_ROOT.walk():
             dst = (LDTK_ENTITIES / f).with_suffix(".png")
             dst.unlink(missing_ok=True)
             ase.render(ase.frames[0], dst)
+
+
+shutil.copy(ASSET_ROOT / "images" / "screen_wipe.png", CONTENT_ROOT / "images" / "screen_wipe.png")
 
 # generate_bitmap_font(ASSET_ROOT / "fonts" / "FONT-NAME.ttf", CONTENT_ROOT / "fonts", 16)

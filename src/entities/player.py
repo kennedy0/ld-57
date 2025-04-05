@@ -5,11 +5,17 @@ from potion import *
 from entities.fireball import Fireball
 from entities.sword import Sword
 
+if TYPE_CHECKING:
+    from entities.game_manager import GameManager
+
 
 class Player(Entity):
     def __init__(self) -> None:
         super().__init__()
-        self.tags.add("Player")
+        self.name = "Player"
+
+        # References
+        self.game_manager: GameManager | None = None
 
         # Character
         self.character = ""
@@ -82,9 +88,24 @@ class Player(Entity):
         self.max_hp = 1
         self.invincibility_timer = 0
 
+        # Start
+        self.scene_start = True
+
     def awake(self) -> None:
         self.init_sprites()
         self.hp = self.max_hp
+
+
+        self.y =- 20
+        self.z = -1
+
+        if self.scene.name == "mario_world":
+            self.x = 32
+        else:
+            self.x = 160 - self.width // 2
+
+    def start(self) -> None:
+        self.game_manager = self.find("GameManager")
 
     def init_sprites(self) -> None:
         for sprite in self.sprites():
@@ -231,6 +252,9 @@ class Player(Entity):
         self.invincibility_timer = 0
 
     def update_input(self) -> None:
+        if self.scene_start:
+            return
+
         # Left / Right Input
         self.input_x = 0
         if self.special_stun_timer <= 0:
@@ -299,16 +323,21 @@ class Player(Entity):
         self.grounded_last_frame = self.grounded
         self.grounded = False
         self.head_hit = False
-        for entity in self.scene.entities:
+        for entity in self.scene.entities.active_entities():
             if entity == self:
                 continue
             if entity.solid:
                 if entity.intersects(self.grounded_rect()):
                     self.grounded = True
+                    self.scene_start = False
                 if entity.intersects(self.head_hit_rect()):
                     self.head_hit = True
                     if hasattr(entity, "on_head_hit"):
                         entity.on_head_hit()
+
+        # Can never go past the left side of the screen
+        if self.x < 0:
+            self.x = 0
 
     def update_special(self) -> None:
         if self.special:
@@ -426,7 +455,7 @@ class Player(Entity):
                 print(f"Damaged by touching {other.name}")
                 self.damage()
         elif "Coin" in other.tags:
-            other.destroy()
+            other.on_collect()
 
     def damage(self) -> None:
         self.hp -= 1
@@ -435,8 +464,8 @@ class Player(Entity):
             self.on_death()
 
     def on_death(self) -> None:
-        self.reset_timers()
         self.active = False
+        self.game_manager.reload_scene()
 
     def _debug_input(self) -> None:
         # Die

@@ -1,0 +1,1 @@
+LDTK_WORLD_NAME = ""

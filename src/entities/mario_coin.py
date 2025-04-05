@@ -20,6 +20,7 @@ class MarioCoin(Entity):
     def draw(self, camera: Camera) -> None:
         self.sprite.draw(camera, self.position())
 
-    def on_deactivate(self) -> None:
+    def on_collect(self) -> None:
         fx = ScoreFx.instantiate()
         fx.set_position(self.position())
+        self.destroy()
