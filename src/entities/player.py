@@ -4,6 +4,7 @@ from potion import *
 
 from entities.fireball import Fireball
 from entities.sword import Sword
+from entities.player_death_fx import PlayerDeathFx
 
 if TYPE_CHECKING:
     from entities.game_manager import GameManager
@@ -92,17 +93,25 @@ class Player(Entity):
         self.scene_start = True
 
     def awake(self) -> None:
-        self.init_sprites()
-        self.hp = self.max_hp
-
-
+        # Init defaults
+        self.max_hp = 1
+        self.x = 160 - self.width // 2
         self.y =- 20
         self.z = -1
 
-        if self.scene.name == "mario_world":
-            self.x = 32
-        else:
-            self.x = 160 - self.width // 2
+        # Initialize player attributes based on the scene name
+        match self.scene.name:
+            case "mario_world":
+                self.x = 32
+                self.set_character("Mario")
+            case _:
+                Log.warning(f"No Player initialization for scene '{self.scene.name}'")
+
+        # Init HP
+        self.hp = self.max_hp
+
+        # Init Sprites
+        self.init_sprites()
 
     def start(self) -> None:
         self.game_manager = self.find("GameManager")
@@ -125,6 +134,9 @@ class Player(Entity):
 
     def animation_frame(self) -> int:
         return self.body_sprite.frame
+
+    def get_sprite_color(self) -> Color | None:
+        return self.body_outline_sprite.color
 
     def get_animation(self, name: str) -> Animation | None:
         return self.body_sprite.get_animation(name)
@@ -342,14 +354,15 @@ class Player(Entity):
     def update_special(self) -> None:
         if self.special:
             if self.character == "Mario":
-                if self.special_cooldown_timer == 0:
-                    self.special_cooldown_timer = 30
-                    fireball = Fireball.instantiate()
-                    if self.facing_x < 0:
-                        fireball.set_position(self.position() + Point(-7, 5))
-                        fireball.dx *= -1
-                    else:
-                        fireball.set_position(self.position() + Point(10, 5))
+                pass
+                # if self.special_cooldown_timer == 0:
+                #     self.special_cooldown_timer = 30
+                #     fireball = Fireball.instantiate()
+                #     if self.facing_x < 0:
+                #         fireball.set_position(self.position() + Point(-7, 5))
+                #         fireball.dx *= -1
+                #     else:
+                #         fireball.set_position(self.position() + Point(10, 5))
             elif self.character == "Link":
                 if self.special_cooldown_timer == 0:
                     self.gravity_enabled = False
@@ -464,6 +477,9 @@ class Player(Entity):
             self.on_death()
 
     def on_death(self) -> None:
+        fx = PlayerDeathFx.instantiate()
+        fx.set_position(self.bbox().center())
+        fx.sprite.color = self.get_sprite_color()
         self.active = False
         self.game_manager.reload_scene()
 

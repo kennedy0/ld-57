@@ -5,6 +5,7 @@ from entities.game_manager import GameManager
 from entities.screen_wipe import ScreenWipe
 from entities.camera_controller import CameraController
 from entities.mario_brick import MarioBrick
+from entities.mario_question import MarioQuestion
 from entities.goomba import Goomba
 from entities.player import Player
 from entities.mario_coin import MarioCoin
@@ -34,6 +35,8 @@ class MainScene(Scene):
             match ldtk_entity.metadata["ldtk_entity_name"]:
                 case "MarioBrick":
                     e = MarioBrick()
+                case "MarioQuestion":
+                    e = MarioQuestion()
                 case "MarioCoin":
                     e = MarioCoin()
                 case "Goomba":

@@ -10,6 +10,7 @@ class Goomba(Enemy):
 
         self.sprite = AnimatedSprite.from_atlas("atlas.png", "goomba")
         self.sprite.play("Walk")
+        self.sprite.flip_horizontal = True
 
         self.collisions_enabled = True
         self.width = 10
