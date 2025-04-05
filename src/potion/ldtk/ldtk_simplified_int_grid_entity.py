@@ -5,6 +5,7 @@ from potion.data_types.point import Point
 from potion.data_types.rect import Rect
 from potion.entity import Entity
 from potion.sprite import Sprite
+from potion.utilities import pgeo
 
 
 class LDtkSimplifiedIntGridEntity(Entity):
@@ -53,7 +54,11 @@ class LDtkSimplifiedIntGridEntity(Entity):
 
     def intersects(self, rect: Rect) -> bool:
         """ A rect intersects the int grid if its bounding box overlaps a cell with a value. """
-        for point in (rect.top_left(), rect.top_right(), rect.bottom_left(), rect.bottom_right()):
+        xx, yy = rect.center()
+        for point in (
+                rect.top_left(), rect.top_right(), rect.bottom_left(), rect.bottom_right(),
+                Point(rect.left(), yy), Point(rect.right(), yy), Point(xx, rect.top()), Point(xx, rect.bottom()),
+        ):
             cx, cy = self.world_to_cell_position(point)
             if self.get_value(cx, cy):
                 return True

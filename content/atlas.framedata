@@ -1,0 +1,2102 @@
+{
+  "player.0001": {
+    "name": "player.0001",
+    "x": 20,
+    "y": 0,
+    "frame_width": 10,
+    "frame_height": 15,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player.0002": {
+    "name": "player.0002",
+    "x": 30,
+    "y": 0,
+    "frame_width": 13,
+    "frame_height": 15,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player.0003": {
+    "name": "player.0003",
+    "x": 115,
+    "y": 0,
+    "frame_width": 12,
+    "frame_height": 14,
+    "offset_x": 1,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player.0004": {
+    "name": "player.0004",
+    "x": 0,
+    "y": 0,
+    "frame_width": 10,
+    "frame_height": 16,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player.0005": {
+    "name": "player.0005",
+    "x": 43,
+    "y": 0,
+    "frame_width": 11,
+    "frame_height": 15,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player.0006": {
+    "name": "player.0006",
+    "x": 54,
+    "y": 0,
+    "frame_width": 13,
+    "frame_height": 15,
+    "offset_x": 1,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player.0007": {
+    "name": "player.0007",
+    "x": 0,
+    "y": 16,
+    "frame_width": 12,
+    "frame_height": 14,
+    "offset_x": 1,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player.0008": {
+    "name": "player.0008",
+    "x": 10,
+    "y": 0,
+    "frame_width": 10,
+    "frame_height": 16,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player.0009": {
+    "name": "player.0009",
+    "x": 67,
+    "y": 0,
+    "frame_width": 11,
+    "frame_height": 15,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player.0010": {
+    "name": "player.0010",
+    "x": 78,
+    "y": 0,
+    "frame_width": 12,
+    "frame_height": 15,
+    "offset_x": 2,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player.0011": {
+    "name": "player.0011",
+    "x": 90,
+    "y": 0,
+    "frame_width": 13,
+    "frame_height": 15,
+    "offset_x": 2,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player.0012": {
+    "name": "player.0012",
+    "x": 103,
+    "y": 0,
+    "frame_width": 12,
+    "frame_height": 15,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player.0013": {
+    "name": "player.0013",
+    "x": 34,
+    "y": 16,
+    "frame_width": 12,
+    "frame_height": 11,
+    "offset_x": 2,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player.0014": {
+    "name": "player.0014",
+    "x": 22,
+    "y": 16,
+    "frame_width": 12,
+    "frame_height": 13,
+    "offset_x": 2,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player.0015": {
+    "name": "player.0015",
+    "x": 12,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 14,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_body.0001": {
+    "name": "player_body.0001",
+    "x": 102,
+    "y": 58,
+    "frame_width": 9,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_body.0002": {
+    "name": "player_body.0002",
+    "x": 80,
+    "y": 40,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 1,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_body.0003": {
+    "name": "player_body.0003",
+    "x": 43,
+    "y": 50,
+    "frame_width": 11,
+    "frame_height": 7,
+    "offset_x": 1,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_body.0004": {
+    "name": "player_body.0004",
+    "x": 54,
+    "y": 50,
+    "frame_width": 9,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_body.0005": {
+    "name": "player_body.0005",
+    "x": 20,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_body.0006": {
+    "name": "player_body.0006",
+    "x": 92,
+    "y": 40,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 2,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_body.0007": {
+    "name": "player_body.0007",
+    "x": 63,
+    "y": 50,
+    "frame_width": 10,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_body.0008": {
+    "name": "player_body.0008",
+    "x": 73,
+    "y": 50,
+    "frame_width": 9,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_body.0009": {
+    "name": "player_body.0009",
+    "x": 30,
+    "y": 58,
+    "frame_width": 11,
+    "frame_height": 6,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_body.0010": {
+    "name": "player_body.0010",
+    "x": 41,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 4,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_body.0011": {
+    "name": "player_body.0011",
+    "x": 82,
+    "y": 50,
+    "frame_width": 11,
+    "frame_height": 7,
+    "offset_x": 4,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_body.0012": {
+    "name": "player_body.0012",
+    "x": 104,
+    "y": 40,
+    "frame_width": 11,
+    "frame_height": 8,
+    "offset_x": 4,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_body.0013": {
+    "name": "player_body.0013",
+    "x": 51,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 4,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_body.0014": {
+    "name": "player_body.0014",
+    "x": 111,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_body.0015": {
+    "name": "player_body.0015",
+    "x": 0,
+    "y": 65,
+    "frame_width": 9,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_body_outline.0001": {
+    "name": "player_body_outline.0001",
+    "x": 9,
+    "y": 65,
+    "frame_width": 9,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_body_outline.0002": {
+    "name": "player_body_outline.0002",
+    "x": 115,
+    "y": 40,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 1,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_body_outline.0003": {
+    "name": "player_body_outline.0003",
+    "x": 93,
+    "y": 50,
+    "frame_width": 11,
+    "frame_height": 7,
+    "offset_x": 1,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_body_outline.0004": {
+    "name": "player_body_outline.0004",
+    "x": 104,
+    "y": 50,
+    "frame_width": 9,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_body_outline.0005": {
+    "name": "player_body_outline.0005",
+    "x": 61,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_body_outline.0006": {
+    "name": "player_body_outline.0006",
+    "x": 0,
+    "y": 50,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 2,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_body_outline.0007": {
+    "name": "player_body_outline.0007",
+    "x": 113,
+    "y": 50,
+    "frame_width": 10,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_body_outline.0008": {
+    "name": "player_body_outline.0008",
+    "x": 0,
+    "y": 58,
+    "frame_width": 9,
+    "frame_height": 7,
+    "offset_x": 3,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_body_outline.0009": {
+    "name": "player_body_outline.0009",
+    "x": 71,
+    "y": 58,
+    "frame_width": 11,
+    "frame_height": 6,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_body_outline.0010": {
+    "name": "player_body_outline.0010",
+    "x": 82,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 4,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_body_outline.0011": {
+    "name": "player_body_outline.0011",
+    "x": 9,
+    "y": 58,
+    "frame_width": 11,
+    "frame_height": 7,
+    "offset_x": 4,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_body_outline.0012": {
+    "name": "player_body_outline.0012",
+    "x": 12,
+    "y": 50,
+    "frame_width": 11,
+    "frame_height": 8,
+    "offset_x": 4,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_body_outline.0013": {
+    "name": "player_body_outline.0013",
+    "x": 92,
+    "y": 58,
+    "frame_width": 10,
+    "frame_height": 6,
+    "offset_x": 4,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_body_outline.0014": {
+    "name": "player_body_outline.0014",
+    "x": 18,
+    "y": 65,
+    "frame_width": 10,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_body_outline.0015": {
+    "name": "player_body_outline.0015",
+    "x": 28,
+    "y": 65,
+    "frame_width": 9,
+    "frame_height": 5,
+    "offset_x": 4,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_body_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_hands.0001": {
+    "name": "player_hands.0001",
+    "x": 123,
+    "y": 50,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_hands.0002": {
+    "name": "player_hands.0002",
+    "x": 121,
+    "y": 58,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 10,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_hands.0003": {
+    "name": "player_hands.0003",
+    "x": 120,
+    "y": 30,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 9,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_hands.0004": {
+    "name": "player_hands.0004",
+    "x": 124,
+    "y": 30,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_hands.0005": {
+    "name": "player_hands.0005",
+    "x": 120,
+    "y": 34,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_hands.0006": {
+    "name": "player_hands.0006",
+    "x": 124,
+    "y": 34,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 1,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_hands.0007": {
+    "name": "player_hands.0007",
+    "x": 37,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 1,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_hands.0008": {
+    "name": "player_hands.0008",
+    "x": 41,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_hands.0009": {
+    "name": "player_hands.0009",
+    "x": 45,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 7,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_hands.0010": {
+    "name": "player_hands.0010",
+    "x": 49,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_hands.0011": {
+    "name": "player_hands.0011",
+    "x": 53,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_hands.0012": {
+    "name": "player_hands.0012",
+    "x": 57,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 7,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_hands.0013": {
+    "name": "player_hands.0013",
+    "x": 61,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_hands.0014": {
+    "name": "player_hands.0014",
+    "x": 65,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_hands.0015": {
+    "name": "player_hands.0015",
+    "x": 69,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_hands_outline.0001": {
+    "name": "player_hands_outline.0001",
+    "x": 73,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_hands_outline.0002": {
+    "name": "player_hands_outline.0002",
+    "x": 77,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 10,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_hands_outline.0003": {
+    "name": "player_hands_outline.0003",
+    "x": 81,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 9,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_hands_outline.0004": {
+    "name": "player_hands_outline.0004",
+    "x": 85,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_hands_outline.0005": {
+    "name": "player_hands_outline.0005",
+    "x": 89,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_hands_outline.0006": {
+    "name": "player_hands_outline.0006",
+    "x": 93,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 1,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_hands_outline.0007": {
+    "name": "player_hands_outline.0007",
+    "x": 97,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 1,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_hands_outline.0008": {
+    "name": "player_hands_outline.0008",
+    "x": 101,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_hands_outline.0009": {
+    "name": "player_hands_outline.0009",
+    "x": 105,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 7,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_hands_outline.0010": {
+    "name": "player_hands_outline.0010",
+    "x": 109,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 9,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_hands_outline.0011": {
+    "name": "player_hands_outline.0011",
+    "x": 113,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 8,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_hands_outline.0012": {
+    "name": "player_hands_outline.0012",
+    "x": 117,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 7,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_hands_outline.0013": {
+    "name": "player_hands_outline.0013",
+    "x": 121,
+    "y": 65,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 10,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_hands_outline.0014": {
+    "name": "player_hands_outline.0014",
+    "x": 0,
+    "y": 70,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 2,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_hands_outline.0015": {
+    "name": "player_hands_outline.0015",
+    "x": 4,
+    "y": 70,
+    "frame_width": 4,
+    "frame_height": 4,
+    "offset_x": 3,
+    "offset_y": 11,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_hands_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_head.0001": {
+    "name": "player_head.0001",
+    "x": 46,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_head.0002": {
+    "name": "player_head.0002",
+    "x": 56,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_head.0003": {
+    "name": "player_head.0003",
+    "x": 66,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_head.0004": {
+    "name": "player_head.0004",
+    "x": 76,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_head.0005": {
+    "name": "player_head.0005",
+    "x": 86,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_head.0006": {
+    "name": "player_head.0006",
+    "x": 96,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_head.0007": {
+    "name": "player_head.0007",
+    "x": 106,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_head.0008": {
+    "name": "player_head.0008",
+    "x": 116,
+    "y": 16,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_head.0009": {
+    "name": "player_head.0009",
+    "x": 0,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_head.0010": {
+    "name": "player_head.0010",
+    "x": 10,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_head.0011": {
+    "name": "player_head.0011",
+    "x": 20,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_head.0012": {
+    "name": "player_head.0012",
+    "x": 30,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_head.0013": {
+    "name": "player_head.0013",
+    "x": 23,
+    "y": 50,
+    "frame_width": 10,
+    "frame_height": 8,
+    "offset_x": 3,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_head.0014": {
+    "name": "player_head.0014",
+    "x": 60,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 9,
+    "offset_x": 3,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_head.0015": {
+    "name": "player_head.0015",
+    "x": 40,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "player_head_outline.0001": {
+    "name": "player_head_outline.0001",
+    "x": 50,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_head_outline.0002": {
+    "name": "player_head_outline.0002",
+    "x": 60,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_head_outline.0003": {
+    "name": "player_head_outline.0003",
+    "x": 70,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_head_outline.0004": {
+    "name": "player_head_outline.0004",
+    "x": 80,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_head_outline.0005": {
+    "name": "player_head_outline.0005",
+    "x": 90,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_head_outline.0006": {
+    "name": "player_head_outline.0006",
+    "x": 100,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_head_outline.0007": {
+    "name": "player_head_outline.0007",
+    "x": 110,
+    "y": 30,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_head_outline.0008": {
+    "name": "player_head_outline.0008",
+    "x": 0,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_head_outline.0009": {
+    "name": "player_head_outline.0009",
+    "x": 10,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_head_outline.0010": {
+    "name": "player_head_outline.0010",
+    "x": 20,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_head_outline.0011": {
+    "name": "player_head_outline.0011",
+    "x": 30,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_head_outline.0012": {
+    "name": "player_head_outline.0012",
+    "x": 40,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_head_outline.0013": {
+    "name": "player_head_outline.0013",
+    "x": 33,
+    "y": 50,
+    "frame_width": 10,
+    "frame_height": 8,
+    "offset_x": 3,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_head_outline.0014": {
+    "name": "player_head_outline.0014",
+    "x": 70,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 9,
+    "offset_x": 3,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_head_outline.0015": {
+    "name": "player_head_outline.0015",
+    "x": 50,
+    "y": 40,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  }
+}
