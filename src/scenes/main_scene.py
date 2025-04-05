@@ -33,6 +33,11 @@ class MainScene(Scene):
 
         # Load LDTK
         for ldtk_entity in LDtk.ldtk_entities(self):
+
+            custom_fields = ldtk_entity.metadata.get("ldtk_custom_fields")
+            if not custom_fields:
+                custom_fields = {}
+
             match ldtk_entity.metadata["ldtk_entity_name"]:
                 case "MarioBrick":
                     e = MarioBrick()
@@ -44,6 +49,12 @@ class MainScene(Scene):
                     e = Goomba()
                 case "MovingPlatform":
                     e = MovingPlatform()
+                    if cycle_time := custom_fields.get("CycleTime"):
+                        e.cycle_time = cycle_time
+                    if x_distance := custom_fields.get("XDistance"):
+                        e.x_distance = x_distance
+                    if y_distance := custom_fields.get("YDistance"):
+                        e.y_distance = y_distance
                 case _:
                     Log.warning(f"Could not swap '{ldtk_entity.name}'")
                     e = None

@@ -719,6 +719,19 @@
 				"color": 16705377,
 				"customFields" : {}
 			}
+		],
+		"Goomba": [
+			{
+				"id": "Goomba",
+				"iid": "b66ed7c0-1030-11f0-ac40-4941399aac45",
+				"layer": "Entities",
+				"x": 240,
+				"y": 96,
+				"width": 8,
+				"height": 8,
+				"color": 2943221,
+				"customFields" : {}
+			}
 		]
 	}
 }

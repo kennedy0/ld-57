@@ -18,6 +18,15 @@ class Goomba(Enemy):
 
         self.dx = -.2
 
+    def on_spawn(self) -> None:
+        self.dx = -.2
+        self.sprite.play("Walk")
+        self.sprite.flip_horizontal = True
+
+    def on_death(self) -> None:
+        fx = ScoreFx.instantiate()
+        fx.set_position(self.position())
+
     def wall_rect(self) -> Rect:
         if self.dx > 0:
             return Rect(self.bbox().right(), self.bbox().top(), 2, 2)
@@ -42,7 +51,3 @@ class Goomba(Enemy):
 
     def draw(self, camera: Camera) -> None:
         self.sprite.draw(camera, self.position() - Point(1, 1))
-
-    def on_death(self) -> None:
-        fx = ScoreFx.instantiate()
-        fx.set_position(self.position())

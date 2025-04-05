@@ -17,9 +17,11 @@ class MovingPlatform(Entity):
         self.height = 8
 
         self.anchor_point = Point.zero()
-        self.cycle_time = 60
+        self.cycle_time = 60  # A good default is `y_distance` * 2.5
         self.y_distance = 24
         self.x_distance = 0
+
+        self.frame = 0
 
     def awake(self) -> None:
         self.anchor_point = self.position()
@@ -32,6 +34,8 @@ class MovingPlatform(Entity):
 
         if self.carrying:
             self.carrying.y = self.y - self.carrying.height
+
+        self.frame += 1
 
     def draw(self, camera: Camera) -> None:
         self.sprite.draw(camera, self.position())

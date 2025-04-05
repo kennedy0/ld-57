@@ -372,7 +372,6 @@ class Player(Entity):
 
         if self.y > 180:
             screen = self.x // 320
-            print(screen)
             if screen == len(list(self.scene.levels)) - 1:
                 Log.warning("IMPLEMENT LEVEL TRANSITION")
             else:

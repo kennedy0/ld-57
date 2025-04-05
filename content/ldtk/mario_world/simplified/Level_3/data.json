@@ -423,9 +423,9 @@
 				"height": 8,
 				"color": 39387,
 				"customFields": {
-					"CycleTime": 60,
+					"CycleTime": 160,
 					"XDistance": 0,
-					"YDistance": 32
+					"YDistance": 64
 				}
 			}
 		]
