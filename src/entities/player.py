@@ -103,6 +103,12 @@ class Player(Entity):
         self.keys = 0
         self.has_bomb = False
 
+        # Dodge Roll
+        self.dodge_roll_sprite: AnimatedSprite | None = None
+        self.is_dodge_rolling = False
+        self.dodge_roll_started = False
+        self.dodge_roll_dx = 0
+
     def awake(self) -> None:
         # Init defaults
         self.max_hp = 1
@@ -274,6 +280,7 @@ class Player(Entity):
         self.update_item_position()
         for sprite in self.sprites():
             sprite.update()
+        self.update_dodge_roll()
 
     def update_timers(self) -> None:
         self.early_jump_timer -= 1
@@ -311,6 +318,9 @@ class Player(Entity):
 
     def update_input(self) -> None:
         if self.scene_start:
+            return
+
+        if self.is_dodge_rolling:
             return
 
         # Left / Right Input
@@ -356,6 +366,29 @@ class Player(Entity):
             self.special = True
 
     def update_physics(self) -> None:
+        if self.is_dodge_rolling:
+            if not self.dodge_roll_started:
+                self.dodge_roll_started = True
+                if self.facing_x < 0:
+                    self.dodge_roll_dx = -2
+                else:
+                    self.dodge_roll_dx = 2
+            self.dy += self.gravity
+            self.move_x(self.dodge_roll_dx)
+            self.move_y(self.dy)
+
+            if self.x < 0:
+                self.x = 0
+
+            if self.y > 180:
+                screen = self.x // 320
+                if screen >= len(list(self.scene.levels)) - 1:
+                    self.game_manager.load_next_world()
+                else:
+                    self.force_kill()
+                    
+            return
+
         # Horizontal movement
         self.dx = self.input_x * self.move_speed
 
@@ -465,6 +498,10 @@ class Player(Entity):
                             sword.sprite.flip_horizontal = True
                         else:
                             sword.set_position(self.position() + Point(10, 10))
+            elif self.character == "DarkSouls":
+                self.special_cooldown_timer = 60
+                self.is_dodge_rolling = True
+                self.dodge_roll_started = False
 
     def update_state(self) -> None:
         if not self.grounded:
@@ -532,8 +569,29 @@ class Player(Entity):
         if self.item:
             self.item.set_position(self.position() + self.hand_offset())
 
+    def update_dodge_roll(self) -> None:
+        if not self.is_dodge_rolling:
+            return
+
+        if not self.dodge_roll_sprite:
+            self.dodge_roll_sprite = AnimatedSprite.from_atlas("atlas.png", "player_dodge_roll")
+            self.dodge_roll_sprite.get_animation("default").loop = False
+            self.dodge_roll_sprite.play("default")
+            if self.facing_x < 0:
+                self.dodge_roll_sprite.flip_horizontal = True
+
+        self.dodge_roll_sprite.update()
+        if not self.dodge_roll_sprite.is_playing:
+            self.is_dodge_rolling = False
+            self.dodge_roll_sprite = None
+
     def draw(self, camera: Camera) -> None:
         sprite_position = Point(self.x - 3, self.y - 1)
+
+        if self.is_dodge_rolling:
+            if self.dodge_roll_sprite:
+                self.dodge_roll_sprite.draw(camera, sprite_position)
+            return
 
         self.body_sprite.draw(camera, sprite_position)
         self.body_outline_sprite.draw(camera, sprite_position)
@@ -568,6 +626,12 @@ class Player(Entity):
                 Log.warning(f"{other.name} has no on_collect() method")
 
     def damage(self) -> None:
+        if self.is_dodge_rolling:
+            return
+
+        if self.invincibility_timer:
+            return
+
         self.hp -= 1
         self.invincibility_timer = 100
         if self.hp <= 0:

@@ -6,6 +6,7 @@ from entities.mario_brick_fx import MarioBrickFx
 class CrackedBlock(Entity):
     def __init__(self) -> None:
         super().__init__()
+        self.tags.add("CrackedBlock")
 
         self.collisions_enabled = True
         self.solid = True
