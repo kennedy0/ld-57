@@ -18,6 +18,10 @@ from entities.shop_fire import ShopFire
 from entities.coin_ui import CoinUi
 from entities.rupee_ui import RupeeUi
 from entities.hearts_ui import HeartsUi
+from entities.keys_ui import KeysUi
+from entities.chest import Chest
+from entities.oktorok import Oktorok
+from entities.door import Door
 
 
 class MainScene(Scene):
@@ -54,8 +58,9 @@ class MainScene(Scene):
         if self.name == "mario_world":
             self.entities.add(CoinUi())
         elif self.name == "zelda_world":
-            self.entities.add(RupeeUi())
             self.entities.add(HeartsUi())
+            self.entities.add(RupeeUi())
+            self.entities.add(KeysUi())
 
         # Load LDTK
         for ldtk_entity in LDtk.ldtk_entities(self):
@@ -81,6 +86,16 @@ class MainScene(Scene):
                     e = ShopFire()
                 case "CrackedBlock":
                     e = CrackedBlock()
+                case "Chest":
+                    e = Chest()
+                case "Door":
+                    e = Door()
+                case "Oktorok":
+                    e = Oktorok()
+                    if facing_left := custom_fields.get("FacingLeft"):
+                        e.facing_left = True
+                    if range_ := custom_fields.get("Range"):
+                        e.range = range_
                 case "InvisiblePlatform":
                     e = InvisiblePlatform()
                 case "MovingPlatform":

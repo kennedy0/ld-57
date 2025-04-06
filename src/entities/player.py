@@ -98,6 +98,7 @@ class Player(Entity):
         # Inventory
         self.coins = 0
         self.rupees = 0
+        self.keys = 0
         self.has_bomb = False
 
     def awake(self) -> None:
@@ -415,14 +416,6 @@ class Player(Entity):
         if self.special:
             if self.character == "Mario":
                 pass
-                # if self.special_cooldown_timer == 0:
-                #     self.special_cooldown_timer = 30
-                #     fireball = Fireball.instantiate()
-                #     if self.facing_x < 0:
-                #         fireball.set_position(self.position() + Point(-7, 5))
-                #         fireball.dx *= -1
-                #     else:
-                #         fireball.set_position(self.position() + Point(10, 5))
             elif self.character == "Link":
                 if self.has_bomb:
                     self.special_cooldown_timer = 20
@@ -524,18 +517,6 @@ class Player(Entity):
         self.hands_sprite.draw(camera, sprite_position)
         self.hands_outline_sprite.draw(camera, sprite_position)
 
-    def debug_draw(self, camera: Camera) -> None:
-        # self.bbox().draw(camera, Color.white())
-        # if self.head_hit:
-        #     self.head_hit_rect().draw(camera, Color.green())
-        # else:
-        #     self.head_hit_rect().draw(camera, Color(0, 100, 0, 255))
-        # if self.grounded:
-        #     self.grounded_rect().draw(camera, Color.red())
-        # else:
-        #     self.grounded_rect().draw(camera, Color(100, 0, 0, 255))
-        (self.position() + self.hand_offset()).draw(camera, Color.red())
-
     def on_collision_begin(self, other: Entity) -> None:
         if "Enemy" in other.tags:
             if self.invincibility_timer:
@@ -551,8 +532,11 @@ class Player(Entity):
                     Log.warning(f"{other.name} has no damage() method")
             else:
                 self.damage()
-        elif "Coin" in other.tags or "Rupee" in other.tags:
-            other.on_collect()
+        elif "Coin" in other.tags or "Rupee" in other.tags or "Chest" in other.tags:
+            try:
+                other.on_collect()
+            except:
+                Log.warning(f"{other.name} has no on_collect() method")
 
     def damage(self) -> None:
         self.hp -= 1

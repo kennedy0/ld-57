@@ -1,10 +1,10 @@
 from potion import *
 
 
-class ExplosionFx(Entity):
+class KeyFx(Entity):
     def __init__(self) -> None:
         super().__init__()
-        self.sprite = AnimatedSprite.from_atlas("atlas.png", "explosion_fx")
+        self.sprite = AnimatedSprite.from_atlas("atlas.png", "key_fx")
         self.sprite.pivot.set_center()
         self.sprite.get_animation("default").loop = False
         self.sprite.play("default")
