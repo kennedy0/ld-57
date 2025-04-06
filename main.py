@@ -4,6 +4,7 @@ from potion import *
 
 import game_globals
 from scenes.main_scene import MainScene
+from scenes.start_game_scene import StartGameScene
 
 
 def main() -> int:
@@ -15,7 +16,8 @@ def main() -> int:
 
     # ToDo: CHANGE VALUE HERE FOR TESTING
     game_globals.GO_TO_NEXT_WORLD = True
-    game_globals.NEXT_WORLD_QUEUE.append("dark_souls_world")
+    # game_globals.NEXT_WORLD_QUEUE.append("mario_world")
+    game_globals.NEXT_WORLD_QUEUE.append("undertale_world")
 
     scene = MainScene()
     Engine.start(scene)

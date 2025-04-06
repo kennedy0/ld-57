@@ -51,8 +51,12 @@ class GameManager(Entity):
                 if self.is_reloading:
                     Engine.reload_scene()
                 if self.is_transitioning_to_next_world:
-                    self.set_next_world_name()
-                    Engine.reload_scene()
+                    if game_globals.GAME_OVER:
+                        from scenes.end_game_scene import EndGameScene
+                        Engine.load_scene(EndGameScene())
+                    else:
+                        self.set_next_world_name()
+                        Engine.reload_scene()
 
     def set_next_world_name(self) -> None:
         if self.scene.name == "mario_world":
@@ -70,3 +74,7 @@ class GameManager(Entity):
         elif self.scene.name == "castle_world":
             game_globals.NEXT_WORLD_QUEUE.append("")
             game_globals.NEXT_WORLD_QUEUE.append("end_game_world")
+
+    def end_game(self) -> None:
+        game_globals.GAME_OVER = True
+        self.load_next_world()

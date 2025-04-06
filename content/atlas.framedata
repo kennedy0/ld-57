@@ -2,7 +2,7 @@
   "_item_template.0001": {
     "name": "_item_template.0001",
     "x": 1278,
-    "y": 924,
+    "y": 893,
     "frame_width": 1,
     "frame_height": 1,
     "offset_x": 15,
@@ -511,17 +511,17 @@
       "source_format": "aseprite",
       "sprite_name": "axe",
       "tags": [],
-      "duration": 200,
+      "duration": 400,
       "frame_number": 1
     }
   },
   "axe.0002": {
     "name": "axe.0002",
-    "x": 1226,
+    "x": 900,
     "y": 932,
-    "frame_width": 16,
-    "frame_height": 16,
-    "offset_x": 8,
+    "frame_width": 24,
+    "frame_height": 24,
+    "offset_x": 0,
     "offset_y": 0,
     "sprite_width": 24,
     "sprite_height": 24,
@@ -529,13 +529,13 @@
       "source_format": "aseprite",
       "sprite_name": "axe",
       "tags": [],
-      "duration": 200,
+      "duration": 400,
       "frame_number": 2
     }
   },
   "bomb.0001": {
     "name": "bomb.0001",
-    "x": 1084,
+    "x": 1147,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -555,7 +555,7 @@
   },
   "bomb.0002": {
     "name": "bomb.0002",
-    "x": 1092,
+    "x": 1155,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -575,7 +575,7 @@
   },
   "bomb.0003": {
     "name": "bomb.0003",
-    "x": 1100,
+    "x": 1163,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -595,7 +595,7 @@
   },
   "bomb.0004": {
     "name": "bomb.0004",
-    "x": 1108,
+    "x": 1171,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -615,7 +615,7 @@
   },
   "bomb.0005": {
     "name": "bomb.0005",
-    "x": 1116,
+    "x": 1179,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -635,7 +635,7 @@
   },
   "bomb.0006": {
     "name": "bomb.0006",
-    "x": 1124,
+    "x": 1187,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -673,7 +673,7 @@
   },
   "bomb_shop_sold_out.0001": {
     "name": "bomb_shop_sold_out.0001",
-    "x": 1167,
+    "x": 1191,
     "y": 932,
     "frame_width": 23,
     "frame_height": 19,
@@ -687,6 +687,78 @@
       "tags": [],
       "duration": 100,
       "frame_number": 1
+    }
+  },
+  "bone.0001": {
+    "name": "bone.0001",
+    "x": 1195,
+    "y": 973,
+    "frame_width": 16,
+    "frame_height": 8,
+    "offset_x": 0,
+    "offset_y": 4,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bone",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "bone.0002": {
+    "name": "bone.0002",
+    "x": 1080,
+    "y": 882,
+    "frame_width": 15,
+    "frame_height": 15,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bone",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 2
+    }
+  },
+  "bone.0003": {
+    "name": "bone.0003",
+    "x": 1250,
+    "y": 932,
+    "frame_width": 8,
+    "frame_height": 16,
+    "offset_x": 4,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bone",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 3
+    }
+  },
+  "bone.0004": {
+    "name": "bone.0004",
+    "x": 1236,
+    "y": 882,
+    "frame_width": 14,
+    "frame_height": 14,
+    "offset_x": 0,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bone",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 4
     }
   },
   "bonfire.0001": {
@@ -969,9 +1041,27 @@
       "frame_number": 14
     }
   },
+  "bridge.0001": {
+    "name": "bridge.0001",
+    "x": 1211,
+    "y": 973,
+    "frame_width": 8,
+    "frame_height": 8,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 8,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bridge",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
   "chest_closed.0001": {
     "name": "chest_closed.0001",
-    "x": 0,
+    "x": 39,
     "y": 973,
     "frame_width": 16,
     "frame_height": 13,
@@ -989,7 +1079,7 @@
   },
   "chest_open.0001": {
     "name": "chest_open.0001",
-    "x": 1242,
+    "x": 1258,
     "y": 932,
     "frame_width": 16,
     "frame_height": 16,
@@ -1007,7 +1097,7 @@
   },
   "coin.0001": {
     "name": "coin.0001",
-    "x": 1132,
+    "x": 1219,
     "y": 973,
     "frame_width": 6,
     "frame_height": 8,
@@ -1025,7 +1115,7 @@
   },
   "coin.0002": {
     "name": "coin.0002",
-    "x": 1138,
+    "x": 1225,
     "y": 973,
     "frame_width": 6,
     "frame_height": 8,
@@ -1043,7 +1133,7 @@
   },
   "cracked_block.0001": {
     "name": "cracked_block.0001",
-    "x": 1144,
+    "x": 1231,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -1061,8 +1151,8 @@
   },
   "dark_souls_hp_0.0001": {
     "name": "dark_souls_hp_0.0001",
-    "x": 1152,
-    "y": 973,
+    "x": 0,
+    "y": 987,
     "frame_width": 48,
     "frame_height": 8,
     "offset_x": 0,
@@ -1079,8 +1169,8 @@
   },
   "dark_souls_hp_1.0001": {
     "name": "dark_souls_hp_1.0001",
-    "x": 1200,
-    "y": 973,
+    "x": 48,
+    "y": 987,
     "frame_width": 48,
     "frame_height": 8,
     "offset_x": 0,
@@ -1097,8 +1187,8 @@
   },
   "dark_souls_hp_2.0001": {
     "name": "dark_souls_hp_2.0001",
-    "x": 0,
-    "y": 986,
+    "x": 96,
+    "y": 987,
     "frame_width": 48,
     "frame_height": 8,
     "offset_x": 0,
@@ -1115,8 +1205,8 @@
   },
   "dark_souls_hp_3.0001": {
     "name": "dark_souls_hp_3.0001",
-    "x": 48,
-    "y": 986,
+    "x": 144,
+    "y": 987,
     "frame_width": 48,
     "frame_height": 8,
     "offset_x": 0,
@@ -1153,7 +1243,7 @@
   },
   "door.0002": {
     "name": "door.0002",
-    "x": 900,
+    "x": 924,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1173,7 +1263,7 @@
   },
   "door.0003": {
     "name": "door.0003",
-    "x": 916,
+    "x": 940,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1193,7 +1283,7 @@
   },
   "door.0004": {
     "name": "door.0004",
-    "x": 932,
+    "x": 956,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1213,7 +1303,7 @@
   },
   "door.0005": {
     "name": "door.0005",
-    "x": 948,
+    "x": 972,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1233,7 +1323,7 @@
   },
   "door.0006": {
     "name": "door.0006",
-    "x": 964,
+    "x": 988,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1253,7 +1343,7 @@
   },
   "door.0007": {
     "name": "door.0007",
-    "x": 980,
+    "x": 1004,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1273,7 +1363,7 @@
   },
   "door.0008": {
     "name": "door.0008",
-    "x": 996,
+    "x": 1020,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1293,7 +1383,7 @@
   },
   "door.0009": {
     "name": "door.0009",
-    "x": 1012,
+    "x": 1036,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1313,7 +1403,7 @@
   },
   "door.0010": {
     "name": "door.0010",
-    "x": 1028,
+    "x": 1052,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1333,7 +1423,7 @@
   },
   "door.0011": {
     "name": "door.0011",
-    "x": 1044,
+    "x": 1068,
     "y": 932,
     "frame_width": 16,
     "frame_height": 24,
@@ -1373,7 +1463,7 @@
   },
   "door.0013": {
     "name": "door.0013",
-    "x": 1226,
+    "x": 1250,
     "y": 948,
     "frame_width": 16,
     "frame_height": 1,
@@ -1413,7 +1503,7 @@
   },
   "explosion_fx.0001": {
     "name": "explosion_fx.0001",
-    "x": 1060,
+    "x": 1084,
     "y": 932,
     "frame_width": 22,
     "frame_height": 22,
@@ -1431,7 +1521,7 @@
   },
   "explosion_fx.0002": {
     "name": "explosion_fx.0002",
-    "x": 1082,
+    "x": 1106,
     "y": 932,
     "frame_width": 22,
     "frame_height": 22,
@@ -1851,8 +1941,8 @@
   },
   "grass_b.0001": {
     "name": "grass_b.0001",
-    "x": 417,
-    "y": 986,
+    "x": 505,
+    "y": 987,
     "frame_width": 5,
     "frame_height": 6,
     "offset_x": 0,
@@ -1869,8 +1959,8 @@
   },
   "grass_c.0001": {
     "name": "grass_c.0001",
-    "x": 422,
-    "y": 986,
+    "x": 510,
+    "y": 987,
     "frame_width": 5,
     "frame_height": 6,
     "offset_x": 1,
@@ -1887,8 +1977,8 @@
   },
   "grass_cut.0001": {
     "name": "grass_cut.0001",
-    "x": 1276,
-    "y": 924,
+    "x": 1278,
+    "y": 892,
     "frame_width": 2,
     "frame_height": 1,
     "offset_x": 2,
@@ -1905,7 +1995,7 @@
   },
   "grass_fx.0001": {
     "name": "grass_fx.0001",
-    "x": 1037,
+    "x": 1033,
     "y": 958,
     "frame_width": 3,
     "frame_height": 3,
@@ -1923,7 +2013,7 @@
   },
   "heart_empty.0001": {
     "name": "heart_empty.0001",
-    "x": 1248,
+    "x": 1239,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -1941,7 +2031,7 @@
   },
   "heart_full.0001": {
     "name": "heart_full.0001",
-    "x": 1256,
+    "x": 1247,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -1977,8 +2067,8 @@
   },
   "key_fx.0001": {
     "name": "key_fx.0001",
-    "x": 1258,
-    "y": 932,
+    "x": 960,
+    "y": 882,
     "frame_width": 8,
     "frame_height": 16,
     "offset_x": 4,
@@ -1995,8 +2085,8 @@
   },
   "key_fx.0002": {
     "name": "key_fx.0002",
-    "x": 1266,
-    "y": 932,
+    "x": 968,
+    "y": 882,
     "frame_width": 8,
     "frame_height": 16,
     "offset_x": 4,
@@ -2013,7 +2103,7 @@
   },
   "key_fx.0003": {
     "name": "key_fx.0003",
-    "x": 960,
+    "x": 976,
     "y": 882,
     "frame_width": 8,
     "frame_height": 16,
@@ -2031,7 +2121,7 @@
   },
   "mario_brick.0001": {
     "name": "mario_brick.0001",
-    "x": 1264,
+    "x": 1255,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -2049,8 +2139,8 @@
   },
   "mario_brick_fx.0001": {
     "name": "mario_brick_fx.0001",
-    "x": 1276,
-    "y": 908,
+    "x": 1274,
+    "y": 892,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 0,
@@ -2067,8 +2157,8 @@
   },
   "mario_platform.0001": {
     "name": "mario_platform.0001",
-    "x": 96,
-    "y": 986,
+    "x": 192,
+    "y": 987,
     "frame_width": 32,
     "frame_height": 8,
     "offset_x": 0,
@@ -2085,7 +2175,7 @@
   },
   "mario_question_off.0001": {
     "name": "mario_question_off.0001",
-    "x": 1272,
+    "x": 1263,
     "y": 973,
     "frame_width": 8,
     "frame_height": 8,
@@ -2103,8 +2193,8 @@
   },
   "mario_question_on.0001": {
     "name": "mario_question_on.0001",
-    "x": 128,
-    "y": 986,
+    "x": 1271,
+    "y": 973,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -2121,8 +2211,8 @@
   },
   "mario_question_on.0002": {
     "name": "mario_question_on.0002",
-    "x": 136,
-    "y": 986,
+    "x": 224,
+    "y": 987,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -2139,8 +2229,8 @@
   },
   "oktorok.0001": {
     "name": "oktorok.0001",
-    "x": 291,
-    "y": 986,
+    "x": 379,
+    "y": 987,
     "frame_width": 7,
     "frame_height": 7,
     "offset_x": 1,
@@ -2159,8 +2249,8 @@
   },
   "oktorok.0002": {
     "name": "oktorok.0002",
-    "x": 298,
-    "y": 986,
+    "x": 386,
+    "y": 987,
     "frame_width": 7,
     "frame_height": 7,
     "offset_x": 1,
@@ -2179,8 +2269,8 @@
   },
   "oktorok.0003": {
     "name": "oktorok.0003",
-    "x": 144,
-    "y": 986,
+    "x": 232,
+    "y": 987,
     "frame_width": 7,
     "frame_height": 8,
     "offset_x": 1,
@@ -2199,8 +2289,8 @@
   },
   "oktorok.0004": {
     "name": "oktorok.0004",
-    "x": 151,
-    "y": 986,
+    "x": 239,
+    "y": 987,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -2219,7 +2309,7 @@
   },
   "pipe_bottom.0001": {
     "name": "pipe_bottom.0001",
-    "x": 968,
+    "x": 984,
     "y": 882,
     "frame_width": 14,
     "frame_height": 16,
@@ -2237,7 +2327,7 @@
   },
   "pipe_top.0001": {
     "name": "pipe_top.0001",
-    "x": 982,
+    "x": 998,
     "y": 882,
     "frame_width": 16,
     "frame_height": 16,
@@ -2255,7 +2345,7 @@
   },
   "player.0001": {
     "name": "player.0001",
-    "x": 1064,
+    "x": 1095,
     "y": 882,
     "frame_width": 10,
     "frame_height": 15,
@@ -2275,7 +2365,7 @@
   },
   "player.0002": {
     "name": "player.0002",
-    "x": 1074,
+    "x": 1105,
     "y": 882,
     "frame_width": 13,
     "frame_height": 15,
@@ -2295,7 +2385,7 @@
   },
   "player.0003": {
     "name": "player.0003",
-    "x": 1205,
+    "x": 1250,
     "y": 882,
     "frame_width": 12,
     "frame_height": 14,
@@ -2315,7 +2405,7 @@
   },
   "player.0004": {
     "name": "player.0004",
-    "x": 998,
+    "x": 1014,
     "y": 882,
     "frame_width": 10,
     "frame_height": 16,
@@ -2335,7 +2425,7 @@
   },
   "player.0005": {
     "name": "player.0005",
-    "x": 1087,
+    "x": 1118,
     "y": 882,
     "frame_width": 11,
     "frame_height": 15,
@@ -2355,7 +2445,7 @@
   },
   "player.0006": {
     "name": "player.0006",
-    "x": 1098,
+    "x": 1129,
     "y": 882,
     "frame_width": 13,
     "frame_height": 15,
@@ -2375,7 +2465,7 @@
   },
   "player.0007": {
     "name": "player.0007",
-    "x": 1217,
+    "x": 1262,
     "y": 882,
     "frame_width": 12,
     "frame_height": 14,
@@ -2395,7 +2485,7 @@
   },
   "player.0008": {
     "name": "player.0008",
-    "x": 1008,
+    "x": 1024,
     "y": 882,
     "frame_width": 10,
     "frame_height": 16,
@@ -2415,7 +2505,7 @@
   },
   "player.0009": {
     "name": "player.0009",
-    "x": 1111,
+    "x": 1142,
     "y": 882,
     "frame_width": 11,
     "frame_height": 15,
@@ -2435,7 +2525,7 @@
   },
   "player.0010": {
     "name": "player.0010",
-    "x": 1122,
+    "x": 1153,
     "y": 882,
     "frame_width": 12,
     "frame_height": 15,
@@ -2455,7 +2545,7 @@
   },
   "player.0011": {
     "name": "player.0011",
-    "x": 1134,
+    "x": 1165,
     "y": 882,
     "frame_width": 13,
     "frame_height": 15,
@@ -2475,7 +2565,7 @@
   },
   "player.0012": {
     "name": "player.0012",
-    "x": 1147,
+    "x": 1178,
     "y": 882,
     "frame_width": 12,
     "frame_height": 15,
@@ -2495,7 +2585,7 @@
   },
   "player.0013": {
     "name": "player.0013",
-    "x": 61,
+    "x": 112,
     "y": 973,
     "frame_width": 12,
     "frame_height": 11,
@@ -2515,8 +2605,8 @@
   },
   "player.0014": {
     "name": "player.0014",
-    "x": 1268,
-    "y": 882,
+    "x": 55,
+    "y": 973,
     "frame_width": 12,
     "frame_height": 13,
     "offset_x": 2,
@@ -2535,8 +2625,8 @@
   },
   "player.0015": {
     "name": "player.0015",
-    "x": 1229,
-    "y": 882,
+    "x": 0,
+    "y": 973,
     "frame_width": 10,
     "frame_height": 14,
     "offset_x": 3,
@@ -2575,8 +2665,8 @@
   },
   "player_body.0002": {
     "name": "player_body.0002",
-    "x": 159,
-    "y": 986,
+    "x": 247,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -2595,8 +2685,8 @@
   },
   "player_body.0003": {
     "name": "player_body.0003",
-    "x": 305,
-    "y": 986,
+    "x": 393,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -2615,8 +2705,8 @@
   },
   "player_body.0004": {
     "name": "player_body.0004",
-    "x": 316,
-    "y": 986,
+    "x": 404,
+    "y": 987,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -2635,8 +2725,8 @@
   },
   "player_body.0005": {
     "name": "player_body.0005",
-    "x": 427,
-    "y": 986,
+    "x": 515,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -2655,8 +2745,8 @@
   },
   "player_body.0006": {
     "name": "player_body.0006",
-    "x": 171,
-    "y": 986,
+    "x": 259,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -2675,8 +2765,8 @@
   },
   "player_body.0007": {
     "name": "player_body.0007",
-    "x": 325,
-    "y": 986,
+    "x": 413,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -2695,8 +2785,8 @@
   },
   "player_body.0008": {
     "name": "player_body.0008",
-    "x": 335,
-    "y": 986,
+    "x": 423,
+    "y": 987,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -2715,8 +2805,8 @@
   },
   "player_body.0009": {
     "name": "player_body.0009",
-    "x": 437,
-    "y": 986,
+    "x": 525,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -2735,8 +2825,8 @@
   },
   "player_body.0010": {
     "name": "player_body.0010",
-    "x": 448,
-    "y": 986,
+    "x": 536,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -2755,8 +2845,8 @@
   },
   "player_body.0011": {
     "name": "player_body.0011",
-    "x": 344,
-    "y": 986,
+    "x": 432,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -2775,8 +2865,8 @@
   },
   "player_body.0012": {
     "name": "player_body.0012",
-    "x": 183,
-    "y": 986,
+    "x": 271,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -2795,8 +2885,8 @@
   },
   "player_body.0013": {
     "name": "player_body.0013",
-    "x": 458,
-    "y": 986,
+    "x": 546,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -2875,8 +2965,8 @@
   },
   "player_body_outline.0002": {
     "name": "player_body_outline.0002",
-    "x": 194,
-    "y": 986,
+    "x": 282,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -2895,8 +2985,8 @@
   },
   "player_body_outline.0003": {
     "name": "player_body_outline.0003",
-    "x": 355,
-    "y": 986,
+    "x": 443,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -2915,8 +3005,8 @@
   },
   "player_body_outline.0004": {
     "name": "player_body_outline.0004",
-    "x": 366,
-    "y": 986,
+    "x": 454,
+    "y": 987,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -2935,8 +3025,8 @@
   },
   "player_body_outline.0005": {
     "name": "player_body_outline.0005",
-    "x": 468,
-    "y": 986,
+    "x": 556,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -2955,8 +3045,8 @@
   },
   "player_body_outline.0006": {
     "name": "player_body_outline.0006",
-    "x": 206,
-    "y": 986,
+    "x": 294,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -2975,8 +3065,8 @@
   },
   "player_body_outline.0007": {
     "name": "player_body_outline.0007",
-    "x": 375,
-    "y": 986,
+    "x": 463,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -2995,8 +3085,8 @@
   },
   "player_body_outline.0008": {
     "name": "player_body_outline.0008",
-    "x": 385,
-    "y": 986,
+    "x": 473,
+    "y": 987,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -3015,8 +3105,8 @@
   },
   "player_body_outline.0009": {
     "name": "player_body_outline.0009",
-    "x": 478,
-    "y": 986,
+    "x": 566,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -3035,8 +3125,8 @@
   },
   "player_body_outline.0010": {
     "name": "player_body_outline.0010",
-    "x": 489,
-    "y": 986,
+    "x": 577,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -3055,8 +3145,8 @@
   },
   "player_body_outline.0011": {
     "name": "player_body_outline.0011",
-    "x": 394,
-    "y": 986,
+    "x": 482,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -3075,8 +3165,8 @@
   },
   "player_body_outline.0012": {
     "name": "player_body_outline.0012",
-    "x": 218,
-    "y": 986,
+    "x": 306,
+    "y": 987,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -3095,8 +3185,8 @@
   },
   "player_body_outline.0013": {
     "name": "player_body_outline.0013",
-    "x": 499,
-    "y": 986,
+    "x": 587,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -3155,7 +3245,7 @@
   },
   "player_death_fx.0001": {
     "name": "player_death_fx.0001",
-    "x": 1159,
+    "x": 1190,
     "y": 882,
     "frame_width": 15,
     "frame_height": 15,
@@ -3173,7 +3263,7 @@
   },
   "player_death_fx.0002": {
     "name": "player_death_fx.0002",
-    "x": 1174,
+    "x": 1205,
     "y": 882,
     "frame_width": 15,
     "frame_height": 15,
@@ -3191,7 +3281,7 @@
   },
   "player_death_fx.0003": {
     "name": "player_death_fx.0003",
-    "x": 1209,
+    "x": 1233,
     "y": 932,
     "frame_width": 17,
     "frame_height": 17,
@@ -3209,7 +3299,7 @@
   },
   "player_death_fx.0004": {
     "name": "player_death_fx.0004",
-    "x": 1190,
+    "x": 1214,
     "y": 932,
     "frame_width": 19,
     "frame_height": 19,
@@ -3227,7 +3317,7 @@
   },
   "player_death_fx.0005": {
     "name": "player_death_fx.0005",
-    "x": 1104,
+    "x": 1128,
     "y": 932,
     "frame_width": 21,
     "frame_height": 21,
@@ -3245,7 +3335,7 @@
   },
   "player_death_fx.0006": {
     "name": "player_death_fx.0006",
-    "x": 1125,
+    "x": 1149,
     "y": 932,
     "frame_width": 21,
     "frame_height": 21,
@@ -3263,7 +3353,7 @@
   },
   "player_death_fx.0007": {
     "name": "player_death_fx.0007",
-    "x": 1146,
+    "x": 1170,
     "y": 932,
     "frame_width": 21,
     "frame_height": 21,
@@ -3281,8 +3371,8 @@
   },
   "player_dodge_roll.0001": {
     "name": "player_dodge_roll.0001",
-    "x": 1239,
-    "y": 882,
+    "x": 10,
+    "y": 973,
     "frame_width": 16,
     "frame_height": 14,
     "offset_x": 0,
@@ -3299,8 +3389,8 @@
   },
   "player_dodge_roll.0002": {
     "name": "player_dodge_roll.0002",
-    "x": 1255,
-    "y": 882,
+    "x": 26,
+    "y": 973,
     "frame_width": 13,
     "frame_height": 14,
     "offset_x": 3,
@@ -3317,7 +3407,7 @@
   },
   "player_dodge_roll.0003": {
     "name": "player_dodge_roll.0003",
-    "x": 45,
+    "x": 96,
     "y": 973,
     "frame_width": 16,
     "frame_height": 12,
@@ -3335,7 +3425,7 @@
   },
   "player_dodge_roll.0004": {
     "name": "player_dodge_roll.0004",
-    "x": 16,
+    "x": 67,
     "y": 973,
     "frame_width": 13,
     "frame_height": 13,
@@ -3353,7 +3443,7 @@
   },
   "player_dodge_roll.0005": {
     "name": "player_dodge_roll.0005",
-    "x": 1018,
+    "x": 1034,
     "y": 882,
     "frame_width": 16,
     "frame_height": 16,
@@ -3371,7 +3461,7 @@
   },
   "player_dodge_roll.0006": {
     "name": "player_dodge_roll.0006",
-    "x": 1189,
+    "x": 1220,
     "y": 882,
     "frame_width": 16,
     "frame_height": 15,
@@ -3389,7 +3479,7 @@
   },
   "player_dodge_roll.0007": {
     "name": "player_dodge_roll.0007",
-    "x": 29,
+    "x": 80,
     "y": 973,
     "frame_width": 16,
     "frame_height": 13,
@@ -3407,7 +3497,7 @@
   },
   "player_dodge_roll.0008": {
     "name": "player_dodge_roll.0008",
-    "x": 1034,
+    "x": 1050,
     "y": 882,
     "frame_width": 14,
     "frame_height": 16,
@@ -3426,7 +3516,7 @@
   "player_hands.0001": {
     "name": "player_hands.0001",
     "x": 1276,
-    "y": 912,
+    "y": 908,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -3446,7 +3536,7 @@
   "player_hands.0002": {
     "name": "player_hands.0002",
     "x": 1276,
-    "y": 916,
+    "y": 912,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 10,
@@ -3466,7 +3556,7 @@
   "player_hands.0003": {
     "name": "player_hands.0003",
     "x": 1276,
-    "y": 920,
+    "y": 916,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 9,
@@ -3485,8 +3575,8 @@
   },
   "player_hands.0004": {
     "name": "player_hands.0004",
-    "x": 889,
-    "y": 958,
+    "x": 1276,
+    "y": 920,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -3505,7 +3595,7 @@
   },
   "player_hands.0005": {
     "name": "player_hands.0005",
-    "x": 893,
+    "x": 889,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3525,7 +3615,7 @@
   },
   "player_hands.0006": {
     "name": "player_hands.0006",
-    "x": 897,
+    "x": 893,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3545,7 +3635,7 @@
   },
   "player_hands.0007": {
     "name": "player_hands.0007",
-    "x": 901,
+    "x": 897,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3565,7 +3655,7 @@
   },
   "player_hands.0008": {
     "name": "player_hands.0008",
-    "x": 905,
+    "x": 901,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3585,7 +3675,7 @@
   },
   "player_hands.0009": {
     "name": "player_hands.0009",
-    "x": 909,
+    "x": 905,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3605,7 +3695,7 @@
   },
   "player_hands.0010": {
     "name": "player_hands.0010",
-    "x": 913,
+    "x": 909,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3625,7 +3715,7 @@
   },
   "player_hands.0011": {
     "name": "player_hands.0011",
-    "x": 917,
+    "x": 913,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3645,7 +3735,7 @@
   },
   "player_hands.0012": {
     "name": "player_hands.0012",
-    "x": 921,
+    "x": 917,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3665,7 +3755,7 @@
   },
   "player_hands.0013": {
     "name": "player_hands.0013",
-    "x": 925,
+    "x": 921,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3685,7 +3775,7 @@
   },
   "player_hands.0014": {
     "name": "player_hands.0014",
-    "x": 929,
+    "x": 925,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3705,7 +3795,7 @@
   },
   "player_hands.0015": {
     "name": "player_hands.0015",
-    "x": 933,
+    "x": 929,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3725,7 +3815,7 @@
   },
   "player_hands_outline.0001": {
     "name": "player_hands_outline.0001",
-    "x": 937,
+    "x": 933,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3745,7 +3835,7 @@
   },
   "player_hands_outline.0002": {
     "name": "player_hands_outline.0002",
-    "x": 941,
+    "x": 937,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3765,7 +3855,7 @@
   },
   "player_hands_outline.0003": {
     "name": "player_hands_outline.0003",
-    "x": 945,
+    "x": 941,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3785,7 +3875,7 @@
   },
   "player_hands_outline.0004": {
     "name": "player_hands_outline.0004",
-    "x": 949,
+    "x": 945,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3805,7 +3895,7 @@
   },
   "player_hands_outline.0005": {
     "name": "player_hands_outline.0005",
-    "x": 953,
+    "x": 949,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3825,7 +3915,7 @@
   },
   "player_hands_outline.0006": {
     "name": "player_hands_outline.0006",
-    "x": 957,
+    "x": 953,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3845,7 +3935,7 @@
   },
   "player_hands_outline.0007": {
     "name": "player_hands_outline.0007",
-    "x": 961,
+    "x": 957,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3865,7 +3955,7 @@
   },
   "player_hands_outline.0008": {
     "name": "player_hands_outline.0008",
-    "x": 965,
+    "x": 961,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3885,7 +3975,7 @@
   },
   "player_hands_outline.0009": {
     "name": "player_hands_outline.0009",
-    "x": 969,
+    "x": 965,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3905,7 +3995,7 @@
   },
   "player_hands_outline.0010": {
     "name": "player_hands_outline.0010",
-    "x": 973,
+    "x": 969,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3925,7 +4015,7 @@
   },
   "player_hands_outline.0011": {
     "name": "player_hands_outline.0011",
-    "x": 977,
+    "x": 973,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3945,7 +4035,7 @@
   },
   "player_hands_outline.0012": {
     "name": "player_hands_outline.0012",
-    "x": 981,
+    "x": 977,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3965,7 +4055,7 @@
   },
   "player_hands_outline.0013": {
     "name": "player_hands_outline.0013",
-    "x": 985,
+    "x": 981,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -3985,7 +4075,7 @@
   },
   "player_hands_outline.0014": {
     "name": "player_hands_outline.0014",
-    "x": 989,
+    "x": 985,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -4005,7 +4095,7 @@
   },
   "player_hands_outline.0015": {
     "name": "player_hands_outline.0015",
-    "x": 993,
+    "x": 989,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -4025,7 +4115,7 @@
   },
   "player_head.0001": {
     "name": "player_head.0001",
-    "x": 73,
+    "x": 124,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4045,7 +4135,7 @@
   },
   "player_head.0002": {
     "name": "player_head.0002",
-    "x": 83,
+    "x": 134,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4065,7 +4155,7 @@
   },
   "player_head.0003": {
     "name": "player_head.0003",
-    "x": 93,
+    "x": 144,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4085,7 +4175,7 @@
   },
   "player_head.0004": {
     "name": "player_head.0004",
-    "x": 103,
+    "x": 154,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4105,7 +4195,7 @@
   },
   "player_head.0005": {
     "name": "player_head.0005",
-    "x": 113,
+    "x": 164,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4125,7 +4215,7 @@
   },
   "player_head.0006": {
     "name": "player_head.0006",
-    "x": 123,
+    "x": 174,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4145,7 +4235,7 @@
   },
   "player_head.0007": {
     "name": "player_head.0007",
-    "x": 133,
+    "x": 184,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4165,7 +4255,7 @@
   },
   "player_head.0008": {
     "name": "player_head.0008",
-    "x": 143,
+    "x": 194,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4185,7 +4275,7 @@
   },
   "player_head.0009": {
     "name": "player_head.0009",
-    "x": 153,
+    "x": 204,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4205,7 +4295,7 @@
   },
   "player_head.0010": {
     "name": "player_head.0010",
-    "x": 163,
+    "x": 214,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4225,7 +4315,7 @@
   },
   "player_head.0011": {
     "name": "player_head.0011",
-    "x": 173,
+    "x": 224,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4245,7 +4335,7 @@
   },
   "player_head.0012": {
     "name": "player_head.0012",
-    "x": 183,
+    "x": 234,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4265,8 +4355,8 @@
   },
   "player_head.0013": {
     "name": "player_head.0013",
-    "x": 229,
-    "y": 986,
+    "x": 317,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -4305,7 +4395,7 @@
   },
   "player_head.0015": {
     "name": "player_head.0015",
-    "x": 193,
+    "x": 244,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4325,7 +4415,7 @@
   },
   "player_head_outline.0001": {
     "name": "player_head_outline.0001",
-    "x": 203,
+    "x": 254,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4345,7 +4435,7 @@
   },
   "player_head_outline.0002": {
     "name": "player_head_outline.0002",
-    "x": 213,
+    "x": 264,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4365,7 +4455,7 @@
   },
   "player_head_outline.0003": {
     "name": "player_head_outline.0003",
-    "x": 223,
+    "x": 274,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4385,7 +4475,7 @@
   },
   "player_head_outline.0004": {
     "name": "player_head_outline.0004",
-    "x": 233,
+    "x": 284,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4405,7 +4495,7 @@
   },
   "player_head_outline.0005": {
     "name": "player_head_outline.0005",
-    "x": 243,
+    "x": 294,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4425,7 +4515,7 @@
   },
   "player_head_outline.0006": {
     "name": "player_head_outline.0006",
-    "x": 253,
+    "x": 304,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4445,7 +4535,7 @@
   },
   "player_head_outline.0007": {
     "name": "player_head_outline.0007",
-    "x": 263,
+    "x": 314,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4465,7 +4555,7 @@
   },
   "player_head_outline.0008": {
     "name": "player_head_outline.0008",
-    "x": 273,
+    "x": 324,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4485,7 +4575,7 @@
   },
   "player_head_outline.0009": {
     "name": "player_head_outline.0009",
-    "x": 283,
+    "x": 334,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4505,7 +4595,7 @@
   },
   "player_head_outline.0010": {
     "name": "player_head_outline.0010",
-    "x": 293,
+    "x": 344,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4525,7 +4615,7 @@
   },
   "player_head_outline.0011": {
     "name": "player_head_outline.0011",
-    "x": 303,
+    "x": 354,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4545,7 +4635,7 @@
   },
   "player_head_outline.0012": {
     "name": "player_head_outline.0012",
-    "x": 313,
+    "x": 364,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4565,8 +4655,8 @@
   },
   "player_head_outline.0013": {
     "name": "player_head_outline.0013",
-    "x": 239,
-    "y": 986,
+    "x": 327,
+    "y": 987,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -4585,7 +4675,7 @@
   },
   "player_head_outline.0014": {
     "name": "player_head_outline.0014",
-    "x": 1038,
+    "x": 1101,
     "y": 973,
     "frame_width": 10,
     "frame_height": 9,
@@ -4605,7 +4695,7 @@
   },
   "player_head_outline.0015": {
     "name": "player_head_outline.0015",
-    "x": 323,
+    "x": 374,
     "y": 973,
     "frame_width": 10,
     "frame_height": 10,
@@ -4625,7 +4715,7 @@
   },
   "player_head_outline_darksouls.0001": {
     "name": "player_head_outline_darksouls.0001",
-    "x": 333,
+    "x": 384,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4645,7 +4735,7 @@
   },
   "player_head_outline_darksouls.0002": {
     "name": "player_head_outline_darksouls.0002",
-    "x": 345,
+    "x": 396,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4665,7 +4755,7 @@
   },
   "player_head_outline_darksouls.0003": {
     "name": "player_head_outline_darksouls.0003",
-    "x": 357,
+    "x": 408,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4685,7 +4775,7 @@
   },
   "player_head_outline_darksouls.0004": {
     "name": "player_head_outline_darksouls.0004",
-    "x": 369,
+    "x": 420,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4705,7 +4795,7 @@
   },
   "player_head_outline_darksouls.0005": {
     "name": "player_head_outline_darksouls.0005",
-    "x": 381,
+    "x": 432,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4725,7 +4815,7 @@
   },
   "player_head_outline_darksouls.0006": {
     "name": "player_head_outline_darksouls.0006",
-    "x": 393,
+    "x": 444,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4745,7 +4835,7 @@
   },
   "player_head_outline_darksouls.0007": {
     "name": "player_head_outline_darksouls.0007",
-    "x": 405,
+    "x": 456,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4765,7 +4855,7 @@
   },
   "player_head_outline_darksouls.0008": {
     "name": "player_head_outline_darksouls.0008",
-    "x": 417,
+    "x": 468,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4785,7 +4875,7 @@
   },
   "player_head_outline_darksouls.0009": {
     "name": "player_head_outline_darksouls.0009",
-    "x": 429,
+    "x": 480,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4805,7 +4895,7 @@
   },
   "player_head_outline_darksouls.0010": {
     "name": "player_head_outline_darksouls.0010",
-    "x": 441,
+    "x": 492,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4825,7 +4915,7 @@
   },
   "player_head_outline_darksouls.0011": {
     "name": "player_head_outline_darksouls.0011",
-    "x": 453,
+    "x": 504,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4845,7 +4935,7 @@
   },
   "player_head_outline_darksouls.0012": {
     "name": "player_head_outline_darksouls.0012",
-    "x": 465,
+    "x": 516,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4865,8 +4955,8 @@
   },
   "player_head_outline_darksouls.0013": {
     "name": "player_head_outline_darksouls.0013",
-    "x": 249,
-    "y": 986,
+    "x": 337,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 3,
@@ -4885,7 +4975,7 @@
   },
   "player_head_outline_darksouls.0014": {
     "name": "player_head_outline_darksouls.0014",
-    "x": 1048,
+    "x": 1111,
     "y": 973,
     "frame_width": 12,
     "frame_height": 9,
@@ -4905,7 +4995,7 @@
   },
   "player_head_outline_darksouls.0015": {
     "name": "player_head_outline_darksouls.0015",
-    "x": 477,
+    "x": 528,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -4925,7 +5015,7 @@
   },
   "player_head_outline_link.0001": {
     "name": "player_head_outline_link.0001",
-    "x": 489,
+    "x": 540,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -4945,7 +5035,7 @@
   },
   "player_head_outline_link.0002": {
     "name": "player_head_outline_link.0002",
-    "x": 504,
+    "x": 555,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -4965,7 +5055,7 @@
   },
   "player_head_outline_link.0003": {
     "name": "player_head_outline_link.0003",
-    "x": 519,
+    "x": 570,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -4985,7 +5075,7 @@
   },
   "player_head_outline_link.0004": {
     "name": "player_head_outline_link.0004",
-    "x": 534,
+    "x": 585,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5005,7 +5095,7 @@
   },
   "player_head_outline_link.0005": {
     "name": "player_head_outline_link.0005",
-    "x": 549,
+    "x": 600,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5025,7 +5115,7 @@
   },
   "player_head_outline_link.0006": {
     "name": "player_head_outline_link.0006",
-    "x": 564,
+    "x": 615,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5045,7 +5135,7 @@
   },
   "player_head_outline_link.0007": {
     "name": "player_head_outline_link.0007",
-    "x": 579,
+    "x": 630,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5065,7 +5155,7 @@
   },
   "player_head_outline_link.0008": {
     "name": "player_head_outline_link.0008",
-    "x": 594,
+    "x": 645,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5085,7 +5175,7 @@
   },
   "player_head_outline_link.0009": {
     "name": "player_head_outline_link.0009",
-    "x": 609,
+    "x": 660,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5105,7 +5195,7 @@
   },
   "player_head_outline_link.0010": {
     "name": "player_head_outline_link.0010",
-    "x": 624,
+    "x": 675,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5125,7 +5215,7 @@
   },
   "player_head_outline_link.0011": {
     "name": "player_head_outline_link.0011",
-    "x": 639,
+    "x": 690,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5145,7 +5235,7 @@
   },
   "player_head_outline_link.0012": {
     "name": "player_head_outline_link.0012",
-    "x": 654,
+    "x": 705,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5165,7 +5255,7 @@
   },
   "player_head_outline_link.0013": {
     "name": "player_head_outline_link.0013",
-    "x": 669,
+    "x": 720,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5185,7 +5275,7 @@
   },
   "player_head_outline_link.0014": {
     "name": "player_head_outline_link.0014",
-    "x": 684,
+    "x": 735,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5205,7 +5295,7 @@
   },
   "player_head_outline_link.0015": {
     "name": "player_head_outline_link.0015",
-    "x": 699,
+    "x": 750,
     "y": 973,
     "frame_width": 15,
     "frame_height": 10,
@@ -5225,7 +5315,7 @@
   },
   "player_head_outline_mario.0001": {
     "name": "player_head_outline_mario.0001",
-    "x": 714,
+    "x": 765,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5245,7 +5335,7 @@
   },
   "player_head_outline_mario.0002": {
     "name": "player_head_outline_mario.0002",
-    "x": 726,
+    "x": 777,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5265,7 +5355,7 @@
   },
   "player_head_outline_mario.0003": {
     "name": "player_head_outline_mario.0003",
-    "x": 738,
+    "x": 789,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5285,7 +5375,7 @@
   },
   "player_head_outline_mario.0004": {
     "name": "player_head_outline_mario.0004",
-    "x": 750,
+    "x": 801,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5305,7 +5395,7 @@
   },
   "player_head_outline_mario.0005": {
     "name": "player_head_outline_mario.0005",
-    "x": 762,
+    "x": 813,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5325,7 +5415,7 @@
   },
   "player_head_outline_mario.0006": {
     "name": "player_head_outline_mario.0006",
-    "x": 774,
+    "x": 825,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5345,7 +5435,7 @@
   },
   "player_head_outline_mario.0007": {
     "name": "player_head_outline_mario.0007",
-    "x": 786,
+    "x": 837,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5365,7 +5455,7 @@
   },
   "player_head_outline_mario.0008": {
     "name": "player_head_outline_mario.0008",
-    "x": 798,
+    "x": 849,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5385,7 +5475,7 @@
   },
   "player_head_outline_mario.0009": {
     "name": "player_head_outline_mario.0009",
-    "x": 810,
+    "x": 861,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5405,7 +5495,7 @@
   },
   "player_head_outline_mario.0010": {
     "name": "player_head_outline_mario.0010",
-    "x": 822,
+    "x": 873,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5425,7 +5515,7 @@
   },
   "player_head_outline_mario.0011": {
     "name": "player_head_outline_mario.0011",
-    "x": 834,
+    "x": 885,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5445,7 +5535,7 @@
   },
   "player_head_outline_mario.0012": {
     "name": "player_head_outline_mario.0012",
-    "x": 846,
+    "x": 897,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5465,8 +5555,8 @@
   },
   "player_head_outline_mario.0013": {
     "name": "player_head_outline_mario.0013",
-    "x": 261,
-    "y": 986,
+    "x": 349,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 3,
@@ -5485,7 +5575,7 @@
   },
   "player_head_outline_mario.0014": {
     "name": "player_head_outline_mario.0014",
-    "x": 1060,
+    "x": 1123,
     "y": 973,
     "frame_width": 12,
     "frame_height": 9,
@@ -5505,7 +5595,7 @@
   },
   "player_head_outline_mario.0015": {
     "name": "player_head_outline_mario.0015",
-    "x": 858,
+    "x": 909,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5525,7 +5615,7 @@
   },
   "player_head_outline_undertale.0001": {
     "name": "player_head_outline_undertale.0001",
-    "x": 870,
+    "x": 921,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5545,7 +5635,7 @@
   },
   "player_head_outline_undertale.0002": {
     "name": "player_head_outline_undertale.0002",
-    "x": 882,
+    "x": 933,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5565,7 +5655,7 @@
   },
   "player_head_outline_undertale.0003": {
     "name": "player_head_outline_undertale.0003",
-    "x": 894,
+    "x": 945,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5585,7 +5675,7 @@
   },
   "player_head_outline_undertale.0004": {
     "name": "player_head_outline_undertale.0004",
-    "x": 906,
+    "x": 957,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5605,7 +5695,7 @@
   },
   "player_head_outline_undertale.0005": {
     "name": "player_head_outline_undertale.0005",
-    "x": 918,
+    "x": 969,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5625,7 +5715,7 @@
   },
   "player_head_outline_undertale.0006": {
     "name": "player_head_outline_undertale.0006",
-    "x": 930,
+    "x": 981,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5645,7 +5735,7 @@
   },
   "player_head_outline_undertale.0007": {
     "name": "player_head_outline_undertale.0007",
-    "x": 942,
+    "x": 993,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5665,7 +5755,7 @@
   },
   "player_head_outline_undertale.0008": {
     "name": "player_head_outline_undertale.0008",
-    "x": 954,
+    "x": 1005,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5685,7 +5775,7 @@
   },
   "player_head_outline_undertale.0009": {
     "name": "player_head_outline_undertale.0009",
-    "x": 966,
+    "x": 1017,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5705,7 +5795,7 @@
   },
   "player_head_outline_undertale.0010": {
     "name": "player_head_outline_undertale.0010",
-    "x": 978,
+    "x": 1029,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5725,7 +5815,7 @@
   },
   "player_head_outline_undertale.0011": {
     "name": "player_head_outline_undertale.0011",
-    "x": 990,
+    "x": 1041,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5745,7 +5835,7 @@
   },
   "player_head_outline_undertale.0012": {
     "name": "player_head_outline_undertale.0012",
-    "x": 1002,
+    "x": 1053,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5765,8 +5855,8 @@
   },
   "player_head_outline_undertale.0013": {
     "name": "player_head_outline_undertale.0013",
-    "x": 273,
-    "y": 986,
+    "x": 361,
+    "y": 987,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -5785,7 +5875,7 @@
   },
   "player_head_outline_undertale.0014": {
     "name": "player_head_outline_undertale.0014",
-    "x": 1072,
+    "x": 1135,
     "y": 973,
     "frame_width": 12,
     "frame_height": 9,
@@ -5805,7 +5895,7 @@
   },
   "player_head_outline_undertale.0015": {
     "name": "player_head_outline_undertale.0015",
-    "x": 1014,
+    "x": 1065,
     "y": 973,
     "frame_width": 12,
     "frame_height": 10,
@@ -5825,7 +5915,7 @@
   },
   "rock_projectile_fx.0001": {
     "name": "rock_projectile_fx.0001",
-    "x": 997,
+    "x": 993,
     "y": 958,
     "frame_width": 4,
     "frame_height": 4,
@@ -5843,8 +5933,8 @@
   },
   "rock_projectile_green.0001": {
     "name": "rock_projectile_green.0001",
-    "x": 509,
-    "y": 986,
+    "x": 597,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5861,8 +5951,8 @@
   },
   "rock_projectile_green.0002": {
     "name": "rock_projectile_green.0002",
-    "x": 515,
-    "y": 986,
+    "x": 603,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5879,8 +5969,8 @@
   },
   "rock_projectile_green.0003": {
     "name": "rock_projectile_green.0003",
-    "x": 521,
-    "y": 986,
+    "x": 609,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5897,8 +5987,8 @@
   },
   "rock_projectile_red.0001": {
     "name": "rock_projectile_red.0001",
-    "x": 527,
-    "y": 986,
+    "x": 615,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5915,8 +6005,8 @@
   },
   "rock_projectile_red.0002": {
     "name": "rock_projectile_red.0002",
-    "x": 533,
-    "y": 986,
+    "x": 621,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5933,8 +6023,8 @@
   },
   "rock_projectile_red.0003": {
     "name": "rock_projectile_red.0003",
-    "x": 539,
-    "y": 986,
+    "x": 627,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -5952,7 +6042,7 @@
   "rupee.0001": {
     "name": "rupee.0001",
     "x": 1274,
-    "y": 932,
+    "y": 882,
     "frame_width": 6,
     "frame_height": 10,
     "offset_x": 0,
@@ -5969,8 +6059,8 @@
   },
   "rupee20.0001": {
     "name": "rupee20.0001",
-    "x": 1026,
-    "y": 973,
+    "x": 1274,
+    "y": 932,
     "frame_width": 6,
     "frame_height": 10,
     "offset_x": 0,
@@ -5987,7 +6077,7 @@
   },
   "rupee5.0001": {
     "name": "rupee5.0001",
-    "x": 1032,
+    "x": 1077,
     "y": 973,
     "frame_width": 6,
     "frame_height": 10,
@@ -6005,7 +6095,7 @@
   },
   "score_fx.0001": {
     "name": "score_fx.0001",
-    "x": 1001,
+    "x": 997,
     "y": 958,
     "frame_width": 9,
     "frame_height": 4,
@@ -6023,7 +6113,7 @@
   },
   "score_fx.0002": {
     "name": "score_fx.0002",
-    "x": 1010,
+    "x": 1006,
     "y": 958,
     "frame_width": 9,
     "frame_height": 4,
@@ -6041,7 +6131,7 @@
   },
   "score_fx.0003": {
     "name": "score_fx.0003",
-    "x": 1019,
+    "x": 1015,
     "y": 958,
     "frame_width": 9,
     "frame_height": 4,
@@ -6059,7 +6149,7 @@
   },
   "score_fx.0004": {
     "name": "score_fx.0004",
-    "x": 1028,
+    "x": 1024,
     "y": 958,
     "frame_width": 9,
     "frame_height": 4,
@@ -6077,8 +6167,8 @@
   },
   "shop_fire.0001": {
     "name": "shop_fire.0001",
-    "x": 405,
-    "y": 986,
+    "x": 493,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 7,
     "offset_x": 1,
@@ -6095,8 +6185,8 @@
   },
   "shop_fire.0002": {
     "name": "shop_fire.0002",
-    "x": 285,
-    "y": 986,
+    "x": 373,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 8,
     "offset_x": 1,
@@ -6113,8 +6203,8 @@
   },
   "shop_fire.0003": {
     "name": "shop_fire.0003",
-    "x": 411,
-    "y": 986,
+    "x": 499,
+    "y": 987,
     "frame_width": 6,
     "frame_height": 7,
     "offset_x": 1,
@@ -6129,10 +6219,46 @@
       "frame_number": 3
     }
   },
+  "spider.0001": {
+    "name": "spider.0001",
+    "x": 1083,
+    "y": 973,
+    "frame_width": 8,
+    "frame_height": 10,
+    "offset_x": 1,
+    "offset_y": 0,
+    "sprite_width": 10,
+    "sprite_height": 10,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "spider",
+      "tags": [],
+      "duration": 300,
+      "frame_number": 1
+    }
+  },
+  "spider.0002": {
+    "name": "spider.0002",
+    "x": 1091,
+    "y": 973,
+    "frame_width": 10,
+    "frame_height": 10,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 10,
+    "sprite_height": 10,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "spider",
+      "tags": [],
+      "duration": 300,
+      "frame_number": 2
+    }
+  },
   "sword.0001": {
     "name": "sword.0001",
-    "x": 545,
-    "y": 986,
+    "x": 633,
+    "y": 987,
     "frame_width": 14,
     "frame_height": 6,
     "offset_x": 0,
@@ -6149,8 +6275,8 @@
   },
   "sword.0002": {
     "name": "sword.0002",
-    "x": 559,
-    "y": 986,
+    "x": 647,
+    "y": 987,
     "frame_width": 15,
     "frame_height": 6,
     "offset_x": 0,
@@ -6167,8 +6293,8 @@
   },
   "sword.0003": {
     "name": "sword.0003",
-    "x": 574,
-    "y": 986,
+    "x": 662,
+    "y": 987,
     "frame_width": 16,
     "frame_height": 6,
     "offset_x": 0,
@@ -6601,7 +6727,7 @@
   },
   "undertale_heart.0001": {
     "name": "undertale_heart.0001",
-    "x": 1048,
+    "x": 1064,
     "y": 882,
     "frame_width": 16,
     "frame_height": 16,

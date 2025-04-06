@@ -4,6 +4,7 @@ from potion import *
 
 if TYPE_CHECKING:
     from entities.player import Player
+    from entities.game_manager import GameManager
 
 
 class Boss(Entity):
@@ -11,8 +12,12 @@ class Boss(Entity):
         super().__init__()
         self.name = "Boss"
         self.pausable = False
+        self.game_over = False
+        self.game_over_started = False
+        self.game_over_gravity = False
 
         self.player: Player | None = None
+        self.game_manager: GameManager | None = None
 
         self.sprite = AnimatedSprite.from_atlas("atlas.png", "asylum_demon")
         self.sprite.play("Idle")
@@ -38,10 +43,12 @@ class Boss(Entity):
         self.x_distance_to_player = 0
 
         self.start_y = 0
+        self.dy = 0
 
     def start(self) -> None:
         self.start_y = self.y
         self.player = self.find("Player")
+        self.game_manager = self.find("GameManager")
 
     def update(self) -> None:
         self.sprite.update()
@@ -50,6 +57,15 @@ class Boss(Entity):
             self.player_direction = -1
         else:
             self.player_direction = 1
+
+        if self.game_over:
+            if not self.game_over_started:
+                self.game_over_started = True
+                self.state = "Fly"
+                self.sprite.play("Fly")
+                self.fly_timer = self.fly_timer_max
+                self.solid = False
+                self.collisions_enabled = False
 
         if self.state == "Idle":
             if self.sprite.animation == "Idle" and not self.sprite.is_playing:
@@ -73,12 +89,24 @@ class Boss(Entity):
                 self.fly_timer = 0
             if self.fly_timer == 0:
                 self.x_distance_to_player = abs(self.bbox().center().x - self.player.bbox().center().x)
-                self.move_x(self.move_speed * self.player_direction)
+                if not self.game_over:
+                    self.move_x(self.move_speed * self.player_direction)
                 if self.x_distance_to_player < 16:
                     self.sprite.play("Slam")
                     self.state = "Slam"
                     return
+                if self.game_over:
+                    if self.find("Bridge"):
+                        pass
+                    else:
+                        self.sprite.play("Slam")
+                        self.state = "Slam"
+                        self.game_over_gravity = True
+                        return
         elif self.state == "Slam":
+            if self.game_over:
+                if self.sprite.animation == "Slam" and self.sprite.frame_started(3):
+                    self.sprite.pause()
             if self.sprite.animation == "Slam" and self.sprite.frame_started(4):
                 self.break_blocks()
                 if self.player.bbox().intersects_rect(self.bbox()):
@@ -89,7 +117,17 @@ class Boss(Entity):
                 self.face_player()
                 return
 
-        self.snap_to_ground()
+        if self.game_over:
+            if self.game_over_gravity:
+                self.dy += .1
+                self.move_y(self.dy)
+        else:
+            self.snap_to_ground()
+
+        if self.game_over:
+            if self.y > 200:
+                self.destroy()
+                self.game_manager.end_game()
 
     def face_player(self) -> None:
         if self.player_direction > 0:

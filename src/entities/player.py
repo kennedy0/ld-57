@@ -16,6 +16,8 @@ class Player(Entity):
         super().__init__()
         self.name = "Player"
 
+        self.game_over = False
+
         # References
         self.game_manager: GameManager | None = None
 
@@ -129,7 +131,7 @@ class Player(Entity):
             case "undertale_world":
                 self.set_character("Undertale")
             case "castle_world":
-                self.x = 32
+                self.x = 16
                 self.set_character("Mario")
             case "end_game_world":
                 pass
@@ -271,6 +273,9 @@ class Player(Entity):
         if __debug__:
             self._debug_input()
 
+        if self.game_over:
+            return
+
         self.update_timers()
         self.update_input()
         self.update_physics()
@@ -386,7 +391,7 @@ class Player(Entity):
                     self.game_manager.load_next_world()
                 else:
                     self.force_kill()
-                    
+
             return
 
         # Horizontal movement

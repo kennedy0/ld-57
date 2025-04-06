@@ -1,3 +1,4 @@
 CURRENT_WORLD = ""
 GO_TO_NEXT_WORLD = False
 NEXT_WORLD_QUEUE: list[str] = []
+GAME_OVER = False

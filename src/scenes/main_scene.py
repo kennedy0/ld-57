@@ -26,6 +26,13 @@ from entities.bonfire import Bonfire
 from entities.fog_wall import FogWall
 from entities.boss import Boss
 from entities.dark_souls_ui import DarkSoulsUi
+from entities.bridge import Bridge
+from entities.axe import Axe
+from entities.bone_spawner import BoneSpawner
+from entities.spider_spawner import SpiderSpawner
+from entities.undertale_box import UndertaleBox
+from entities.undertale_manager import UndertaleManager
+from entities.undertale_bg import UndertaleBg
 
 
 class MainScene(Scene):
@@ -37,7 +44,6 @@ class MainScene(Scene):
         self.entities.add(Player())
         self.entities.add(GameManager())
         self.entities.add(ScreenWipe())
-
 
         # Load this stuff last! EntityList.update() is called here.
         if game_globals.GO_TO_NEXT_WORLD:
@@ -68,7 +74,8 @@ class MainScene(Scene):
         elif self.name == "dark_souls_world":
             self.entities.add(DarkSoulsUi())
         elif self.name == "undertale_world":
-            pass
+            self.entities.add(UndertaleManager())
+            self.entities.add(UndertaleBg())
         elif self.name == "castle_world":
             pass
 
@@ -110,6 +117,20 @@ class MainScene(Scene):
                         e.sprite.flip_horizontal = True
                 case "Boss":
                     e = Boss()
+                case "Bridge":
+                    e = Bridge()
+                case "Axe":
+                    e = Axe()
+                case "BoneSpawner":
+                    e = BoneSpawner()
+                    if slot := custom_fields.get("Slot"):
+                        e.slot = slot
+                case "SpiderSpawner":
+                    e = SpiderSpawner()
+                    if slot := custom_fields.get("Slot"):
+                        e.slot = slot
+                case "UndertaleBox":
+                    e = UndertaleBox()
                 case "Oktorok":
                     e = Oktorok()
                     if facing_left := custom_fields.get("FacingLeft"):

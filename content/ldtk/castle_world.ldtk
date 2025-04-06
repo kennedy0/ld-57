@@ -1105,7 +1105,7 @@
 						},
 						{
 							"__identifier": "Boss",
-							"__grid": [29,8],
+							"__grid": [23,8],
 							"__pivot": [0,0],
 							"__tags": [],
 							"__tile": null,
@@ -1114,7 +1114,7 @@
 							"width": 32,
 							"height": 80,
 							"defUid": 37,
-							"px": [232,64],
+							"px": [184,64],
 							"fieldInstances": []
 						}
 					]
