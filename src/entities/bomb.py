@@ -17,6 +17,8 @@ class Bomb(Entity):
 
         self.timer = 300
 
+        self.sfx_explode = SoundEffect("sfx/bomb_explode.wav")
+
     def update(self) -> None:
         self.sprite.update()
 
@@ -45,3 +47,4 @@ class Bomb(Entity):
                 except:
                     pass
         self.destroy()
+        self.sfx_explode.play()

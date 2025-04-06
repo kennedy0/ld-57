@@ -18,6 +18,11 @@ class Sword(Entity):
         self.dy = 2
         self.gravity = .3
 
+        self.sfx = SoundEffect("sfx/sword.wav")
+
+    def start(self) -> None:
+        self.sfx.play()
+
     def update(self) -> None:
         self.sprite.update()
         self.move(self.x, self.y)

@@ -21,6 +21,8 @@ class MarioQuestion(Entity):
         self.on = True
         self.timer = 0
 
+        self.sfx = SoundEffect("sfx/block_bump.wav")
+
     def start(self) -> None:
         if self.invisible:
             self.collisions_enabled = False
@@ -42,6 +44,7 @@ class MarioQuestion(Entity):
             coin = MarioCoin.instantiate()
             coin.set_position(self.position() - Point(0, 8))
             coin.timer = 15
+            self.sfx.play()
 
     def draw(self, camera: Camera) -> None:
         if self.invisible:

@@ -45,6 +45,11 @@ class Boss(Entity):
         self.start_y = 0
         self.dy = 0
 
+        self.death_sfx = SoundEffect("sfx/boss_death.wav")
+        self.butt_sfx = SoundEffect("sfx/butt.wav")
+        self.block_sfx = SoundEffect("sfx/brick_break.wav")
+        self.jump_sfx = SoundEffect("sfx/boss_jump.wav")
+
     def start(self) -> None:
         self.start_y = self.y
         self.player = self.find("Player")
@@ -75,6 +80,7 @@ class Boss(Entity):
         elif self.state == "Jump":
             if self.sprite.animation == "BeforeJump" and not self.sprite.is_playing:
                 self.sprite.play("Jump")
+                self.jump_sfx.play()
                 return
             elif self.sprite.animation == "Jump" and not self.sprite.is_playing:
                 self.state = "Fly"
@@ -127,6 +133,7 @@ class Boss(Entity):
         if self.game_over:
             if self.y > 200:
                 self.destroy()
+                self.death_sfx.play()
                 self.game_manager.end_game()
 
     def face_player(self) -> None:
@@ -139,6 +146,8 @@ class Boss(Entity):
         return Rect(self.x, self.bbox().bottom(), self.width, 2)
 
     def break_blocks(self) -> None:
+        self.block_sfx.play()
+        self.butt_sfx.play()
         foot_rect = self.foot_rect()
         for entity in self.scene.entities.active_entities():
             if "CrackedBlock" in entity.tags:

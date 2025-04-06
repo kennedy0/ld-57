@@ -13,7 +13,10 @@ class MarioBrick(Entity):
         self.width = 8
         self.height = 8
 
+        self.sfx = SoundEffect("sfx/brick_break.wav")
+
     def on_head_hit(self) -> None:
+        self.sfx.play()
         self.destroy()
 
         points = (

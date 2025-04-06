@@ -16,6 +16,8 @@ class MarioCoin(Entity):
 
         self.timer = 0
 
+        self.sfx = SoundEffect("sfx/coin.wav")
+
     def update(self) -> None:
         self.sprite.update()
 
@@ -43,4 +45,5 @@ class MarioCoin(Entity):
 
         fx = ScoreFx.instantiate()
         fx.set_position(self.position())
+        self.sfx.play()
         self.destroy()

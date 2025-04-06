@@ -13,6 +13,8 @@ class Axe(Entity):
         self.width = 16
         self.height = 16
 
+        self.sfx = SoundEffect("sfx/axe.wav")
+
     def update(self) -> None:
         self.sprite.update()
 
@@ -29,5 +31,6 @@ class Axe(Entity):
                         self.destroy()
                         boss = self.find("Boss")
                         boss.game_over = True
+                        self.sfx.play()
                     except Exception as e:
                         Log.error(e)

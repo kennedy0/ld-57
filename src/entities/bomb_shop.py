@@ -13,6 +13,8 @@ class BombShop(Entity):
         self.width = 24
         self.height = 24
 
+        self.sfx = SoundEffect("sfx/buy_bomb.wav")
+
     def update(self) -> None:
         if self.sold_out:
             if player := self.find("Player"):
@@ -35,5 +37,6 @@ class BombShop(Entity):
                     other.rupees -= 50
                     other.has_bomb = True
                     self.sold_out = True
+                    self.sfx.play()
             except:
                 pass

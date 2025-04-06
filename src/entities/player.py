@@ -111,6 +111,12 @@ class Player(Entity):
         self.dodge_roll_started = False
         self.dodge_roll_dx = 0
 
+        # SFX
+        self.sfx_jump = SoundEffect("sfx/jump.wav")
+        self.sfx_hit = SoundEffect("sfx/player_hit.wav")
+        self.sfx_death = SoundEffect("sfx/player_death.wav")
+        self.sfx_roll = SoundEffect("sfx/roll.wav")
+
     def awake(self) -> None:
         # Init defaults
         self.max_hp = 1
@@ -374,6 +380,7 @@ class Player(Entity):
         if self.is_dodge_rolling:
             if not self.dodge_roll_started:
                 self.dodge_roll_started = True
+                self.sfx_roll.play()
                 if self.facing_x < 0:
                     self.dodge_roll_dx = -2
                 else:
@@ -401,6 +408,7 @@ class Player(Entity):
         if self.jump and self.coyote_timer:
             self.dy = -self.jump_force
             self.coyote_timer = 0
+            self.sfx_jump.play()
         elif self.grounded:
             self.dy = 0
             self.coyote_timer = self.coyote_timer_max
@@ -504,9 +512,10 @@ class Player(Entity):
                         else:
                             sword.set_position(self.position() + Point(10, 10))
             elif self.character == "DarkSouls":
-                self.special_cooldown_timer = 60
-                self.is_dodge_rolling = True
-                self.dodge_roll_started = False
+                if not self.special_cooldown_timer:
+                    self.special_cooldown_timer = 60
+                    self.is_dodge_rolling = True
+                    self.dodge_roll_started = False
 
     def update_state(self) -> None:
         if not self.grounded:
@@ -641,12 +650,15 @@ class Player(Entity):
         self.invincibility_timer = 100
         if self.hp <= 0:
             self.on_death()
+        else:
+            self.sfx_hit.play()
 
     def force_kill(self) -> None:
         self.hp = 0
         self.on_death()
 
     def on_death(self) -> None:
+        self.sfx_death.play()
         fx = PlayerDeathFx.instantiate()
         fx.set_position(self.bbox().center())
         fx.sprite.color = self.get_sprite_color()

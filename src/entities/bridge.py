@@ -14,6 +14,8 @@ class Bridge(Entity):
         self.timer = 0
         self.max_timer = 10
 
+        self.sfx = SoundEffect("sfx/bridge_segment_remove.wav")
+
     def awake(self) -> None:
 
         for i in range(26):
@@ -28,6 +30,7 @@ class Bridge(Entity):
                 try:
                     self.segments.pop()
                     self.timer = self.max_timer
+                    self.sfx.play()
                 except:
                     self.destroy()
 

@@ -18,6 +18,8 @@ class Rupee(Entity):
         self.timer = 5
         self.z = -2
 
+        self.sfx = SoundEffect("sfx/coin.wav")
+
     def awake(self) -> None:
         if self.amount == 20:
             self.sprite = Sprite.from_atlas("atlas.png", "rupee20")
@@ -39,5 +41,6 @@ class Rupee(Entity):
         except:
             pass
 
+        self.sfx.play()
         self.destroy()
 
