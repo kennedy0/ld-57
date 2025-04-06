@@ -3,6 +3,7 @@ from __future__ import annotations
 from potion import *
 
 import game_globals
+from entities.bomb import Bomb
 from entities.sword import Sword
 from entities.player_death_fx import PlayerDeathFx
 
@@ -70,6 +71,7 @@ class Player(Entity):
         # Input
         self.facing_x = 1
         self.input_x = 0
+        self.input_y = 0
         self.jump = False
         self.jump_release = False
         self.special = False
@@ -93,6 +95,11 @@ class Player(Entity):
         # Start
         self.scene_start = True
 
+        # Inventory
+        self.coins = 0
+        self.rupees = 0
+        self.has_bomb = False
+
     def awake(self) -> None:
         # Init defaults
         self.max_hp = 1
@@ -105,6 +112,8 @@ class Player(Entity):
             case "mario_world":
                 self.x = 32
                 self.set_character("Mario")
+            case "zelda_world":
+                self.set_character("Link")
             case _:
                 if not game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
                     Log.warning(f"No Player initialization for scene '{self.scene.name}'")
@@ -201,10 +210,12 @@ class Player(Entity):
         self.character = character
 
         if character == "Mario":
+            self.max_hp = 1
             self.head_outline_sprite = self.head_outline_sprite_mario
             for sprite in self.outline_sprites():
                 sprite.color = Color.from_hex("#c92464")
         elif character == "Link":
+            self.max_hp = 3
             self.head_outline_sprite = self.head_outline_sprite_link
             for sprite in self.outline_sprites():
                 sprite.color = Color.from_hex("#1e8875")
@@ -258,9 +269,13 @@ class Player(Entity):
             if self.character == "Link":
                 self.gravity_enabled = True
 
-        self.invincibility_timer -= 1
+        if self.invincibility_timer:
+            self.invincibility_timer -= 1
         if self.invincibility_timer <= 0:
             self.invincibility_timer = 0
+            for sprite in self.outline_sprites():
+                sprite.flash_color = Color.white()
+                sprite.flash_opacity = 0
 
     def reset_timers(self) -> None:
         self.early_jump_timer = 0
@@ -286,6 +301,15 @@ class Player(Entity):
                 for sprite in self.sprites():
                     sprite.flip_horizontal = False
                     self.facing_x = 1
+
+        # Up / Down Input
+        self.input_y = 0
+        if self.special_stun_timer <= 0:
+            if Input.get_button("Up"):
+                self.input_y = -1
+            elif Input.get_button("Down"):
+                self.input_y = 1
+
 
         # Jump
         self.jump = False
@@ -357,9 +381,10 @@ class Player(Entity):
                     self.head_hit = True
                     if hasattr(entity, "on_head_hit"):
                         entity.on_head_hit()
-            elif "Platform" in entity.tags:
+            elif self.dy >= 0 and "Platform" in entity.tags:
                 if entity.intersects(self.grounded_rect()):
                     self.grounded = True
+                    self.y = entity.y - self.height
                     if "MovingPlatform" in entity.tags and not (self.jump and self.coyote_timer):
                         self.riding = entity
                         try:
@@ -404,16 +429,25 @@ class Player(Entity):
                 #     else:
                 #         fireball.set_position(self.position() + Point(10, 5))
             elif self.character == "Link":
-                if self.special_cooldown_timer == 0:
-                    self.gravity_enabled = False
+                if self.has_bomb:
                     self.special_cooldown_timer = 20
-                    self.special_stun_timer = 10
-                    sword = Sword.instantiate()
+                    bomb = Bomb.instantiate()
+                    self.has_bomb = False
                     if self.facing_x < 0:
-                        sword.set_position(self.position() + Point(-16, 10))
-                        sword.sprite.flip_horizontal = True
+                        bomb.set_position(self.position() + Point(-10, 9))
                     else:
-                        sword.set_position(self.position() + Point(10, 10))
+                        bomb.set_position(self.position() + Point(10, 9))
+                else:
+                    if self.special_cooldown_timer == 0:
+                        self.gravity_enabled = False
+                        self.special_cooldown_timer = 20
+                        self.special_stun_timer = 10
+                        sword = Sword.instantiate()
+                        if self.facing_x < 0:
+                            sword.set_position(self.position() + Point(-16, 10))
+                            sword.sprite.flip_horizontal = True
+                        else:
+                            sword.set_position(self.position() + Point(10, 10))
 
     def update_state(self) -> None:
         if not self.grounded:
@@ -460,6 +494,23 @@ class Player(Entity):
                 for sprite in self.sprites():
                     sprite.play(animation)
 
+        # Invincibility flash
+        if self.invincibility_timer:
+            opacity = 0
+            color = None
+
+            if self.invincibility_timer % 10 == 0:
+                color = Color.from_hex("#c92464")
+                opacity = 200
+            elif self.invincibility_timer % 5 == 0:
+                color = Color.from_hex("#1c1734")
+                opacity = 200
+
+            if opacity and color:
+                for sprite in self.outline_sprites():
+                    sprite.flash_color = color
+                    sprite.flash_opacity = opacity
+
     def update_item_position(self) -> None:
         if self.item:
             self.item.set_position(self.position() + self.hand_offset())
@@ -505,12 +556,12 @@ class Player(Entity):
                     Log.warning(f"{other.name} has no damage() method")
             else:
                 self.damage()
-        elif "Coin" in other.tags:
+        elif "Coin" in other.tags or "Rupee" in other.tags:
             other.on_collect()
 
     def damage(self) -> None:
         self.hp -= 1
-        self.invincibility_timer = 60
+        self.invincibility_timer = 100
         if self.hp <= 0:
             self.on_death()
 
@@ -526,6 +577,8 @@ class Player(Entity):
         self.game_manager.reload_scene()
 
     def _debug_input(self) -> None:
+        if Keyboard.get_key_down(Keyboard.D):
+            self.damage()
 
         # Switch Character
         if Keyboard.get_key_down(Keyboard.NUM_0):

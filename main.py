@@ -13,11 +13,13 @@ def main() -> int:
     Renderer.init_default()
     _init_input()
 
-    game_globals.LDTK_WORLD_NAME = "mario_world"
+    # ToDo: CHANGE VALUE HERE FOR TESTING
+    # game_globals.LDTK_WORLD_NAME = "mario_world"
+    game_globals.LDTK_WORLD_NAME = "zelda_world"
+
     scene = MainScene()
     Engine.start(scene)
     return 0
-
 
 def _init_input() -> None:
     import sdl2

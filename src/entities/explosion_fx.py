@@ -1,11 +1,11 @@
 from potion import *
 
 
-class PlayerDeathFx(Entity):
+class ExplosionFx(Entity):
     def __init__(self) -> None:
         super().__init__()
         self.pausable = False
-        self.sprite = AnimatedSprite.from_atlas("atlas.png", "player_death_fx")
+        self.sprite = AnimatedSprite.from_atlas("atlas.png", "explosion_fx")
         self.sprite.pivot.set_center()
         self.sprite.get_animation("default").loop = False
         self.sprite.play("default")

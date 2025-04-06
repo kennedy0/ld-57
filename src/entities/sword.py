@@ -4,6 +4,7 @@ from potion import *
 class Sword(Entity):
     def __init__(self) -> None:
         super().__init__()
+        self.tags.add("Sword")
 
         self.sprite = AnimatedSprite.from_atlas("atlas.png", "sword")
         self.sprite.play("default")

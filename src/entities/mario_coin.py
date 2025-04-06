@@ -35,6 +35,12 @@ class MarioCoin(Entity):
             self.sprite.draw(camera, self.position())
 
     def on_collect(self) -> None:
+        try:
+            if player := self.find("Player"):
+                player.coins += 1
+        except:
+            pass
+
         fx = ScoreFx.instantiate()
         fx.set_position(self.position())
         self.destroy()

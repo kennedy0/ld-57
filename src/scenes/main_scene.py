@@ -7,9 +7,17 @@ from entities.camera_controller import CameraController
 from entities.mario_brick import MarioBrick
 from entities.mario_question import MarioQuestion
 from entities.moving_platform import MovingPlatform
+from entities.invisible_platform import InvisiblePlatform
 from entities.goomba import Goomba
 from entities.player import Player
 from entities.mario_coin import MarioCoin
+from entities.grass import Grass
+from entities.cracked_block import CrackedBlock
+from entities.bomb_shop import BombShop
+from entities.shop_fire import ShopFire
+from entities.coin_ui import CoinUi
+from entities.rupee_ui import RupeeUi
+from entities.hearts_ui import HeartsUi
 
 
 class MainScene(Scene):
@@ -33,6 +41,13 @@ class MainScene(Scene):
             Log.warning("No 'LDTK_WORLD_NAME set'")
             return
 
+        # UI - conditional based on world
+        if self.name == "mario_world":
+            self.entities.add(CoinUi())
+        elif self.name == "zelda_world":
+            self.entities.add(RupeeUi())
+            self.entities.add(HeartsUi())
+
         # Load LDTK
         for ldtk_entity in LDtk.ldtk_entities(self):
 
@@ -49,6 +64,16 @@ class MainScene(Scene):
                     e = MarioCoin()
                 case "Goomba":
                     e = Goomba()
+                case "Grass":
+                    e = Grass()
+                case "BombShop":
+                    e = BombShop()
+                case "ShopFire":
+                    e = ShopFire()
+                case "CrackedBlock":
+                    e = CrackedBlock()
+                case "InvisiblePlatform":
+                    e = InvisiblePlatform()
                 case "MovingPlatform":
                     e = MovingPlatform()
                     if cycle_time := custom_fields.get("CycleTime"):

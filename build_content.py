@@ -26,4 +26,4 @@ for root, dirs, files in ASSET_ROOT.walk():
 
 shutil.copy(ASSET_ROOT / "images" / "screen_wipe.png", CONTENT_ROOT / "images" / "screen_wipe.png")
 
-# generate_bitmap_font(ASSET_ROOT / "fonts" / "FONT-NAME.ttf", CONTENT_ROOT / "fonts", 16)
+generate_bitmap_font(ASSET_ROOT / "fonts" / "m5x7.ttf", CONTENT_ROOT / "fonts", 16)

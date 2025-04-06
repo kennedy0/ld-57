@@ -18,6 +18,8 @@ class ScreenWipe(Entity):
         self.from_y = 0
         self.to_y = 0
 
+        self.z = -9999
+
     def update(self) -> None:
         if self.is_transitioning:
             self.timer -= 1

@@ -14,19 +14,15 @@ class GrassFx(Entity):
 
         self.timer = 30
 
-        self.gravity = .05
+        self.gravity = .01
         self.velocity = Vector2.zero()
         self.dx = 0
         self.dy = 0
 
     def awake(self) -> None:
         self.timer = random.randint(20, 100)
-
-        rx = ((random.random() * 2) - 1)
-        ry = ((random.random() * 2) - 1)
-
-        self.dx = self.velocity.x + rx
-        self.dy = (self.velocity.y * 3) + ry
+        self.dx = self.velocity.x
+        self.dy = self.velocity.y
 
     def update(self) -> None:
         self.timer -= 1
