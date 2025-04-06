@@ -36,6 +36,8 @@ class Player(Entity):
         self.head_outline_sprite_normal = AnimatedSprite.from_atlas("atlas.png", "player_head_outline")
         self.head_outline_sprite_mario = AnimatedSprite.from_atlas("atlas.png", "player_head_outline_mario")
         self.head_outline_sprite_link = AnimatedSprite.from_atlas("atlas.png", "player_head_outline_link")
+        self.head_outline_sprite_darksouls = AnimatedSprite.from_atlas("atlas.png", "player_head_outline_darksouls")
+        self.head_outline_sprite_undertale = AnimatedSprite.from_atlas("atlas.png", "player_head_outline_undertale")
 
         # Item Sprite
         self.item_sprite: Sprite | None = None
@@ -115,6 +117,16 @@ class Player(Entity):
                 self.set_character("Mario")
             case "zelda_world":
                 self.set_character("Link")
+            case "dark_souls_world":
+                self.x = 32
+                self.set_character("DarkSouls")
+            case "undertale_world":
+                self.set_character("Undertale")
+            case "castle_world":
+                self.x = 32
+                self.set_character("Mario")
+            case "end_game_world":
+                pass
             case _:
                 pass
 
@@ -219,6 +231,16 @@ class Player(Entity):
             self.head_outline_sprite = self.head_outline_sprite_link
             for sprite in self.outline_sprites():
                 sprite.color = Color.from_hex("#1e8875")
+        elif character == "DarkSouls":
+            self.max_hp = 3
+            self.head_outline_sprite = self.head_outline_sprite_darksouls
+            for sprite in self.outline_sprites():
+                sprite.color = Color.from_hex("#9b9c82")
+        elif character == "Undertale":
+            self.max_hp = 10
+            self.head_outline_sprite = self.head_outline_sprite_undertale
+            for sprite in self.outline_sprites():
+                sprite.color = Color.from_hex("#cb4d68")
         elif character == "":
             self.head_outline_sprite = self.head_outline_sprite_normal
             self.item_sprite = None
@@ -575,3 +597,7 @@ class Player(Entity):
             self.set_character("Mario")
         elif Keyboard.get_key_down(Keyboard.NUM_2):
             self.set_character("Link")
+        elif Keyboard.get_key_down(Keyboard.NUM_3):
+            self.set_character("DarkSouls")
+        elif Keyboard.get_key_down(Keyboard.NUM_4):
+            self.set_character("Undertale")
