@@ -30,3 +30,7 @@ class Bonfire(Entity):
             if other.name == "Player":
                 self.sprite.play("Lit")
                 self.lit = True
+                try:
+                    other.hp = other.max_hp
+                except:
+                    pass

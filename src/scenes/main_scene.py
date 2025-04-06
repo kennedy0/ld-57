@@ -24,6 +24,8 @@ from entities.oktorok import Oktorok
 from entities.door import Door
 from entities.bonfire import Bonfire
 from entities.fog_wall import FogWall
+from entities.boss import Boss
+from entities.dark_souls_ui import DarkSoulsUi
 
 
 class MainScene(Scene):
@@ -64,7 +66,7 @@ class MainScene(Scene):
             self.entities.add(RupeeUi())
             self.entities.add(KeysUi())
         elif self.name == "dark_souls_world":
-            pass
+            self.entities.add(DarkSoulsUi())
         elif self.name == "undertale_world":
             pass
         elif self.name == "castle_world":
@@ -106,6 +108,8 @@ class MainScene(Scene):
                     e = FogWall()
                     if flip := custom_fields.get("Flip"):
                         e.sprite.flip_horizontal = True
+                case "Boss":
+                    e = Boss()
                 case "Oktorok":
                     e = Oktorok()
                     if facing_left := custom_fields.get("FacingLeft"):

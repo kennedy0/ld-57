@@ -11,7 +11,7 @@
 	"iid": "a8cc0ba0-1030-11f0-adbd-c544c00a2df5",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 37,
+	"nextUid": 38,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "LinearHorizontal",
@@ -928,6 +928,41 @@
 			"pivotX": 0,
 			"pivotY": 0,
 			"fieldDefs": []
+		},
+		{
+			"identifier": "Boss",
+			"uid": 37,
+			"tags": [],
+			"exportToToc": false,
+			"allowOutOfBounds": false,
+			"doc": null,
+			"width": 32,
+			"height": 80,
+			"resizableX": false,
+			"resizableY": false,
+			"minWidth": null,
+			"maxWidth": null,
+			"minHeight": null,
+			"maxHeight": null,
+			"keepAspectRatio": false,
+			"tileOpacity": 1,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#63C74D",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileRenderMode": "FitInside",
+			"tileRect": null,
+			"uiTileRect": null,
+			"nineSliceBorders": [],
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -1066,6 +1101,20 @@
 							"height": 8,
 							"defUid": 36,
 							"px": [56,144],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "Boss",
+							"__grid": [29,8],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#63C74D",
+							"iid": "7b82aac0-1030-11f0-aae3-afebfc3fb6c9",
+							"width": 32,
+							"height": 80,
+							"defUid": 37,
+							"px": [232,64],
 							"fieldInstances": []
 						}
 					]

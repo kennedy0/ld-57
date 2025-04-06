@@ -877,6 +877,19 @@
 				"color": 9149364,
 				"customFields" : {}
 			}
+		],
+		"Boss": [
+			{
+				"id": "Boss",
+				"iid": "6333faf0-1030-11f0-aae3-317050d3cf74",
+				"layer": "Entities",
+				"x": 232,
+				"y": 64,
+				"width": 32,
+				"height": 80,
+				"color": 4098376,
+				"customFields" : {}
+			}
 		]
 	}
 }

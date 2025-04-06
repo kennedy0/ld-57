@@ -133,6 +133,9 @@ class Player(Entity):
         # Init HP
         self.hp = self.max_hp
 
+        if self.scene.name == "dark_souls_world":
+            self.hp = 1
+
         # Init Sprites
         self.init_sprites()
 
