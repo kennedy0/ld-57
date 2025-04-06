@@ -8,6 +8,7 @@ class ScoreFx(Entity):
         self.sprite.pivot.set_bottom_left()
         self.sprite.get_animation("default").loop = False
         self.sprite.play("default")
+        self.z = -3
 
     def update(self) -> None:
         self.sprite.update()

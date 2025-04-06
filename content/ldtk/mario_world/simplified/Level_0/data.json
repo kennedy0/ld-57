@@ -486,7 +486,9 @@
 				"width": 8,
 				"height": 8,
 				"color": 14120515,
-				"customFields" : {}
+				"customFields": {
+					"Invisible": false
+				}
 			},
 			{
 				"id": "MarioQuestion",
@@ -497,7 +499,9 @@
 				"width": 8,
 				"height": 8,
 				"color": 14120515,
-				"customFields" : {}
+				"customFields": {
+					"Invisible": false
+				}
 			},
 			{
 				"id": "MarioQuestion",
@@ -508,7 +512,9 @@
 				"width": 8,
 				"height": 8,
 				"color": 14120515,
-				"customFields" : {}
+				"customFields": {
+					"Invisible": false
+				}
 			},
 			{
 				"id": "MarioQuestion",
@@ -519,7 +525,9 @@
 				"width": 8,
 				"height": 8,
 				"color": 14120515,
-				"customFields" : {}
+				"customFields": {
+					"Invisible": false
+				}
 			}
 		],
 		"Goomba": [

@@ -11,7 +11,7 @@
 	"iid": "a8cc0ba0-1030-11f0-adbd-c544c00a2df5",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 19,
+	"nextUid": 20,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "LinearHorizontal",
@@ -285,7 +285,45 @@
 			"limitBehavior": "MoveLastOne",
 			"pivotX": 0,
 			"pivotY": 0,
-			"fieldDefs": []
+			"fieldDefs": [
+				{
+					"identifier": "Invisible",
+					"doc": null,
+					"__type": "Bool",
+					"uid": 19,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				}
+			]
 		},
 		{
 			"identifier": "MovingPlatform",
@@ -1145,7 +1183,7 @@
 							"height": 8,
 							"defUid": 11,
 							"px": [80,72],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": false, "__tile": null, "defUid": 19, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "MarioQuestion",
@@ -1159,7 +1197,7 @@
 							"height": 8,
 							"defUid": 11,
 							"px": [88,72],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": false, "__tile": null, "defUid": 19, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "MarioQuestion",
@@ -1173,7 +1211,7 @@
 							"height": 8,
 							"defUid": 11,
 							"px": [104,72],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": false, "__tile": null, "defUid": 19, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "MarioQuestion",
@@ -1187,7 +1225,7 @@
 							"height": 8,
 							"defUid": 11,
 							"px": [96,72],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": false, "__tile": null, "defUid": 19, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "Goomba",
@@ -3233,6 +3271,74 @@
 								{ "__identifier": "XDistance", "__type": "Int", "__value": 0, "__tile": null, "defUid": 15, "realEditorValues": [] },
 								{ "__identifier": "YDistance", "__type": "Int", "__value": 24, "__tile": null, "defUid": 16, "realEditorValues": [{ "id": "V_Int", "params": [24] }] }
 							]
+						},
+						{
+							"__identifier": "MarioQuestion",
+							"__grid": [12,4],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"iid": "f053ac30-1030-11f0-9a96-e501c22d0f00",
+							"width": 8,
+							"height": 8,
+							"defUid": 11,
+							"px": [96,32],
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 19, "realEditorValues": [{
+								"id": "V_Bool",
+								"params": [ true ]
+							}] }]
+						},
+						{
+							"__identifier": "MarioQuestion",
+							"__grid": [11,4],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"iid": "f18c5340-1030-11f0-9a96-459119cf0c63",
+							"width": 8,
+							"height": 8,
+							"defUid": 11,
+							"px": [88,32],
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 19, "realEditorValues": [{
+								"id": "V_Bool",
+								"params": [ true ]
+							}] }]
+						},
+						{
+							"__identifier": "MarioQuestion",
+							"__grid": [9,8],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"iid": "22f84d80-1030-11f0-9a96-c3bdc5760694",
+							"width": 8,
+							"height": 8,
+							"defUid": 11,
+							"px": [72,64],
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 19, "realEditorValues": [{
+								"id": "V_Bool",
+								"params": [ true ]
+							}] }]
+						},
+						{
+							"__identifier": "MarioQuestion",
+							"__grid": [10,8],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"iid": "2440fa20-1030-11f0-9a96-d31ac1b864f8",
+							"width": 8,
+							"height": 8,
+							"defUid": 11,
+							"px": [80,64],
+							"fieldInstances": [{ "__identifier": "Invisible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 19, "realEditorValues": [{
+								"id": "V_Bool",
+								"params": [ true ]
+							}] }]
 						}
 					]
 				},

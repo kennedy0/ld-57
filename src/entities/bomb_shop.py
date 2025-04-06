@@ -31,7 +31,7 @@ class BombShop(Entity):
     def on_collision_begin(self, other: Entity) -> None:
         if other.name == "Player":
             try:
-                if other.rupees >= 50:
+                if not self.sold_out and other.rupees >= 50:
                     other.rupees -= 50
                     other.has_bomb = True
                     self.sold_out = True

@@ -18,7 +18,7 @@ class CoinUi(Entity):
         self.text.text = "x 00"
         self.coins = 0
 
-        self.sprite_position = Point(10, 10)
+        self.sprite_position = Point(10, 14)
         self.text_position = Point(20, 10)
 
     def start(self) -> None:

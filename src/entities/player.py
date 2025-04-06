@@ -376,8 +376,11 @@ class Player(Entity):
                 continue
             if entity.solid:
                 if entity.intersects(self.grounded_rect()):
-                    self.grounded = True
-                if entity.intersects(self.head_hit_rect()):
+                    if "Question" in entity.tags and entity.invisible:
+                        pass
+                    else:
+                        self.grounded = True
+                if self.dy < 0 and entity.intersects(self.head_hit_rect()):
                     self.head_hit = True
                     if hasattr(entity, "on_head_hit"):
                         entity.on_head_hit()

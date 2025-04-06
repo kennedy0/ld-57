@@ -355,6 +355,173 @@
 				"color": 3818598,
 				"customFields" : {}
 			}
+		],
+		"CrackedBlock": [
+			{
+				"id": "CrackedBlock",
+				"iid": "9ac24ec0-1030-11f0-9a96-1b1cf47f5f5a",
+				"layer": "Entities",
+				"x": 160,
+				"y": 136,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9bd7dd70-1030-11f0-9a96-edaf26a95e29",
+				"layer": "Entities",
+				"x": 168,
+				"y": 136,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9c6920f0-1030-11f0-9a96-cb2d71a458cb",
+				"layer": "Entities",
+				"x": 176,
+				"y": 136,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9ced9330-1030-11f0-9a96-e7d5b6735b52",
+				"layer": "Entities",
+				"x": 184,
+				"y": 136,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9d6ab270-1030-11f0-9a96-cdd0b50a81d6",
+				"layer": "Entities",
+				"x": 192,
+				"y": 136,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9dec1770-1030-11f0-9a96-2b968e89d443",
+				"layer": "Entities",
+				"x": 160,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9e7bfb60-1030-11f0-9a96-e581ec0bd94e",
+				"layer": "Entities",
+				"x": 168,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9ee607d0-1030-11f0-9a96-f9a535cc06d0",
+				"layer": "Entities",
+				"x": 176,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9f4cb8e0-1030-11f0-9a96-0108d380b2be",
+				"layer": "Entities",
+				"x": 184,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "9fbb0b10-1030-11f0-9a96-e51bec92e163",
+				"layer": "Entities",
+				"x": 192,
+				"y": 144,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "a068fe50-1030-11f0-9a96-05423bf290dc",
+				"layer": "Entities",
+				"x": 160,
+				"y": 152,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "a0dd6b00-1030-11f0-9a96-bb2fb06e5c46",
+				"layer": "Entities",
+				"x": 168,
+				"y": 152,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "a161dd40-1030-11f0-9a96-834e9f97941f",
+				"layer": "Entities",
+				"x": 176,
+				"y": 152,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "a1eedb00-1030-11f0-9a96-675537ab3f81",
+				"layer": "Entities",
+				"x": 184,
+				"y": 152,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			},
+			{
+				"id": "CrackedBlock",
+				"iid": "a29442c0-1030-11f0-9a96-1b0529db8c28",
+				"layer": "Entities",
+				"x": 192,
+				"y": 152,
+				"width": 8,
+				"height": 8,
+				"color": 9149364,
+				"customFields" : {}
+			}
 		]
 	}
 }

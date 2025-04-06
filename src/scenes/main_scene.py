@@ -74,6 +74,8 @@ class MainScene(Scene):
                     e = MarioBrick()
                 case "MarioQuestion":
                     e = MarioQuestion()
+                    if invisible := custom_fields.get("Invisible"):
+                        e.invisible = True
                 case "MarioCoin":
                     e = MarioCoin()
                 case "Goomba":

@@ -28,6 +28,60 @@
 					"YDistance": 24
 				}
 			}
+		],
+		"MarioQuestion": [
+			{
+				"id": "MarioQuestion",
+				"iid": "f053ac30-1030-11f0-9a96-e501c22d0f00",
+				"layer": "Entities",
+				"x": 96,
+				"y": 32,
+				"width": 8,
+				"height": 8,
+				"color": 14120515,
+				"customFields": {
+					"Invisible": true
+				}
+			},
+			{
+				"id": "MarioQuestion",
+				"iid": "f18c5340-1030-11f0-9a96-459119cf0c63",
+				"layer": "Entities",
+				"x": 88,
+				"y": 32,
+				"width": 8,
+				"height": 8,
+				"color": 14120515,
+				"customFields": {
+					"Invisible": true
+				}
+			},
+			{
+				"id": "MarioQuestion",
+				"iid": "22f84d80-1030-11f0-9a96-c3bdc5760694",
+				"layer": "Entities",
+				"x": 72,
+				"y": 64,
+				"width": 8,
+				"height": 8,
+				"color": 14120515,
+				"customFields": {
+					"Invisible": true
+				}
+			},
+			{
+				"id": "MarioQuestion",
+				"iid": "2440fa20-1030-11f0-9a96-d31ac1b864f8",
+				"layer": "Entities",
+				"x": 80,
+				"y": 64,
+				"width": 8,
+				"height": 8,
+				"color": 14120515,
+				"customFields": {
+					"Invisible": true
+				}
+			}
 		]
 	}
 }
