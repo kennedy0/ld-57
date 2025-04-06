@@ -38,6 +38,7 @@ class GameManager(Entity):
         self.screen_wipe.hide()
 
     def load_next_world(self) -> None:
+        game_globals.GO_TO_NEXT_WORLD = True
         self.is_transitioning_to_next_world = True
         self.scene.paused = True
         self.screen_wipe.hide()
@@ -50,10 +51,10 @@ class GameManager(Entity):
                 if self.is_reloading:
                     Engine.reload_scene()
                 if self.is_transitioning_to_next_world:
-                    if not game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
-                        self.set_next_world_name()
+                    self.set_next_world_name()
                     Engine.reload_scene()
 
     def set_next_world_name(self) -> None:
         if self.scene.name == "mario_world":
-            game_globals.LDTK_WORLD_NAME = "zelda_world"
+            game_globals.NEXT_WORLD_QUEUE.append("")
+            game_globals.NEXT_WORLD_QUEUE.append("zelda_world")

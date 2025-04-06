@@ -115,8 +115,7 @@ class Player(Entity):
             case "zelda_world":
                 self.set_character("Link")
             case _:
-                if not game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
-                    Log.warning(f"No Player initialization for scene '{self.scene.name}'")
+                pass
 
         # Init HP
         self.hp = self.max_hp
@@ -403,12 +402,8 @@ class Player(Entity):
 
         if self.y > 180:
             screen = self.x // 320
-            if not len(list(self.scene.levels)) or screen == len(list(self.scene.levels)) - 1:
-                if game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
-                    self.game_manager.load_next_world()
-                else:
-                    game_globals.NEXT_SCENE_IS_TRANSITION_SCENE = True
-                    self.game_manager.load_next_world()
+            if screen >= len(list(self.scene.levels)) - 1:
+                self.game_manager.load_next_world()
             else:
                 self.force_kill()
 
@@ -577,8 +572,13 @@ class Player(Entity):
         self.game_manager.reload_scene()
 
     def _debug_input(self) -> None:
+        # D - to die
         if Keyboard.get_key_down(Keyboard.D):
             self.damage()
+
+        # N - next world
+        if Keyboard.get_key_down(Keyboard.N):
+            self.game_manager.load_next_world()
 
         # Switch Character
         if Keyboard.get_key_down(Keyboard.NUM_0):

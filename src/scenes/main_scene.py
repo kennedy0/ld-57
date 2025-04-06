@@ -32,13 +32,22 @@ class MainScene(Scene):
 
 
         # Load this stuff last! EntityList.update() is called here.
-        if game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
-            game_globals.NEXT_SCENE_IS_TRANSITION_SCENE = False
-        elif world := game_globals.LDTK_WORLD_NAME:
-            self.name = world
-            LDtk.load_simplified(self, f"ldtk/{world}.ldtk")
+        if game_globals.GO_TO_NEXT_WORLD:
+            try:
+                next_world = game_globals.NEXT_WORLD_QUEUE.pop(0)
+            except IndexError:
+                Log.warning("game_globals.NEXT_WORLD is empty")
+                next_world = ""
         else:
-            Log.warning("No 'LDTK_WORLD_NAME set'")
+
+            next_world = game_globals.CURRENT_WORLD
+
+        if next_world:
+            self.name = next_world
+            game_globals.CURRENT_WORLD = self.name
+            game_globals.GO_TO_NEXT_WORLD = False
+            LDtk.load_simplified(self, f"ldtk/{next_world}.ldtk")
+        else:
             return
 
         # UI - conditional based on world

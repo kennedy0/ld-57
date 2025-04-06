@@ -14,8 +14,8 @@ def main() -> int:
     _init_input()
 
     # ToDo: CHANGE VALUE HERE FOR TESTING
-    # game_globals.LDTK_WORLD_NAME = "mario_world"
-    game_globals.LDTK_WORLD_NAME = "zelda_world"
+    game_globals.GO_TO_NEXT_WORLD = True
+    game_globals.NEXT_WORLD_QUEUE.append("mario_world")
 
     scene = MainScene()
     Engine.start(scene)
