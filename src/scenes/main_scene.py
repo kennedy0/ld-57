@@ -24,7 +24,9 @@ class MainScene(Scene):
 
 
         # Load this stuff last! EntityList.update() is called here.
-        if world := game_globals.LDTK_WORLD_NAME:
+        if game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
+            game_globals.NEXT_SCENE_IS_TRANSITION_SCENE = False
+        elif world := game_globals.LDTK_WORLD_NAME:
             self.name = world
             LDtk.load_simplified(self, f"ldtk/{world}.ldtk")
         else:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from potion import *
 
+import game_globals
 from entities.sword import Sword
 from entities.player_death_fx import PlayerDeathFx
 
@@ -105,7 +106,8 @@ class Player(Entity):
                 self.x = 32
                 self.set_character("Mario")
             case _:
-                Log.warning(f"No Player initialization for scene '{self.scene.name}'")
+                if not game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
+                    Log.warning(f"No Player initialization for scene '{self.scene.name}'")
 
         # Init HP
         self.hp = self.max_hp
@@ -220,6 +222,10 @@ class Player(Entity):
         self.init_sprites()
 
     def update(self) -> None:
+        # Escape to kill self, in case you get stuck
+        if Keyboard.get_key_down(Keyboard.ESCAPE):
+            self.force_kill()
+
         if __debug__:
             self._debug_input()
 
@@ -372,8 +378,12 @@ class Player(Entity):
 
         if self.y > 180:
             screen = self.x // 320
-            if screen == len(list(self.scene.levels)) - 1:
-                Log.warning("IMPLEMENT LEVEL TRANSITION")
+            if not len(list(self.scene.levels)) or screen == len(list(self.scene.levels)) - 1:
+                if game_globals.NEXT_SCENE_IS_TRANSITION_SCENE:
+                    self.game_manager.load_next_world()
+                else:
+                    game_globals.NEXT_SCENE_IS_TRANSITION_SCENE = True
+                    self.game_manager.load_next_world()
             else:
                 self.force_kill()
 
@@ -516,9 +526,6 @@ class Player(Entity):
         self.game_manager.reload_scene()
 
     def _debug_input(self) -> None:
-        # Die
-        if Keyboard.get_key_down(Keyboard.ESCAPE):
-            self.force_kill()
 
         # Switch Character
         if Keyboard.get_key_down(Keyboard.NUM_0):

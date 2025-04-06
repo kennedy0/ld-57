@@ -25,17 +25,27 @@ class MovingPlatform(Entity):
 
     def awake(self) -> None:
         self.anchor_point = self.position()
+        self.visible = False
+
+    def on_activate(self) -> None:
+        self.frame = 0
+        self.visible = False
+
+    def on_deactivate(self) -> None:
+        self.frame = 0
 
     def update(self) -> None:
-        t = Engine.frame() / self.cycle_time
-        x = int(math.cos(t) * self.x_distance)
-        y = int(math.cos(t) * self.y_distance)
+        t = self.frame / self.cycle_time
+        x = int(math.sin(t) * self.x_distance)
+        y = int(math.sin(t) * self.y_distance)
         self.set_position(self.anchor_point + Point(x, y))
 
         if self.carrying:
             self.carrying.y = self.y - self.carrying.height
 
         self.frame += 1
+        self.visible = True
 
     def draw(self, camera: Camera) -> None:
-        self.sprite.draw(camera, self.position())
+        if self.visible:
+            self.sprite.draw(camera, self.position())
