@@ -58,3 +58,15 @@ class GameManager(Entity):
         if self.scene.name == "mario_world":
             game_globals.NEXT_WORLD_QUEUE.append("")
             game_globals.NEXT_WORLD_QUEUE.append("zelda_world")
+        elif self.scene.name == "zelda_world":
+            game_globals.NEXT_WORLD_QUEUE.append("")
+            game_globals.NEXT_WORLD_QUEUE.append("dark_souls_world")
+        elif self.scene.name == "dark_souls_world":
+            game_globals.NEXT_WORLD_QUEUE.append("")
+            game_globals.NEXT_WORLD_QUEUE.append("undertale_world")
+        elif self.scene.name == "undertale_world":
+            game_globals.NEXT_WORLD_QUEUE.append("")
+            game_globals.NEXT_WORLD_QUEUE.append("castle_world")
+        elif self.scene.name == "castle_world":
+            game_globals.NEXT_WORLD_QUEUE.append("")
+            game_globals.NEXT_WORLD_QUEUE.append("end_game_world")

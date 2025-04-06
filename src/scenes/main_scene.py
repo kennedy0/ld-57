@@ -61,6 +61,12 @@ class MainScene(Scene):
             self.entities.add(HeartsUi())
             self.entities.add(RupeeUi())
             self.entities.add(KeysUi())
+        elif self.name == "dark_souls_world":
+            pass
+        elif self.name == "undertale_world":
+            pass
+        elif self.name == "castle_world":
+            pass
 
         # Load LDTK
         for ldtk_entity in LDtk.ldtk_entities(self):

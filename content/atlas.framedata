@@ -1,8 +1,8 @@
 {
   "_item_template.0001": {
     "name": "_item_template.0001",
-    "x": 189,
-    "y": 89,
+    "x": 1277,
+    "y": 794,
     "frame_width": 1,
     "frame_height": 1,
     "offset_x": 15,
@@ -17,10 +17,486 @@
       "frame_number": 1
     }
   },
+  "asylum_demon.0001": {
+    "name": "asylum_demon.0001",
+    "x": 1199,
+    "y": 720,
+    "frame_width": 48,
+    "frame_height": 75,
+    "offset_x": 32,
+    "offset_y": 21,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 800,
+      "frame_number": 1
+    }
+  },
+  "asylum_demon.0002": {
+    "name": "asylum_demon.0002",
+    "x": 960,
+    "y": 807,
+    "frame_width": 46,
+    "frame_height": 74,
+    "offset_x": 32,
+    "offset_y": 22,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 500,
+      "frame_number": 2
+    }
+  },
+  "asylum_demon.0003": {
+    "name": "asylum_demon.0003",
+    "x": 1052,
+    "y": 807,
+    "frame_width": 45,
+    "frame_height": 73,
+    "offset_x": 32,
+    "offset_y": 23,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 500,
+      "frame_number": 3
+    }
+  },
+  "asylum_demon.0004": {
+    "name": "asylum_demon.0004",
+    "x": 1097,
+    "y": 807,
+    "frame_width": 45,
+    "frame_height": 73,
+    "offset_x": 32,
+    "offset_y": 23,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 200,
+      "frame_number": 4
+    }
+  },
+  "asylum_demon.0005": {
+    "name": "asylum_demon.0005",
+    "x": 1142,
+    "y": 807,
+    "frame_width": 45,
+    "frame_height": 73,
+    "offset_x": 32,
+    "offset_y": 23,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 500,
+      "frame_number": 5
+    }
+  },
+  "asylum_demon.0006": {
+    "name": "asylum_demon.0006",
+    "x": 1006,
+    "y": 807,
+    "frame_width": 46,
+    "frame_height": 74,
+    "offset_x": 32,
+    "offset_y": 22,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 500,
+      "frame_number": 6
+    }
+  },
+  "asylum_demon.0007": {
+    "name": "asylum_demon.0007",
+    "x": 102,
+    "y": 900,
+    "frame_width": 48,
+    "frame_height": 68,
+    "offset_x": 27,
+    "offset_y": 28,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "BeforeJump"
+      ],
+      "duration": 800,
+      "frame_number": 7
+    }
+  },
+  "asylum_demon.0008": {
+    "name": "asylum_demon.0008",
+    "x": 960,
+    "y": 720,
+    "frame_width": 55,
+    "frame_height": 87,
+    "offset_x": 34,
+    "offset_y": 3,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 8
+    }
+  },
+  "asylum_demon.0009": {
+    "name": "asylum_demon.0009",
+    "x": 1015,
+    "y": 720,
+    "frame_width": 50,
+    "frame_height": 85,
+    "offset_x": 34,
+    "offset_y": 2,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 9
+    }
+  },
+  "asylum_demon.0010": {
+    "name": "asylum_demon.0010",
+    "x": 1065,
+    "y": 720,
+    "frame_width": 48,
+    "frame_height": 84,
+    "offset_x": 34,
+    "offset_y": 0,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "asylum_demon.0011": {
+    "name": "asylum_demon.0011",
+    "x": 1113,
+    "y": 720,
+    "frame_width": 47,
+    "frame_height": 84,
+    "offset_x": 33,
+    "offset_y": 2,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Fly"
+      ],
+      "duration": 300,
+      "frame_number": 11
+    }
+  },
+  "asylum_demon.0012": {
+    "name": "asylum_demon.0012",
+    "x": 1160,
+    "y": 720,
+    "frame_width": 39,
+    "frame_height": 84,
+    "offset_x": 33,
+    "offset_y": 0,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Fly"
+      ],
+      "duration": 300,
+      "frame_number": 12
+    }
+  },
+  "asylum_demon.0013": {
+    "name": "asylum_demon.0013",
+    "x": 48,
+    "y": 900,
+    "frame_width": 54,
+    "frame_height": 71,
+    "offset_x": 29,
+    "offset_y": 2,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 300,
+      "frame_number": 13
+    }
+  },
+  "asylum_demon.0014": {
+    "name": "asylum_demon.0014",
+    "x": 1187,
+    "y": 807,
+    "frame_width": 48,
+    "frame_height": 72,
+    "offset_x": 27,
+    "offset_y": 4,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "asylum_demon.0015": {
+    "name": "asylum_demon.0015",
+    "x": 0,
+    "y": 900,
+    "frame_width": 48,
+    "frame_height": 72,
+    "offset_x": 27,
+    "offset_y": 8,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 15
+    }
+  },
+  "asylum_demon.0016": {
+    "name": "asylum_demon.0016",
+    "x": 278,
+    "y": 900,
+    "frame_width": 48,
+    "frame_height": 63,
+    "offset_x": 27,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 16
+    }
+  },
+  "asylum_demon.0017": {
+    "name": "asylum_demon.0017",
+    "x": 326,
+    "y": 900,
+    "frame_width": 48,
+    "frame_height": 63,
+    "offset_x": 27,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 17
+    }
+  },
+  "asylum_demon.0018": {
+    "name": "asylum_demon.0018",
+    "x": 374,
+    "y": 900,
+    "frame_width": 60,
+    "frame_height": 63,
+    "offset_x": 20,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 18
+    }
+  },
+  "asylum_demon.0019": {
+    "name": "asylum_demon.0019",
+    "x": 434,
+    "y": 900,
+    "frame_width": 76,
+    "frame_height": 63,
+    "offset_x": 9,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 19
+    }
+  },
+  "asylum_demon.0020": {
+    "name": "asylum_demon.0020",
+    "x": 510,
+    "y": 900,
+    "frame_width": 84,
+    "frame_height": 63,
+    "offset_x": 4,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 20
+    }
+  },
+  "asylum_demon.0021": {
+    "name": "asylum_demon.0021",
+    "x": 594,
+    "y": 900,
+    "frame_width": 88,
+    "frame_height": 63,
+    "offset_x": 2,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 50,
+      "frame_number": 21
+    }
+  },
+  "asylum_demon.0022": {
+    "name": "asylum_demon.0022",
+    "x": 682,
+    "y": 900,
+    "frame_width": 48,
+    "frame_height": 63,
+    "offset_x": 27,
+    "offset_y": 33,
+    "sprite_width": 96,
+    "sprite_height": 96,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "asylum_demon",
+      "tags": [
+        "Slam"
+      ],
+      "duration": 500,
+      "frame_number": 22
+    }
+  },
+  "axe.0001": {
+    "name": "axe.0001",
+    "x": 1212,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 24,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 24,
+    "sprite_height": 24,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "axe",
+      "tags": [],
+      "duration": 200,
+      "frame_number": 1
+    }
+  },
+  "axe.0002": {
+    "name": "axe.0002",
+    "x": 1064,
+    "y": 932,
+    "frame_width": 16,
+    "frame_height": 16,
+    "offset_x": 8,
+    "offset_y": 0,
+    "sprite_width": 24,
+    "sprite_height": 24,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "axe",
+      "tags": [],
+      "duration": 200,
+      "frame_number": 2
+    }
+  },
   "bomb.0001": {
     "name": "bomb.0001",
-    "x": 178,
-    "y": 16,
+    "x": 1268,
+    "y": 916,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -39,8 +515,8 @@
   },
   "bomb.0002": {
     "name": "bomb.0002",
-    "x": 0,
-    "y": 136,
+    "x": 1235,
+    "y": 871,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -59,8 +535,8 @@
   },
   "bomb.0003": {
     "name": "bomb.0003",
-    "x": 8,
-    "y": 136,
+    "x": 1243,
+    "y": 871,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -79,8 +555,8 @@
   },
   "bomb.0004": {
     "name": "bomb.0004",
-    "x": 16,
-    "y": 136,
+    "x": 1251,
+    "y": 871,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -99,8 +575,8 @@
   },
   "bomb.0005": {
     "name": "bomb.0005",
-    "x": 24,
-    "y": 136,
+    "x": 1259,
+    "y": 871,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -119,8 +595,8 @@
   },
   "bomb.0006": {
     "name": "bomb.0006",
-    "x": 32,
-    "y": 136,
+    "x": 1267,
+    "y": 871,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -139,8 +615,8 @@
   },
   "bomb_shop.0001": {
     "name": "bomb_shop.0001",
-    "x": 63,
-    "y": 55,
+    "x": 981,
+    "y": 932,
     "frame_width": 24,
     "frame_height": 20,
     "offset_x": 0,
@@ -157,8 +633,8 @@
   },
   "bomb_shop_sold_out.0001": {
     "name": "bomb_shop_sold_out.0001",
-    "x": 87,
-    "y": 55,
+    "x": 1005,
+    "y": 932,
     "frame_width": 23,
     "frame_height": 19,
     "offset_x": 1,
@@ -173,10 +649,290 @@
       "frame_number": 1
     }
   },
+  "bonfire.0001": {
+    "name": "bonfire.0001",
+    "x": 899,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "bonfire.0002": {
+    "name": "bonfire.0002",
+    "x": 923,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 2
+    }
+  },
+  "bonfire.0003": {
+    "name": "bonfire.0003",
+    "x": 947,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 3
+    }
+  },
+  "bonfire.0004": {
+    "name": "bonfire.0004",
+    "x": 971,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 4
+    }
+  },
+  "bonfire.0005": {
+    "name": "bonfire.0005",
+    "x": 995,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 5
+    }
+  },
+  "bonfire.0006": {
+    "name": "bonfire.0006",
+    "x": 1019,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 6
+    }
+  },
+  "bonfire.0007": {
+    "name": "bonfire.0007",
+    "x": 847,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 30,
+    "offset_x": 0,
+    "offset_y": 2,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 7
+    }
+  },
+  "bonfire.0008": {
+    "name": "bonfire.0008",
+    "x": 730,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 32,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Lit"
+      ],
+      "duration": 100,
+      "frame_number": 8
+    }
+  },
+  "bonfire.0009": {
+    "name": "bonfire.0009",
+    "x": 1043,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 9
+    }
+  },
+  "bonfire.0010": {
+    "name": "bonfire.0010",
+    "x": 1067,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 10
+    }
+  },
+  "bonfire.0011": {
+    "name": "bonfire.0011",
+    "x": 1091,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 11
+    }
+  },
+  "bonfire.0012": {
+    "name": "bonfire.0012",
+    "x": 1115,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 12
+    }
+  },
+  "bonfire.0013": {
+    "name": "bonfire.0013",
+    "x": 1139,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 13
+    }
+  },
+  "bonfire.0014": {
+    "name": "bonfire.0014",
+    "x": 1163,
+    "y": 900,
+    "frame_width": 24,
+    "frame_height": 26,
+    "offset_x": 0,
+    "offset_y": 6,
+    "sprite_width": 24,
+    "sprite_height": 32,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "bonfire",
+      "tags": [
+        "Burning"
+      ],
+      "duration": 300,
+      "frame_number": 14
+    }
+  },
   "chest_closed.0001": {
     "name": "chest_closed.0001",
-    "x": 10,
-    "y": 92,
+    "x": 1024,
+    "y": 881,
     "frame_width": 16,
     "frame_height": 13,
     "offset_x": 0,
@@ -193,8 +949,8 @@
   },
   "chest_open.0001": {
     "name": "chest_open.0001",
-    "x": 146,
-    "y": 55,
+    "x": 1080,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 16,
     "offset_x": 0,
@@ -211,8 +967,8 @@
   },
   "coin.0001": {
     "name": "coin.0001",
-    "x": 186,
-    "y": 16,
+    "x": 1273,
+    "y": 795,
     "frame_width": 6,
     "frame_height": 8,
     "offset_x": 1,
@@ -229,8 +985,8 @@
   },
   "coin.0002": {
     "name": "coin.0002",
-    "x": 40,
-    "y": 136,
+    "x": 563,
+    "y": 972,
     "frame_width": 6,
     "frame_height": 8,
     "offset_x": 1,
@@ -247,8 +1003,8 @@
   },
   "cracked_block.0001": {
     "name": "cracked_block.0001",
-    "x": 46,
-    "y": 136,
+    "x": 569,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -265,8 +1021,8 @@
   },
   "door.0001": {
     "name": "door.0001",
-    "x": 146,
-    "y": 0,
+    "x": 1236,
+    "y": 900,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -285,8 +1041,8 @@
   },
   "door.0002": {
     "name": "door.0002",
-    "x": 162,
-    "y": 0,
+    "x": 1252,
+    "y": 900,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -305,8 +1061,8 @@
   },
   "door.0003": {
     "name": "door.0003",
-    "x": 0,
-    "y": 31,
+    "x": 730,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -325,8 +1081,8 @@
   },
   "door.0004": {
     "name": "door.0004",
-    "x": 16,
-    "y": 31,
+    "x": 746,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -345,8 +1101,8 @@
   },
   "door.0005": {
     "name": "door.0005",
-    "x": 32,
-    "y": 31,
+    "x": 762,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -365,8 +1121,8 @@
   },
   "door.0006": {
     "name": "door.0006",
-    "x": 48,
-    "y": 31,
+    "x": 778,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -385,8 +1141,8 @@
   },
   "door.0007": {
     "name": "door.0007",
-    "x": 64,
-    "y": 31,
+    "x": 794,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -405,8 +1161,8 @@
   },
   "door.0008": {
     "name": "door.0008",
-    "x": 80,
-    "y": 31,
+    "x": 810,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -425,8 +1181,8 @@
   },
   "door.0009": {
     "name": "door.0009",
-    "x": 96,
-    "y": 31,
+    "x": 826,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -445,8 +1201,8 @@
   },
   "door.0010": {
     "name": "door.0010",
-    "x": 112,
-    "y": 31,
+    "x": 842,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -465,8 +1221,8 @@
   },
   "door.0011": {
     "name": "door.0011",
-    "x": 128,
-    "y": 31,
+    "x": 858,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 24,
     "offset_x": 0,
@@ -485,8 +1241,8 @@
   },
   "door.0012": {
     "name": "door.0012",
-    "x": 144,
-    "y": 53,
+    "x": 1176,
+    "y": 956,
     "frame_width": 16,
     "frame_height": 2,
     "offset_x": 0,
@@ -505,8 +1261,8 @@
   },
   "door.0013": {
     "name": "door.0013",
-    "x": 174,
-    "y": 157,
+    "x": 1259,
+    "y": 794,
     "frame_width": 16,
     "frame_height": 1,
     "offset_x": 0,
@@ -545,8 +1301,8 @@
   },
   "explosion_fx.0001": {
     "name": "explosion_fx.0001",
-    "x": 144,
-    "y": 31,
+    "x": 874,
+    "y": 932,
     "frame_width": 22,
     "frame_height": 22,
     "offset_x": 4,
@@ -563,8 +1319,8 @@
   },
   "explosion_fx.0002": {
     "name": "explosion_fx.0002",
-    "x": 166,
-    "y": 31,
+    "x": 896,
+    "y": 932,
     "frame_width": 22,
     "frame_height": 22,
     "offset_x": 4,
@@ -581,8 +1337,8 @@
   },
   "explosion_fx.0003": {
     "name": "explosion_fx.0003",
-    "x": 121,
-    "y": 0,
+    "x": 1187,
+    "y": 900,
     "frame_width": 25,
     "frame_height": 25,
     "offset_x": 2,
@@ -599,8 +1355,8 @@
   },
   "explosion_fx.0004": {
     "name": "explosion_fx.0004",
-    "x": 93,
-    "y": 0,
+    "x": 871,
+    "y": 900,
     "frame_width": 28,
     "frame_height": 28,
     "offset_x": 1,
@@ -617,8 +1373,8 @@
   },
   "explosion_fx.0005": {
     "name": "explosion_fx.0005",
-    "x": 0,
-    "y": 0,
+    "x": 754,
+    "y": 900,
     "frame_width": 31,
     "frame_height": 31,
     "offset_x": 0,
@@ -635,8 +1391,8 @@
   },
   "explosion_fx.0006": {
     "name": "explosion_fx.0006",
-    "x": 31,
-    "y": 0,
+    "x": 785,
+    "y": 900,
     "frame_width": 31,
     "frame_height": 31,
     "offset_x": 0,
@@ -653,8 +1409,8 @@
   },
   "explosion_fx.0007": {
     "name": "explosion_fx.0007",
-    "x": 62,
-    "y": 0,
+    "x": 816,
+    "y": 900,
     "frame_width": 31,
     "frame_height": 31,
     "offset_x": 0,
@@ -671,8 +1427,8 @@
   },
   "fireball.0001": {
     "name": "fireball.0001",
-    "x": 186,
-    "y": 10,
+    "x": 856,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -687,10 +1443,226 @@
       "frame_number": 1
     }
   },
+  "fog_wall.0001": {
+    "name": "fog_wall.0001",
+    "x": 1247,
+    "y": 720,
+    "frame_width": 4,
+    "frame_height": 64,
+    "offset_x": 4,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 1
+    }
+  },
+  "fog_wall.0002": {
+    "name": "fog_wall.0002",
+    "x": 1251,
+    "y": 720,
+    "frame_width": 4,
+    "frame_height": 64,
+    "offset_x": 4,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 2
+    }
+  },
+  "fog_wall.0003": {
+    "name": "fog_wall.0003",
+    "x": 1255,
+    "y": 720,
+    "frame_width": 6,
+    "frame_height": 64,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 3
+    }
+  },
+  "fog_wall.0004": {
+    "name": "fog_wall.0004",
+    "x": 1261,
+    "y": 720,
+    "frame_width": 6,
+    "frame_height": 64,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 4
+    }
+  },
+  "fog_wall.0005": {
+    "name": "fog_wall.0005",
+    "x": 1267,
+    "y": 720,
+    "frame_width": 8,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 5
+    }
+  },
+  "fog_wall.0006": {
+    "name": "fog_wall.0006",
+    "x": 1235,
+    "y": 807,
+    "frame_width": 8,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 6
+    }
+  },
+  "fog_wall.0007": {
+    "name": "fog_wall.0007",
+    "x": 1243,
+    "y": 807,
+    "frame_width": 8,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 7
+    }
+  },
+  "fog_wall.0008": {
+    "name": "fog_wall.0008",
+    "x": 1251,
+    "y": 807,
+    "frame_width": 8,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 8
+    }
+  },
+  "fog_wall.0009": {
+    "name": "fog_wall.0009",
+    "x": 1259,
+    "y": 807,
+    "frame_width": 6,
+    "frame_height": 64,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 9
+    }
+  },
+  "fog_wall.0010": {
+    "name": "fog_wall.0010",
+    "x": 1265,
+    "y": 807,
+    "frame_width": 6,
+    "frame_height": 64,
+    "offset_x": 2,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 10
+    }
+  },
+  "fog_wall.0011": {
+    "name": "fog_wall.0011",
+    "x": 1275,
+    "y": 720,
+    "frame_width": 4,
+    "frame_height": 64,
+    "offset_x": 4,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 11
+    }
+  },
+  "fog_wall.0012": {
+    "name": "fog_wall.0012",
+    "x": 1271,
+    "y": 807,
+    "frame_width": 4,
+    "frame_height": 64,
+    "offset_x": 4,
+    "offset_y": 0,
+    "sprite_width": 8,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "fog_wall",
+      "tags": [],
+      "duration": 500,
+      "frame_number": 12
+    }
+  },
   "goomba.0001": {
     "name": "goomba.0001",
-    "x": 126,
-    "y": 126,
+    "x": 1199,
+    "y": 795,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 0,
@@ -709,8 +1681,8 @@
   },
   "goomba.0002": {
     "name": "goomba.0002",
-    "x": 136,
-    "y": 126,
+    "x": 1209,
+    "y": 795,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 0,
@@ -729,8 +1701,8 @@
   },
   "goomba.0003": {
     "name": "goomba.0003",
-    "x": 146,
-    "y": 126,
+    "x": 1219,
+    "y": 795,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 0,
@@ -749,8 +1721,8 @@
   },
   "grass_a.0001": {
     "name": "grass_a.0001",
-    "x": 174,
-    "y": 152,
+    "x": 1273,
+    "y": 942,
     "frame_width": 6,
     "frame_height": 5,
     "offset_x": 0,
@@ -767,8 +1739,8 @@
   },
   "grass_b.0001": {
     "name": "grass_b.0001",
-    "x": 187,
-    "y": 144,
+    "x": 1275,
+    "y": 871,
     "frame_width": 5,
     "frame_height": 6,
     "offset_x": 0,
@@ -785,8 +1757,8 @@
   },
   "grass_c.0001": {
     "name": "grass_c.0001",
-    "x": 6,
-    "y": 152,
+    "x": 1275,
+    "y": 807,
     "frame_width": 5,
     "frame_height": 6,
     "offset_x": 1,
@@ -803,8 +1775,8 @@
   },
   "grass_cut.0001": {
     "name": "grass_cut.0001",
-    "x": 190,
-    "y": 157,
+    "x": 1275,
+    "y": 794,
     "frame_width": 2,
     "frame_height": 1,
     "offset_x": 2,
@@ -821,8 +1793,8 @@
   },
   "grass_fx.0001": {
     "name": "grass_fx.0001",
-    "x": 189,
-    "y": 86,
+    "x": 1173,
+    "y": 956,
     "frame_width": 3,
     "frame_height": 3,
     "offset_x": 0,
@@ -839,8 +1811,8 @@
   },
   "heart_empty.0001": {
     "name": "heart_empty.0001",
-    "x": 54,
-    "y": 136,
+    "x": 577,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -857,8 +1829,8 @@
   },
   "heart_full.0001": {
     "name": "heart_full.0001",
-    "x": 62,
-    "y": 136,
+    "x": 585,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -875,8 +1847,8 @@
   },
   "key.0001": {
     "name": "key.0001",
-    "x": 188,
-    "y": 126,
+    "x": 1276,
+    "y": 916,
     "frame_width": 4,
     "frame_height": 8,
     "offset_x": 2,
@@ -893,8 +1865,8 @@
   },
   "key_fx.0001": {
     "name": "key_fx.0001",
-    "x": 178,
-    "y": 0,
+    "x": 1268,
+    "y": 900,
     "frame_width": 8,
     "frame_height": 16,
     "offset_x": 4,
@@ -911,8 +1883,8 @@
   },
   "key_fx.0002": {
     "name": "key_fx.0002",
-    "x": 162,
-    "y": 55,
+    "x": 1096,
+    "y": 932,
     "frame_width": 8,
     "frame_height": 16,
     "offset_x": 4,
@@ -929,8 +1901,8 @@
   },
   "key_fx.0003": {
     "name": "key_fx.0003",
-    "x": 170,
-    "y": 55,
+    "x": 1104,
+    "y": 932,
     "frame_width": 8,
     "frame_height": 16,
     "offset_x": 4,
@@ -947,8 +1919,8 @@
   },
   "mario_brick.0001": {
     "name": "mario_brick.0001",
-    "x": 70,
-    "y": 136,
+    "x": 593,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -965,8 +1937,8 @@
   },
   "mario_brick_fx.0001": {
     "name": "mario_brick_fx.0001",
-    "x": 185,
-    "y": 86,
+    "x": 1276,
+    "y": 900,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 0,
@@ -983,8 +1955,8 @@
   },
   "mario_platform.0001": {
     "name": "mario_platform.0001",
-    "x": 78,
-    "y": 136,
+    "x": 601,
+    "y": 972,
     "frame_width": 32,
     "frame_height": 8,
     "offset_x": 0,
@@ -1001,8 +1973,8 @@
   },
   "mario_question_off.0001": {
     "name": "mario_question_off.0001",
-    "x": 110,
-    "y": 136,
+    "x": 633,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -1019,8 +1991,8 @@
   },
   "mario_question_on.0001": {
     "name": "mario_question_on.0001",
-    "x": 118,
-    "y": 136,
+    "x": 641,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -1037,8 +2009,8 @@
   },
   "mario_question_on.0002": {
     "name": "mario_question_on.0002",
-    "x": 126,
-    "y": 136,
+    "x": 649,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -1055,8 +2027,8 @@
   },
   "oktorok.0001": {
     "name": "oktorok.0001",
-    "x": 67,
-    "y": 144,
+    "x": 730,
+    "y": 956,
     "frame_width": 7,
     "frame_height": 7,
     "offset_x": 1,
@@ -1075,8 +2047,8 @@
   },
   "oktorok.0002": {
     "name": "oktorok.0002",
-    "x": 74,
-    "y": 144,
+    "x": 737,
+    "y": 956,
     "frame_width": 7,
     "frame_height": 7,
     "offset_x": 1,
@@ -1095,8 +2067,8 @@
   },
   "oktorok.0003": {
     "name": "oktorok.0003",
-    "x": 134,
-    "y": 136,
+    "x": 657,
+    "y": 972,
     "frame_width": 7,
     "frame_height": 8,
     "offset_x": 1,
@@ -1115,8 +2087,8 @@
   },
   "oktorok.0004": {
     "name": "oktorok.0004",
-    "x": 141,
-    "y": 136,
+    "x": 664,
+    "y": 972,
     "frame_width": 8,
     "frame_height": 8,
     "offset_x": 0,
@@ -1135,8 +2107,8 @@
   },
   "pipe_bottom.0001": {
     "name": "pipe_bottom.0001",
-    "x": 178,
-    "y": 55,
+    "x": 1112,
+    "y": 932,
     "frame_width": 14,
     "frame_height": 16,
     "offset_x": 1,
@@ -1153,8 +2125,8 @@
   },
   "pipe_top.0001": {
     "name": "pipe_top.0001",
-    "x": 0,
-    "y": 76,
+    "x": 1126,
+    "y": 932,
     "frame_width": 16,
     "frame_height": 16,
     "offset_x": 0,
@@ -1171,8 +2143,8 @@
   },
   "player.0001": {
     "name": "player.0001",
-    "x": 36,
-    "y": 76,
+    "x": 1178,
+    "y": 932,
     "frame_width": 10,
     "frame_height": 15,
     "offset_x": 3,
@@ -1191,8 +2163,8 @@
   },
   "player.0002": {
     "name": "player.0002",
-    "x": 46,
-    "y": 76,
+    "x": 1188,
+    "y": 932,
     "frame_width": 13,
     "frame_height": 15,
     "offset_x": 1,
@@ -1211,8 +2183,8 @@
   },
   "player.0003": {
     "name": "player.0003",
-    "x": 161,
-    "y": 76,
+    "x": 990,
+    "y": 881,
     "frame_width": 12,
     "frame_height": 14,
     "offset_x": 1,
@@ -1231,8 +2203,8 @@
   },
   "player.0004": {
     "name": "player.0004",
-    "x": 16,
-    "y": 76,
+    "x": 1142,
+    "y": 932,
     "frame_width": 10,
     "frame_height": 16,
     "offset_x": 3,
@@ -1251,8 +2223,8 @@
   },
   "player.0005": {
     "name": "player.0005",
-    "x": 59,
-    "y": 76,
+    "x": 1201,
+    "y": 932,
     "frame_width": 11,
     "frame_height": 15,
     "offset_x": 2,
@@ -1271,8 +2243,8 @@
   },
   "player.0006": {
     "name": "player.0006",
-    "x": 70,
-    "y": 76,
+    "x": 1212,
+    "y": 932,
     "frame_width": 13,
     "frame_height": 15,
     "offset_x": 1,
@@ -1291,8 +2263,8 @@
   },
   "player.0007": {
     "name": "player.0007",
-    "x": 173,
-    "y": 76,
+    "x": 1002,
+    "y": 881,
     "frame_width": 12,
     "frame_height": 14,
     "offset_x": 1,
@@ -1311,8 +2283,8 @@
   },
   "player.0008": {
     "name": "player.0008",
-    "x": 26,
-    "y": 76,
+    "x": 1152,
+    "y": 932,
     "frame_width": 10,
     "frame_height": 16,
     "offset_x": 3,
@@ -1331,8 +2303,8 @@
   },
   "player.0009": {
     "name": "player.0009",
-    "x": 83,
-    "y": 76,
+    "x": 1225,
+    "y": 932,
     "frame_width": 11,
     "frame_height": 15,
     "offset_x": 2,
@@ -1351,8 +2323,8 @@
   },
   "player.0010": {
     "name": "player.0010",
-    "x": 94,
-    "y": 76,
+    "x": 1236,
+    "y": 932,
     "frame_width": 12,
     "frame_height": 15,
     "offset_x": 2,
@@ -1371,8 +2343,8 @@
   },
   "player.0011": {
     "name": "player.0011",
-    "x": 106,
-    "y": 76,
+    "x": 1248,
+    "y": 932,
     "frame_width": 13,
     "frame_height": 15,
     "offset_x": 2,
@@ -1391,8 +2363,8 @@
   },
   "player.0012": {
     "name": "player.0012",
-    "x": 119,
-    "y": 76,
+    "x": 1261,
+    "y": 932,
     "frame_width": 12,
     "frame_height": 15,
     "offset_x": 3,
@@ -1411,8 +2383,8 @@
   },
   "player.0013": {
     "name": "player.0013",
-    "x": 38,
-    "y": 92,
+    "x": 1247,
+    "y": 784,
     "frame_width": 12,
     "frame_height": 11,
     "offset_x": 2,
@@ -1431,8 +2403,8 @@
   },
   "player.0014": {
     "name": "player.0014",
-    "x": 26,
-    "y": 92,
+    "x": 1040,
+    "y": 881,
     "frame_width": 12,
     "frame_height": 13,
     "offset_x": 2,
@@ -1451,8 +2423,8 @@
   },
   "player.0015": {
     "name": "player.0015",
-    "x": 0,
-    "y": 92,
+    "x": 1014,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 14,
     "offset_x": 3,
@@ -1471,8 +2443,8 @@
   },
   "player_body.0001": {
     "name": "player_body.0001",
-    "x": 180,
-    "y": 152,
+    "x": 1025,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -1491,8 +2463,8 @@
   },
   "player_body.0002": {
     "name": "player_body.0002",
-    "x": 149,
-    "y": 136,
+    "x": 672,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -1511,8 +2483,8 @@
   },
   "player_body.0003": {
     "name": "player_body.0003",
-    "x": 81,
-    "y": 144,
+    "x": 744,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -1531,8 +2503,8 @@
   },
   "player_body.0004": {
     "name": "player_body.0004",
-    "x": 92,
-    "y": 144,
+    "x": 755,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -1551,8 +2523,8 @@
   },
   "player_body.0005": {
     "name": "player_body.0005",
-    "x": 11,
-    "y": 152,
+    "x": 862,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -1571,8 +2543,8 @@
   },
   "player_body.0006": {
     "name": "player_body.0006",
-    "x": 161,
-    "y": 136,
+    "x": 684,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -1591,8 +2563,8 @@
   },
   "player_body.0007": {
     "name": "player_body.0007",
-    "x": 101,
-    "y": 144,
+    "x": 764,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -1611,8 +2583,8 @@
   },
   "player_body.0008": {
     "name": "player_body.0008",
-    "x": 111,
-    "y": 144,
+    "x": 774,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -1631,8 +2603,8 @@
   },
   "player_body.0009": {
     "name": "player_body.0009",
-    "x": 21,
-    "y": 152,
+    "x": 872,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -1651,8 +2623,8 @@
   },
   "player_body.0010": {
     "name": "player_body.0010",
-    "x": 32,
-    "y": 152,
+    "x": 883,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -1671,8 +2643,8 @@
   },
   "player_body.0011": {
     "name": "player_body.0011",
-    "x": 120,
-    "y": 144,
+    "x": 783,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -1691,8 +2663,8 @@
   },
   "player_body.0012": {
     "name": "player_body.0012",
-    "x": 173,
-    "y": 136,
+    "x": 696,
+    "y": 972,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -1711,8 +2683,8 @@
   },
   "player_body.0013": {
     "name": "player_body.0013",
-    "x": 42,
-    "y": 152,
+    "x": 893,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -1731,8 +2703,8 @@
   },
   "player_body.0014": {
     "name": "player_body.0014",
-    "x": 0,
-    "y": 159,
+    "x": 1034,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 5,
     "offset_x": 4,
@@ -1751,8 +2723,8 @@
   },
   "player_body.0015": {
     "name": "player_body.0015",
-    "x": 10,
-    "y": 159,
+    "x": 1044,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -1771,8 +2743,8 @@
   },
   "player_body_outline.0001": {
     "name": "player_body_outline.0001",
-    "x": 19,
-    "y": 159,
+    "x": 1053,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -1791,8 +2763,8 @@
   },
   "player_body_outline.0002": {
     "name": "player_body_outline.0002",
-    "x": 0,
-    "y": 144,
+    "x": 707,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 1,
@@ -1811,8 +2783,8 @@
   },
   "player_body_outline.0003": {
     "name": "player_body_outline.0003",
-    "x": 131,
-    "y": 144,
+    "x": 794,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 1,
@@ -1831,8 +2803,8 @@
   },
   "player_body_outline.0004": {
     "name": "player_body_outline.0004",
-    "x": 142,
-    "y": 144,
+    "x": 805,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -1851,8 +2823,8 @@
   },
   "player_body_outline.0005": {
     "name": "player_body_outline.0005",
-    "x": 52,
-    "y": 152,
+    "x": 903,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 3,
@@ -1871,8 +2843,8 @@
   },
   "player_body_outline.0006": {
     "name": "player_body_outline.0006",
-    "x": 12,
-    "y": 144,
+    "x": 719,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 2,
@@ -1891,8 +2863,8 @@
   },
   "player_body_outline.0007": {
     "name": "player_body_outline.0007",
-    "x": 151,
-    "y": 144,
+    "x": 814,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 7,
     "offset_x": 3,
@@ -1911,8 +2883,8 @@
   },
   "player_body_outline.0008": {
     "name": "player_body_outline.0008",
-    "x": 161,
-    "y": 144,
+    "x": 824,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 7,
     "offset_x": 3,
@@ -1931,8 +2903,8 @@
   },
   "player_body_outline.0009": {
     "name": "player_body_outline.0009",
-    "x": 62,
-    "y": 152,
+    "x": 913,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 6,
     "offset_x": 2,
@@ -1951,8 +2923,8 @@
   },
   "player_body_outline.0010": {
     "name": "player_body_outline.0010",
-    "x": 73,
-    "y": 152,
+    "x": 924,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -1971,8 +2943,8 @@
   },
   "player_body_outline.0011": {
     "name": "player_body_outline.0011",
-    "x": 170,
-    "y": 144,
+    "x": 833,
+    "y": 956,
     "frame_width": 11,
     "frame_height": 7,
     "offset_x": 4,
@@ -1991,8 +2963,8 @@
   },
   "player_body_outline.0012": {
     "name": "player_body_outline.0012",
-    "x": 24,
-    "y": 144,
+    "x": 731,
+    "y": 972,
     "frame_width": 11,
     "frame_height": 8,
     "offset_x": 4,
@@ -2011,8 +2983,8 @@
   },
   "player_body_outline.0013": {
     "name": "player_body_outline.0013",
-    "x": 83,
-    "y": 152,
+    "x": 934,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 6,
     "offset_x": 4,
@@ -2031,8 +3003,8 @@
   },
   "player_body_outline.0014": {
     "name": "player_body_outline.0014",
-    "x": 28,
-    "y": 159,
+    "x": 1062,
+    "y": 956,
     "frame_width": 10,
     "frame_height": 5,
     "offset_x": 4,
@@ -2051,8 +3023,8 @@
   },
   "player_body_outline.0015": {
     "name": "player_body_outline.0015",
-    "x": 38,
-    "y": 159,
+    "x": 1072,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 5,
     "offset_x": 4,
@@ -2071,8 +3043,8 @@
   },
   "player_death_fx.0001": {
     "name": "player_death_fx.0001",
-    "x": 131,
-    "y": 76,
+    "x": 960,
+    "y": 881,
     "frame_width": 15,
     "frame_height": 15,
     "offset_x": 3,
@@ -2089,8 +3061,8 @@
   },
   "player_death_fx.0002": {
     "name": "player_death_fx.0002",
-    "x": 146,
-    "y": 76,
+    "x": 975,
+    "y": 881,
     "frame_width": 15,
     "frame_height": 15,
     "offset_x": 3,
@@ -2107,8 +3079,8 @@
   },
   "player_death_fx.0003": {
     "name": "player_death_fx.0003",
-    "x": 129,
-    "y": 55,
+    "x": 1047,
+    "y": 932,
     "frame_width": 17,
     "frame_height": 17,
     "offset_x": 2,
@@ -2125,8 +3097,8 @@
   },
   "player_death_fx.0004": {
     "name": "player_death_fx.0004",
-    "x": 110,
-    "y": 55,
+    "x": 1028,
+    "y": 932,
     "frame_width": 19,
     "frame_height": 19,
     "offset_x": 1,
@@ -2143,8 +3115,8 @@
   },
   "player_death_fx.0005": {
     "name": "player_death_fx.0005",
-    "x": 0,
-    "y": 55,
+    "x": 918,
+    "y": 932,
     "frame_width": 21,
     "frame_height": 21,
     "offset_x": 0,
@@ -2161,8 +3133,8 @@
   },
   "player_death_fx.0006": {
     "name": "player_death_fx.0006",
-    "x": 21,
-    "y": 55,
+    "x": 939,
+    "y": 932,
     "frame_width": 21,
     "frame_height": 21,
     "offset_x": 0,
@@ -2179,8 +3151,8 @@
   },
   "player_death_fx.0007": {
     "name": "player_death_fx.0007",
-    "x": 42,
-    "y": 55,
+    "x": 960,
+    "y": 932,
     "frame_width": 21,
     "frame_height": 21,
     "offset_x": 0,
@@ -2197,8 +3169,8 @@
   },
   "player_hands.0001": {
     "name": "player_hands.0001",
-    "x": 188,
-    "y": 31,
+    "x": 1276,
+    "y": 904,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2217,8 +3189,8 @@
   },
   "player_hands.0002": {
     "name": "player_hands.0002",
-    "x": 188,
-    "y": 35,
+    "x": 1276,
+    "y": 908,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 10,
@@ -2237,8 +3209,8 @@
   },
   "player_hands.0003": {
     "name": "player_hands.0003",
-    "x": 188,
-    "y": 39,
+    "x": 1276,
+    "y": 912,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 9,
@@ -2257,8 +3229,8 @@
   },
   "player_hands.0004": {
     "name": "player_hands.0004",
-    "x": 188,
-    "y": 43,
+    "x": 1275,
+    "y": 813,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2277,8 +3249,8 @@
   },
   "player_hands.0005": {
     "name": "player_hands.0005",
-    "x": 188,
-    "y": 47,
+    "x": 1275,
+    "y": 817,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2297,8 +3269,8 @@
   },
   "player_hands.0006": {
     "name": "player_hands.0006",
-    "x": 47,
-    "y": 159,
+    "x": 1275,
+    "y": 821,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -2317,8 +3289,8 @@
   },
   "player_hands.0007": {
     "name": "player_hands.0007",
-    "x": 51,
-    "y": 159,
+    "x": 1275,
+    "y": 825,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -2337,8 +3309,8 @@
   },
   "player_hands.0008": {
     "name": "player_hands.0008",
-    "x": 55,
-    "y": 159,
+    "x": 1275,
+    "y": 829,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2357,8 +3329,8 @@
   },
   "player_hands.0009": {
     "name": "player_hands.0009",
-    "x": 59,
-    "y": 159,
+    "x": 1275,
+    "y": 833,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 7,
@@ -2377,8 +3349,8 @@
   },
   "player_hands.0010": {
     "name": "player_hands.0010",
-    "x": 63,
-    "y": 159,
+    "x": 1275,
+    "y": 837,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2397,8 +3369,8 @@
   },
   "player_hands.0011": {
     "name": "player_hands.0011",
-    "x": 67,
-    "y": 159,
+    "x": 1275,
+    "y": 841,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2417,8 +3389,8 @@
   },
   "player_hands.0012": {
     "name": "player_hands.0012",
-    "x": 71,
-    "y": 159,
+    "x": 1275,
+    "y": 845,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2437,8 +3409,8 @@
   },
   "player_hands.0013": {
     "name": "player_hands.0013",
-    "x": 75,
-    "y": 159,
+    "x": 1275,
+    "y": 849,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2457,8 +3429,8 @@
   },
   "player_hands.0014": {
     "name": "player_hands.0014",
-    "x": 79,
-    "y": 159,
+    "x": 1275,
+    "y": 853,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2477,8 +3449,8 @@
   },
   "player_hands.0015": {
     "name": "player_hands.0015",
-    "x": 83,
-    "y": 159,
+    "x": 1275,
+    "y": 857,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2497,8 +3469,8 @@
   },
   "player_hands_outline.0001": {
     "name": "player_hands_outline.0001",
-    "x": 87,
-    "y": 159,
+    "x": 1275,
+    "y": 861,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2517,8 +3489,8 @@
   },
   "player_hands_outline.0002": {
     "name": "player_hands_outline.0002",
-    "x": 91,
-    "y": 159,
+    "x": 1275,
+    "y": 865,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 10,
@@ -2537,8 +3509,8 @@
   },
   "player_hands_outline.0003": {
     "name": "player_hands_outline.0003",
-    "x": 95,
-    "y": 159,
+    "x": 1081,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 9,
@@ -2557,8 +3529,8 @@
   },
   "player_hands_outline.0004": {
     "name": "player_hands_outline.0004",
-    "x": 99,
-    "y": 159,
+    "x": 1085,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2577,8 +3549,8 @@
   },
   "player_hands_outline.0005": {
     "name": "player_hands_outline.0005",
-    "x": 103,
-    "y": 159,
+    "x": 1089,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2597,8 +3569,8 @@
   },
   "player_hands_outline.0006": {
     "name": "player_hands_outline.0006",
-    "x": 107,
-    "y": 159,
+    "x": 1093,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -2617,8 +3589,8 @@
   },
   "player_hands_outline.0007": {
     "name": "player_hands_outline.0007",
-    "x": 111,
-    "y": 159,
+    "x": 1097,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 1,
@@ -2637,8 +3609,8 @@
   },
   "player_hands_outline.0008": {
     "name": "player_hands_outline.0008",
-    "x": 115,
-    "y": 159,
+    "x": 1101,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2657,8 +3629,8 @@
   },
   "player_hands_outline.0009": {
     "name": "player_hands_outline.0009",
-    "x": 119,
-    "y": 159,
+    "x": 1105,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 7,
@@ -2677,8 +3649,8 @@
   },
   "player_hands_outline.0010": {
     "name": "player_hands_outline.0010",
-    "x": 123,
-    "y": 159,
+    "x": 1109,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2697,8 +3669,8 @@
   },
   "player_hands_outline.0011": {
     "name": "player_hands_outline.0011",
-    "x": 127,
-    "y": 159,
+    "x": 1113,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2717,8 +3689,8 @@
   },
   "player_hands_outline.0012": {
     "name": "player_hands_outline.0012",
-    "x": 131,
-    "y": 159,
+    "x": 1117,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2737,8 +3709,8 @@
   },
   "player_hands_outline.0013": {
     "name": "player_hands_outline.0013",
-    "x": 135,
-    "y": 159,
+    "x": 1121,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2757,8 +3729,8 @@
   },
   "player_hands_outline.0014": {
     "name": "player_hands_outline.0014",
-    "x": 139,
-    "y": 159,
+    "x": 1125,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 2,
@@ -2777,8 +3749,8 @@
   },
   "player_hands_outline.0015": {
     "name": "player_hands_outline.0015",
-    "x": 143,
-    "y": 159,
+    "x": 1129,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 3,
@@ -2797,8 +3769,8 @@
   },
   "player_head.0001": {
     "name": "player_head.0001",
-    "x": 50,
-    "y": 92,
+    "x": 1259,
+    "y": 784,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2817,8 +3789,8 @@
   },
   "player_head.0002": {
     "name": "player_head.0002",
-    "x": 60,
-    "y": 92,
+    "x": 1269,
+    "y": 784,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2837,8 +3809,8 @@
   },
   "player_head.0003": {
     "name": "player_head.0003",
-    "x": 70,
-    "y": 92,
+    "x": 1052,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2857,8 +3829,8 @@
   },
   "player_head.0004": {
     "name": "player_head.0004",
-    "x": 80,
-    "y": 92,
+    "x": 1062,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2877,8 +3849,8 @@
   },
   "player_head.0005": {
     "name": "player_head.0005",
-    "x": 90,
-    "y": 92,
+    "x": 1072,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2897,8 +3869,8 @@
   },
   "player_head.0006": {
     "name": "player_head.0006",
-    "x": 100,
-    "y": 92,
+    "x": 1082,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2917,8 +3889,8 @@
   },
   "player_head.0007": {
     "name": "player_head.0007",
-    "x": 110,
-    "y": 92,
+    "x": 1092,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2937,8 +3909,8 @@
   },
   "player_head.0008": {
     "name": "player_head.0008",
-    "x": 120,
-    "y": 92,
+    "x": 1102,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2957,8 +3929,8 @@
   },
   "player_head.0009": {
     "name": "player_head.0009",
-    "x": 130,
-    "y": 92,
+    "x": 1112,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -2977,8 +3949,8 @@
   },
   "player_head.0010": {
     "name": "player_head.0010",
-    "x": 140,
-    "y": 92,
+    "x": 1122,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -2997,8 +3969,8 @@
   },
   "player_head.0011": {
     "name": "player_head.0011",
-    "x": 150,
-    "y": 92,
+    "x": 1132,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -3017,8 +3989,8 @@
   },
   "player_head.0012": {
     "name": "player_head.0012",
-    "x": 160,
-    "y": 92,
+    "x": 1142,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -3037,8 +4009,8 @@
   },
   "player_head.0013": {
     "name": "player_head.0013",
-    "x": 35,
-    "y": 144,
+    "x": 742,
+    "y": 972,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -3057,8 +4029,8 @@
   },
   "player_head.0014": {
     "name": "player_head.0014",
-    "x": 156,
-    "y": 126,
+    "x": 1229,
+    "y": 795,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 3,
@@ -3077,8 +4049,8 @@
   },
   "player_head.0015": {
     "name": "player_head.0015",
-    "x": 170,
-    "y": 92,
+    "x": 1152,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3097,8 +4069,8 @@
   },
   "player_head_outline.0001": {
     "name": "player_head_outline.0001",
-    "x": 180,
-    "y": 92,
+    "x": 1162,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3117,8 +4089,8 @@
   },
   "player_head_outline.0002": {
     "name": "player_head_outline.0002",
-    "x": 0,
-    "y": 106,
+    "x": 1172,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3137,8 +4109,8 @@
   },
   "player_head_outline.0003": {
     "name": "player_head_outline.0003",
-    "x": 10,
-    "y": 106,
+    "x": 1182,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3157,8 +4129,8 @@
   },
   "player_head_outline.0004": {
     "name": "player_head_outline.0004",
-    "x": 20,
-    "y": 106,
+    "x": 1192,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3177,8 +4149,8 @@
   },
   "player_head_outline.0005": {
     "name": "player_head_outline.0005",
-    "x": 30,
-    "y": 106,
+    "x": 1202,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3197,8 +4169,8 @@
   },
   "player_head_outline.0006": {
     "name": "player_head_outline.0006",
-    "x": 40,
-    "y": 106,
+    "x": 1212,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3217,8 +4189,8 @@
   },
   "player_head_outline.0007": {
     "name": "player_head_outline.0007",
-    "x": 50,
-    "y": 106,
+    "x": 1222,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3237,8 +4209,8 @@
   },
   "player_head_outline.0008": {
     "name": "player_head_outline.0008",
-    "x": 60,
-    "y": 106,
+    "x": 1232,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3257,8 +4229,8 @@
   },
   "player_head_outline.0009": {
     "name": "player_head_outline.0009",
-    "x": 70,
-    "y": 106,
+    "x": 1242,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3277,8 +4249,8 @@
   },
   "player_head_outline.0010": {
     "name": "player_head_outline.0010",
-    "x": 80,
-    "y": 106,
+    "x": 1252,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -3297,8 +4269,8 @@
   },
   "player_head_outline.0011": {
     "name": "player_head_outline.0011",
-    "x": 90,
-    "y": 106,
+    "x": 1262,
+    "y": 881,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -3317,8 +4289,8 @@
   },
   "player_head_outline.0012": {
     "name": "player_head_outline.0012",
-    "x": 100,
-    "y": 106,
+    "x": 0,
+    "y": 972,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 4,
@@ -3337,8 +4309,8 @@
   },
   "player_head_outline.0013": {
     "name": "player_head_outline.0013",
-    "x": 45,
-    "y": 144,
+    "x": 752,
+    "y": 972,
     "frame_width": 10,
     "frame_height": 8,
     "offset_x": 3,
@@ -3357,8 +4329,8 @@
   },
   "player_head_outline.0014": {
     "name": "player_head_outline.0014",
-    "x": 166,
-    "y": 126,
+    "x": 1239,
+    "y": 795,
     "frame_width": 10,
     "frame_height": 9,
     "offset_x": 3,
@@ -3377,8 +4349,8 @@
   },
   "player_head_outline.0015": {
     "name": "player_head_outline.0015",
-    "x": 110,
-    "y": 106,
+    "x": 10,
+    "y": 972,
     "frame_width": 10,
     "frame_height": 10,
     "offset_x": 3,
@@ -3395,10 +4367,310 @@
       "frame_number": 15
     }
   },
+  "player_head_outline_darksouls.0001": {
+    "name": "player_head_outline_darksouls.0001",
+    "x": 20,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Idle"
+      ],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "player_head_outline_darksouls.0002": {
+    "name": "player_head_outline_darksouls.0002",
+    "x": 32,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 2
+    }
+  },
+  "player_head_outline_darksouls.0003": {
+    "name": "player_head_outline_darksouls.0003",
+    "x": 44,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 3
+    }
+  },
+  "player_head_outline_darksouls.0004": {
+    "name": "player_head_outline_darksouls.0004",
+    "x": 56,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 4
+    }
+  },
+  "player_head_outline_darksouls.0005": {
+    "name": "player_head_outline_darksouls.0005",
+    "x": 68,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 5
+    }
+  },
+  "player_head_outline_darksouls.0006": {
+    "name": "player_head_outline_darksouls.0006",
+    "x": 80,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 6
+    }
+  },
+  "player_head_outline_darksouls.0007": {
+    "name": "player_head_outline_darksouls.0007",
+    "x": 92,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 7
+    }
+  },
+  "player_head_outline_darksouls.0008": {
+    "name": "player_head_outline_darksouls.0008",
+    "x": 104,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 8
+    }
+  },
+  "player_head_outline_darksouls.0009": {
+    "name": "player_head_outline_darksouls.0009",
+    "x": 116,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Run"
+      ],
+      "duration": 75,
+      "frame_number": 9
+    }
+  },
+  "player_head_outline_darksouls.0010": {
+    "name": "player_head_outline_darksouls.0010",
+    "x": 128,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Jump"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "player_head_outline_darksouls.0011": {
+    "name": "player_head_outline_darksouls.0011",
+    "x": 140,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Hang"
+      ],
+      "duration": 100,
+      "frame_number": 11
+    }
+  },
+  "player_head_outline_darksouls.0012": {
+    "name": "player_head_outline_darksouls.0012",
+    "x": 152,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 4,
+    "offset_y": 1,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Fall"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "player_head_outline_darksouls.0013": {
+    "name": "player_head_outline_darksouls.0013",
+    "x": 762,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 8,
+    "offset_x": 3,
+    "offset_y": 5,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "player_head_outline_darksouls.0014": {
+    "name": "player_head_outline_darksouls.0014",
+    "x": 1249,
+    "y": 795,
+    "frame_width": 12,
+    "frame_height": 9,
+    "offset_x": 3,
+    "offset_y": 3,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "player_head_outline_darksouls.0015": {
+    "name": "player_head_outline_darksouls.0015",
+    "x": 164,
+    "y": 972,
+    "frame_width": 12,
+    "frame_height": 10,
+    "offset_x": 3,
+    "offset_y": 2,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "player_head_outline_darksouls",
+      "tags": [
+        "Land"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
   "player_head_outline_link.0001": {
     "name": "player_head_outline_link.0001",
-    "x": 120,
-    "y": 106,
+    "x": 176,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3417,8 +4689,8 @@
   },
   "player_head_outline_link.0002": {
     "name": "player_head_outline_link.0002",
-    "x": 135,
-    "y": 106,
+    "x": 191,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3437,8 +4709,8 @@
   },
   "player_head_outline_link.0003": {
     "name": "player_head_outline_link.0003",
-    "x": 150,
-    "y": 106,
+    "x": 206,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3457,8 +4729,8 @@
   },
   "player_head_outline_link.0004": {
     "name": "player_head_outline_link.0004",
-    "x": 165,
-    "y": 106,
+    "x": 221,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3477,8 +4749,8 @@
   },
   "player_head_outline_link.0005": {
     "name": "player_head_outline_link.0005",
-    "x": 0,
-    "y": 116,
+    "x": 236,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3497,8 +4769,8 @@
   },
   "player_head_outline_link.0006": {
     "name": "player_head_outline_link.0006",
-    "x": 15,
-    "y": 116,
+    "x": 251,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3517,8 +4789,8 @@
   },
   "player_head_outline_link.0007": {
     "name": "player_head_outline_link.0007",
-    "x": 30,
-    "y": 116,
+    "x": 266,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3537,8 +4809,8 @@
   },
   "player_head_outline_link.0008": {
     "name": "player_head_outline_link.0008",
-    "x": 45,
-    "y": 116,
+    "x": 281,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3557,8 +4829,8 @@
   },
   "player_head_outline_link.0009": {
     "name": "player_head_outline_link.0009",
-    "x": 60,
-    "y": 116,
+    "x": 296,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3577,8 +4849,8 @@
   },
   "player_head_outline_link.0010": {
     "name": "player_head_outline_link.0010",
-    "x": 75,
-    "y": 116,
+    "x": 311,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 1,
@@ -3597,8 +4869,8 @@
   },
   "player_head_outline_link.0011": {
     "name": "player_head_outline_link.0011",
-    "x": 90,
-    "y": 116,
+    "x": 326,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 1,
@@ -3617,8 +4889,8 @@
   },
   "player_head_outline_link.0012": {
     "name": "player_head_outline_link.0012",
-    "x": 105,
-    "y": 116,
+    "x": 341,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 1,
@@ -3637,8 +4909,8 @@
   },
   "player_head_outline_link.0013": {
     "name": "player_head_outline_link.0013",
-    "x": 120,
-    "y": 116,
+    "x": 356,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3657,8 +4929,8 @@
   },
   "player_head_outline_link.0014": {
     "name": "player_head_outline_link.0014",
-    "x": 135,
-    "y": 116,
+    "x": 371,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3677,8 +4949,8 @@
   },
   "player_head_outline_link.0015": {
     "name": "player_head_outline_link.0015",
-    "x": 150,
-    "y": 116,
+    "x": 386,
+    "y": 972,
     "frame_width": 15,
     "frame_height": 10,
     "offset_x": 0,
@@ -3697,8 +4969,8 @@
   },
   "player_head_outline_mario.0001": {
     "name": "player_head_outline_mario.0001",
-    "x": 180,
-    "y": 106,
+    "x": 401,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3717,8 +4989,8 @@
   },
   "player_head_outline_mario.0002": {
     "name": "player_head_outline_mario.0002",
-    "x": 165,
-    "y": 116,
+    "x": 413,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3737,8 +5009,8 @@
   },
   "player_head_outline_mario.0003": {
     "name": "player_head_outline_mario.0003",
-    "x": 177,
-    "y": 116,
+    "x": 425,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3757,8 +5029,8 @@
   },
   "player_head_outline_mario.0004": {
     "name": "player_head_outline_mario.0004",
-    "x": 0,
-    "y": 126,
+    "x": 437,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3777,8 +5049,8 @@
   },
   "player_head_outline_mario.0005": {
     "name": "player_head_outline_mario.0005",
-    "x": 12,
-    "y": 126,
+    "x": 449,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3797,8 +5069,8 @@
   },
   "player_head_outline_mario.0006": {
     "name": "player_head_outline_mario.0006",
-    "x": 24,
-    "y": 126,
+    "x": 461,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3817,8 +5089,8 @@
   },
   "player_head_outline_mario.0007": {
     "name": "player_head_outline_mario.0007",
-    "x": 36,
-    "y": 126,
+    "x": 473,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3837,8 +5109,8 @@
   },
   "player_head_outline_mario.0008": {
     "name": "player_head_outline_mario.0008",
-    "x": 48,
-    "y": 126,
+    "x": 485,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3857,8 +5129,8 @@
   },
   "player_head_outline_mario.0009": {
     "name": "player_head_outline_mario.0009",
-    "x": 60,
-    "y": 126,
+    "x": 497,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3877,8 +5149,8 @@
   },
   "player_head_outline_mario.0010": {
     "name": "player_head_outline_mario.0010",
-    "x": 72,
-    "y": 126,
+    "x": 509,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 4,
@@ -3897,8 +5169,8 @@
   },
   "player_head_outline_mario.0011": {
     "name": "player_head_outline_mario.0011",
-    "x": 84,
-    "y": 126,
+    "x": 521,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 4,
@@ -3917,8 +5189,8 @@
   },
   "player_head_outline_mario.0012": {
     "name": "player_head_outline_mario.0012",
-    "x": 96,
-    "y": 126,
+    "x": 533,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 4,
@@ -3937,8 +5209,8 @@
   },
   "player_head_outline_mario.0013": {
     "name": "player_head_outline_mario.0013",
-    "x": 55,
-    "y": 144,
+    "x": 774,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 8,
     "offset_x": 3,
@@ -3957,8 +5229,8 @@
   },
   "player_head_outline_mario.0014": {
     "name": "player_head_outline_mario.0014",
-    "x": 176,
-    "y": 126,
+    "x": 1261,
+    "y": 795,
     "frame_width": 12,
     "frame_height": 9,
     "offset_x": 3,
@@ -3977,8 +5249,8 @@
   },
   "player_head_outline_mario.0015": {
     "name": "player_head_outline_mario.0015",
-    "x": 108,
-    "y": 126,
+    "x": 545,
+    "y": 972,
     "frame_width": 12,
     "frame_height": 10,
     "offset_x": 3,
@@ -3997,8 +5269,8 @@
   },
   "rock_projectile_fx.0001": {
     "name": "rock_projectile_fx.0001",
-    "x": 147,
-    "y": 159,
+    "x": 1133,
+    "y": 956,
     "frame_width": 4,
     "frame_height": 4,
     "offset_x": 0,
@@ -4015,8 +5287,8 @@
   },
   "rock_projectile_green.0001": {
     "name": "rock_projectile_green.0001",
-    "x": 93,
-    "y": 152,
+    "x": 944,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4033,8 +5305,8 @@
   },
   "rock_projectile_green.0002": {
     "name": "rock_projectile_green.0002",
-    "x": 99,
-    "y": 152,
+    "x": 950,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4051,8 +5323,8 @@
   },
   "rock_projectile_green.0003": {
     "name": "rock_projectile_green.0003",
-    "x": 105,
-    "y": 152,
+    "x": 956,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4069,8 +5341,8 @@
   },
   "rock_projectile_red.0001": {
     "name": "rock_projectile_red.0001",
-    "x": 111,
-    "y": 152,
+    "x": 962,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4087,8 +5359,8 @@
   },
   "rock_projectile_red.0002": {
     "name": "rock_projectile_red.0002",
-    "x": 117,
-    "y": 152,
+    "x": 968,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4105,8 +5377,8 @@
   },
   "rock_projectile_red.0003": {
     "name": "rock_projectile_red.0003",
-    "x": 123,
-    "y": 152,
+    "x": 974,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 6,
     "offset_x": 1,
@@ -4123,8 +5395,8 @@
   },
   "rupee.0001": {
     "name": "rupee.0001",
-    "x": 186,
-    "y": 0,
+    "x": 1272,
+    "y": 881,
     "frame_width": 6,
     "frame_height": 10,
     "offset_x": 0,
@@ -4141,8 +5413,8 @@
   },
   "rupee20.0001": {
     "name": "rupee20.0001",
-    "x": 185,
-    "y": 76,
+    "x": 1273,
+    "y": 932,
     "frame_width": 6,
     "frame_height": 10,
     "offset_x": 0,
@@ -4159,8 +5431,8 @@
   },
   "rupee5.0001": {
     "name": "rupee5.0001",
-    "x": 120,
-    "y": 126,
+    "x": 557,
+    "y": 972,
     "frame_width": 6,
     "frame_height": 10,
     "offset_x": 0,
@@ -4177,8 +5449,8 @@
   },
   "score_fx.0001": {
     "name": "score_fx.0001",
-    "x": 151,
-    "y": 159,
+    "x": 1137,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 4,
     "offset_x": 0,
@@ -4195,8 +5467,8 @@
   },
   "score_fx.0002": {
     "name": "score_fx.0002",
-    "x": 160,
-    "y": 159,
+    "x": 1146,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 4,
     "offset_x": 0,
@@ -4213,8 +5485,8 @@
   },
   "score_fx.0003": {
     "name": "score_fx.0003",
-    "x": 169,
-    "y": 159,
+    "x": 1155,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 4,
     "offset_x": 0,
@@ -4231,8 +5503,8 @@
   },
   "score_fx.0004": {
     "name": "score_fx.0004",
-    "x": 178,
-    "y": 159,
+    "x": 1164,
+    "y": 956,
     "frame_width": 9,
     "frame_height": 4,
     "offset_x": 0,
@@ -4249,8 +5521,8 @@
   },
   "shop_fire.0001": {
     "name": "shop_fire.0001",
-    "x": 181,
-    "y": 144,
+    "x": 844,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 7,
     "offset_x": 1,
@@ -4267,8 +5539,8 @@
   },
   "shop_fire.0002": {
     "name": "shop_fire.0002",
-    "x": 184,
-    "y": 136,
+    "x": 786,
+    "y": 972,
     "frame_width": 6,
     "frame_height": 8,
     "offset_x": 1,
@@ -4285,8 +5557,8 @@
   },
   "shop_fire.0003": {
     "name": "shop_fire.0003",
-    "x": 0,
-    "y": 152,
+    "x": 850,
+    "y": 956,
     "frame_width": 6,
     "frame_height": 7,
     "offset_x": 1,
@@ -4303,8 +5575,8 @@
   },
   "sword.0001": {
     "name": "sword.0001",
-    "x": 129,
-    "y": 152,
+    "x": 980,
+    "y": 956,
     "frame_width": 14,
     "frame_height": 6,
     "offset_x": 0,
@@ -4321,8 +5593,8 @@
   },
   "sword.0002": {
     "name": "sword.0002",
-    "x": 143,
-    "y": 152,
+    "x": 994,
+    "y": 956,
     "frame_width": 15,
     "frame_height": 6,
     "offset_x": 0,
@@ -4339,8 +5611,8 @@
   },
   "sword.0003": {
     "name": "sword.0003",
-    "x": 158,
-    "y": 152,
+    "x": 1009,
+    "y": 956,
     "frame_width": 16,
     "frame_height": 6,
     "offset_x": 0,
@@ -4353,6 +5625,440 @@
       "tags": [],
       "duration": 50,
       "frame_number": 3
+    }
+  },
+  "undertale_boss.0001": {
+    "name": "undertale_boss.0001",
+    "x": 0,
+    "y": 0,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkOne"
+      ],
+      "duration": 2000,
+      "frame_number": 1
+    }
+  },
+  "undertale_boss.0002": {
+    "name": "undertale_boss.0002",
+    "x": 320,
+    "y": 0,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkOne"
+      ],
+      "duration": 100,
+      "frame_number": 2
+    }
+  },
+  "undertale_boss.0003": {
+    "name": "undertale_boss.0003",
+    "x": 640,
+    "y": 0,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkOne"
+      ],
+      "duration": 100,
+      "frame_number": 3
+    }
+  },
+  "undertale_boss.0004": {
+    "name": "undertale_boss.0004",
+    "x": 960,
+    "y": 0,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkOne"
+      ],
+      "duration": 100,
+      "frame_number": 4
+    }
+  },
+  "undertale_boss.0005": {
+    "name": "undertale_boss.0005",
+    "x": 0,
+    "y": 180,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTwo"
+      ],
+      "duration": 1000,
+      "frame_number": 5
+    }
+  },
+  "undertale_boss.0006": {
+    "name": "undertale_boss.0006",
+    "x": 320,
+    "y": 180,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTwo"
+      ],
+      "duration": 100,
+      "frame_number": 6
+    }
+  },
+  "undertale_boss.0007": {
+    "name": "undertale_boss.0007",
+    "x": 640,
+    "y": 180,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTwo"
+      ],
+      "duration": 100,
+      "frame_number": 7
+    }
+  },
+  "undertale_boss.0008": {
+    "name": "undertale_boss.0008",
+    "x": 960,
+    "y": 180,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTwo"
+      ],
+      "duration": 100,
+      "frame_number": 8
+    }
+  },
+  "undertale_boss.0009": {
+    "name": "undertale_boss.0009",
+    "x": 0,
+    "y": 360,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 2000,
+      "frame_number": 9
+    }
+  },
+  "undertale_boss.0010": {
+    "name": "undertale_boss.0010",
+    "x": 320,
+    "y": 360,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 10
+    }
+  },
+  "undertale_boss.0011": {
+    "name": "undertale_boss.0011",
+    "x": 640,
+    "y": 360,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 1000,
+      "frame_number": 11
+    }
+  },
+  "undertale_boss.0012": {
+    "name": "undertale_boss.0012",
+    "x": 960,
+    "y": 360,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 12
+    }
+  },
+  "undertale_boss.0013": {
+    "name": "undertale_boss.0013",
+    "x": 0,
+    "y": 540,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 13
+    }
+  },
+  "undertale_boss.0014": {
+    "name": "undertale_boss.0014",
+    "x": 320,
+    "y": 540,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 14
+    }
+  },
+  "undertale_boss.0015": {
+    "name": "undertale_boss.0015",
+    "x": 640,
+    "y": 540,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 15
+    }
+  },
+  "undertale_boss.0016": {
+    "name": "undertale_boss.0016",
+    "x": 960,
+    "y": 540,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 16
+    }
+  },
+  "undertale_boss.0017": {
+    "name": "undertale_boss.0017",
+    "x": 0,
+    "y": 720,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 17
+    }
+  },
+  "undertale_boss.0018": {
+    "name": "undertale_boss.0018",
+    "x": 320,
+    "y": 720,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 18
+    }
+  },
+  "undertale_boss.0019": {
+    "name": "undertale_boss.0019",
+    "x": 640,
+    "y": 720,
+    "frame_width": 320,
+    "frame_height": 180,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 320,
+    "sprite_height": 180,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_boss",
+      "tags": [
+        "BlinkTransition"
+      ],
+      "duration": 100,
+      "frame_number": 19
+    }
+  },
+  "undertale_box.0001": {
+    "name": "undertale_box.0001",
+    "x": 150,
+    "y": 900,
+    "frame_width": 64,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 64,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_box",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "undertale_box_bg.0001": {
+    "name": "undertale_box_bg.0001",
+    "x": 214,
+    "y": 900,
+    "frame_width": 64,
+    "frame_height": 64,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 64,
+    "sprite_height": 64,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_box_bg",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
+    }
+  },
+  "undertale_heart.0001": {
+    "name": "undertale_heart.0001",
+    "x": 1162,
+    "y": 932,
+    "frame_width": 16,
+    "frame_height": 16,
+    "offset_x": 0,
+    "offset_y": 0,
+    "sprite_width": 16,
+    "sprite_height": 16,
+    "metadata": {
+      "source_format": "aseprite",
+      "sprite_name": "undertale_heart",
+      "tags": [],
+      "duration": 100,
+      "frame_number": 1
     }
   }
 }

@@ -22,7 +22,9 @@
 				"width": 8,
 				"height": 64,
 				"color": 16777215,
-				"customFields" : {}
+				"customFields": {
+					"Flip": false
+				}
 			}
 		],
 		"Bonfire": [

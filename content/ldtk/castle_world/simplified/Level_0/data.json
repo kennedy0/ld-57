@@ -1,0 +1,42 @@
+{
+	"identifier": "Level_0",
+	"uniqueIdentifer": "22806c80-1030-11f0-8de4-27fe9d363c0d",
+	"x": -1,
+	"y": -1,
+	"width": 320,
+	"height": 180,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles.png"
+	],
+	"entities": {
+		"Axe": [
+			{
+				"id": "Axe",
+				"iid": "bfa70f10-1030-11f0-8de4-fd17c37e18c3",
+				"layer": "Entities",
+				"x": 264,
+				"y": 120,
+				"width": 16,
+				"height": 16,
+				"color": 2943221,
+				"customFields" : {}
+			}
+		],
+		"Bridge": [
+			{
+				"id": "Bridge",
+				"iid": "b6ec9a60-1030-11f0-8de4-db97062e4b96",
+				"layer": "Entities",
+				"x": 56,
+				"y": 144,
+				"width": 208,
+				"height": 8,
+				"color": 11882632,
+				"customFields" : {}
+			}
+		]
+	}
+}

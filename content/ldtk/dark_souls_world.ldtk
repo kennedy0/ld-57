@@ -11,7 +11,7 @@
 	"iid": "a8cc0ba0-1030-11f0-adbd-c544c00a2df5",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 35,
+	"nextUid": 36,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "LinearHorizontal",
@@ -822,7 +822,45 @@
 			"limitBehavior": "MoveLastOne",
 			"pivotX": 0,
 			"pivotY": 0,
-			"fieldDefs": []
+			"fieldDefs": [
+				{
+					"identifier": "Flip",
+					"doc": null,
+					"__type": "Bool",
+					"uid": 35,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				}
+			]
 		},
 		{
 			"identifier": "Bonfire",
@@ -982,7 +1020,7 @@
 							"height": 64,
 							"defUid": 32,
 							"px": [312,80],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Flip", "__type": "Bool", "__value": false, "__tile": null, "defUid": 35, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "Bonfire",
@@ -1253,7 +1291,10 @@
 							"height": 64,
 							"defUid": 32,
 							"px": [0,80],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Flip", "__type": "Bool", "__value": true, "__tile": null, "defUid": 35, "realEditorValues": [{
+								"id": "V_Bool",
+								"params": [ true ]
+							}] }]
 						},
 						{
 							"__identifier": "CrackedBlock",
@@ -2331,7 +2372,7 @@
 							"height": 64,
 							"defUid": 32,
 							"px": [312,0],
-							"fieldInstances": []
+							"fieldInstances": [{ "__identifier": "Flip", "__type": "Bool", "__value": false, "__tile": null, "defUid": 35, "realEditorValues": [] }]
 						}
 					]
 				},
