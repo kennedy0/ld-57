@@ -22,6 +22,8 @@ from entities.keys_ui import KeysUi
 from entities.chest import Chest
 from entities.oktorok import Oktorok
 from entities.door import Door
+from entities.bonfire import Bonfire
+from entities.fog_wall import FogWall
 
 
 class MainScene(Scene):
@@ -98,6 +100,12 @@ class MainScene(Scene):
                     e = Chest()
                 case "Door":
                     e = Door()
+                case "Bonfire":
+                    e = Bonfire()
+                case "FogWall":
+                    e = FogWall()
+                    if flip := custom_fields.get("Flip"):
+                        e.sprite.flip_horizontal = True
                 case "Oktorok":
                     e = Oktorok()
                     if facing_left := custom_fields.get("FacingLeft"):

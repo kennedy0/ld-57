@@ -685,7 +685,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 2
     }
   },
@@ -705,7 +705,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 3
     }
   },
@@ -725,7 +725,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 4
     }
   },
@@ -745,7 +745,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 5
     }
   },
@@ -765,7 +765,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 6
     }
   },
@@ -785,7 +785,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 7
     }
   },
@@ -805,7 +805,7 @@
       "tags": [
         "Lit"
       ],
-      "duration": 100,
+      "duration": 200,
       "frame_number": 8
     }
   },
@@ -825,7 +825,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 9
     }
   },
@@ -845,7 +845,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 10
     }
   },
@@ -865,7 +865,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 11
     }
   },
@@ -885,7 +885,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 12
     }
   },
@@ -905,7 +905,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 13
     }
   },
@@ -925,7 +925,7 @@
       "tags": [
         "Burning"
       ],
-      "duration": 300,
+      "duration": 200,
       "frame_number": 14
     }
   },
