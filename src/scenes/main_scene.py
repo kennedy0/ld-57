@@ -19,6 +19,7 @@ from entities.coin_ui import CoinUi
 from entities.rupee_ui import RupeeUi
 from entities.hearts_ui import HeartsUi
 from entities.keys_ui import KeysUi
+from entities.bombs_ui import BombsUi
 from entities.chest import Chest
 from entities.oktorok import Oktorok
 from entities.door import Door
@@ -71,6 +72,7 @@ class MainScene(Scene):
             self.entities.add(HeartsUi())
             self.entities.add(RupeeUi())
             self.entities.add(KeysUi())
+            self.entities.add(BombsUi())
         elif self.name == "dark_souls_world":
             self.entities.add(DarkSoulsUi())
         elif self.name == "undertale_world":
