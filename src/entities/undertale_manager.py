@@ -51,6 +51,12 @@ class UndertaleManager(Entity):
             if Keyboard.get_key_down(Keyboard.SPACE):
                 self.undertale_bg.play_transition()
 
+                self.spawn_spider(0, 120)
+                self.spawn_spider(3, 120)
+
+                self.spawn_spider(13, 120)
+                self.spawn_spider(15, 120)
+
     def spawn_bone(self, slot: int, delay: int) -> None:
         try:
             self.bone_spawners[slot].spawn(delay)

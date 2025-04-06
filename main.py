@@ -47,11 +47,11 @@ def _init_input() -> None:
     Input.map_controller_axis_to_button(sdl2.SDL_CONTROLLER_AXIS_LEFTX, 1, "Right")
 
     Input.add_button("Jump")
-    Input.map_key_to_button(Keyboard.Z, "Jump")
+    Input.map_key_to_button(Keyboard.SPACE, "Jump")
     Input.map_controller_button_to_button(sdl2.SDL_CONTROLLER_BUTTON_A, "Jump")
 
     Input.add_button("Special")
-    Input.map_key_to_button(Keyboard.X, "Special")
+    Input.map_key_to_button(Keyboard.LEFT_SHIFT, "Special")
     Input.map_controller_button_to_button(sdl2.SDL_CONTROLLER_BUTTON_X, "Special")
 
 

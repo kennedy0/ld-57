@@ -13,6 +13,7 @@ class BoneSpawner(Entity):
     def spawn(self, delay: int) -> None:
         bone = Bone.instantiate()
         bone.delay = delay
+        bone.set_position(self.position())
 
     def debug_draw(self, camera: Camera) -> None:
         self.bbox().draw(camera, Color.white())

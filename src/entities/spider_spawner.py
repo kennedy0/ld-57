@@ -13,6 +13,7 @@ class SpiderSpawner(Entity):
     def spawn(self, delay: int) -> None:
         spider = Spider.instantiate()
         spider.delay = delay
+        spider.set_position(self.position())
         if self.slot > 7:
             spider.x_direction = -1
 
