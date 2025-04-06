@@ -384,6 +384,7 @@ class Player(Entity):
                     self.head_hit = True
                     if hasattr(entity, "on_head_hit"):
                         entity.on_head_hit()
+                        self.y = entity.bbox().bottom() + 1
             elif self.dy >= 0 and "Platform" in entity.tags:
                 if entity.intersects(self.grounded_rect()):
                     self.grounded = True

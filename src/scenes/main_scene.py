@@ -54,7 +54,7 @@ class MainScene(Scene):
         else:
             return
 
-        # UI - conditional based on world
+        # Load entities that are conditional based on world
         if self.name == "mario_world":
             self.entities.add(CoinUi())
         elif self.name == "zelda_world":

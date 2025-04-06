@@ -1,0 +1,42 @@
+{
+	"identifier": "Level_0",
+	"uniqueIdentifer": "999108d0-1030-11f0-8de4-f93056bbcd71",
+	"x": -1,
+	"y": -1,
+	"width": 320,
+	"height": 180,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles.png"
+	],
+	"entities": {
+		"FogWall": [
+			{
+				"id": "FogWall",
+				"iid": "1d5bbe30-1030-11f0-8de4-476f85eab97f",
+				"layer": "Entities",
+				"x": 312,
+				"y": 80,
+				"width": 8,
+				"height": 64,
+				"color": 16777215,
+				"customFields" : {}
+			}
+		],
+		"Bonfire": [
+			{
+				"id": "Bonfire",
+				"iid": "6bd18280-1030-11f0-8de4-6d1cc9e7d291",
+				"layer": "Entities",
+				"x": 136,
+				"y": 136,
+				"width": 24,
+				"height": 32,
+				"color": 15389866,
+				"customFields" : {}
+			}
+		]
+	}
+}
