@@ -18,6 +18,8 @@ class Goomba(Enemy):
 
         self.dx = -.2
 
+        self.sfx = SoundEffect("sfx/enemydeath.wav")
+
     def on_spawn(self) -> None:
         self.dx = -.2
         self.sprite.play("Walk")
@@ -26,6 +28,7 @@ class Goomba(Enemy):
     def on_death(self) -> None:
         fx = ScoreFx.instantiate()
         fx.set_position(self.position())
+        self.sfx.play()
 
     def wall_rect(self) -> Rect:
         if self.dx > 0:

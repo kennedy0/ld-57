@@ -16,9 +16,13 @@ def main() -> int:
 
     # ToDo: CHANGE VALUE HERE FOR TESTING
     game_globals.GO_TO_NEXT_WORLD = True
+    # game_globals.NEXT_WORLD_QUEUE.append("mario_world")
     game_globals.NEXT_WORLD_QUEUE.append("dark_souls_world")
     # game_globals.NEXT_WORLD_QUEUE.append("zelda_world")
     # game_globals.NEXT_WORLD_QUEUE.append("undertale_world")
+
+    m = Music("music/ambience.wav")
+    m.play()
 
     scene = MainScene()
     Engine.start(scene)

@@ -17,6 +17,8 @@ class Chest(Entity):
         self.width = 16
         self.height = 16
 
+        self.sfx = SoundEffect("music/zeldachest.wav")
+
     def draw(self, camera: Camera) -> None:
         if self.open:
             self.sprite_open.draw(camera, self.position())
@@ -32,6 +34,7 @@ class Chest(Entity):
                 player.keys += 1
                 fx = KeyFx.instantiate()
                 fx.set_position(player.bbox().center() + Point(0, -14))
+                self.sfx.play()
         except:
             pass
 

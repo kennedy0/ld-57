@@ -27,10 +27,20 @@ class CameraController(Entity):
         self.from_x = 0
         self.to_x = 0
 
+        self.mario_sfx = SoundEffect("music/mario.wav")
+        self.zelda_sfx = SoundEffect("music/zelda.wav")
+        self.dark_souls_sfx = SoundEffect("music/darksouls.wav")
+        self.sfx_timer = 0
+        self.sfx_timer_max = 180
+
     def start(self) -> None:
         self.player = self.find("Player")
 
     def update(self) -> None:
+        self.sfx_timer -= 1
+        if self.sfx_timer <= 0:
+            self.sfx_timer = 0
+
         if self.is_scrolling:
             self.scroll_timer -= 1
             if self.scroll_timer <= 0:
@@ -59,6 +69,17 @@ class CameraController(Entity):
         self.from_x = from_screen * self.screen_width
         self.to_x = to_screen * self.screen_width
         self.activate_level(to_screen)
+
+        if self.sfx_timer <= 0:
+            if self.scene.name == "mario_world":
+                self.mario_sfx.play()
+                self.sfx_timer = self.sfx_timer_max
+            elif self.scene.name == "zelda_world":
+                self.zelda_sfx.play()
+                self.sfx_timer = self.sfx_timer_max
+            elif self.scene.name == "dark_souls_world":
+                self.dark_souls_sfx.play()
+                self.sfx_timer = self.sfx_timer_max
 
     def activate_level(self, level: int) -> None:
         for i, l in enumerate(self.scene.levels):
