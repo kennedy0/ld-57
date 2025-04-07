@@ -9,6 +9,10 @@ class SoundEffect:
         """ `content_path` is the path to the audio file. """
         self._name = content_path
         self._audio_clip = Content.load_audio_clip(content_path)
+        self._channel = 0
+
+    def stop(self) -> None:
+        sdl2.sdlmixer.Mix_HaltChannel(self._channel)
 
     def __str__(self) -> str:
         return f"SoundEffect({self._name})"
@@ -18,4 +22,4 @@ class SoundEffect:
 
     def play(self) -> None:
         """ Play the audio clip. """
-        sdl2.sdlmixer.Mix_PlayChannel(channel=-1, chunk=self._audio_clip.sdl_mix_chunk, loops=0)
+        self._channel = sdl2.sdlmixer.Mix_PlayChannel(channel=-1, chunk=self._audio_clip.sdl_mix_chunk, loops=0)

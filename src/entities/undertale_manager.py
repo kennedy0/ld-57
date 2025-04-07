@@ -25,6 +25,9 @@ class UndertaleManager(Entity):
 
         self.timer = 0
 
+        self.sfx = SoundEffect("music/undertale.wav")
+        self.stopped_music = False
+
     def start(self) -> None:
         self.player = self.find("Player")
         self.undertale_box = self.find("UndertaleBox")
@@ -41,21 +44,63 @@ class UndertaleManager(Entity):
                 self.walls_created = True
                 self.undertale_box.create_walls()
 
+        if self.player.hp == 0:
+            if not self.stopped_music:
+                self.stopped_music = True
+                self.sfx.stop()
+
         self.timer += 1
 
         if self.timer == 300:
-            pass
+            self.sfx.play()
+            self.spawn_bone(0, 0)
+        elif self.timer == 438:
+            self.spawn_bone(1, 0)
+        elif self.timer == 571:
+            self.spawn_bone(2, 0)
+        elif self.timer == 700:
+            self.spawn_bone(3, 0)
+        elif self.timer == 835:
+            self.spawn_bone(0, 0)
+            self.spawn_bone(1, 0)
+        elif self.timer == 963:
+            self.spawn_bone(2, 0)
+            self.spawn_bone(3, 0)
+        elif self.timer == 1094:
+            self.spawn_bone(0, 0)
+            self.spawn_bone(3, 0)
+        elif self.timer == 1225:
+            self.undertale_bg.play_transition()
+            self.spawn_bone(1, 0)
+            self.spawn_bone(2, 0)
 
-        # DEBUG
-        if __debug__:
-            if Keyboard.get_key_down(Keyboard.SPACE):
-                self.undertale_bg.play_transition()
+        elif self.timer == 1353:
+            self.spawn_spider(7, 0)
+            self.spawn_spider(15, 0)
+        elif self.timer == 1425:
+            self.spawn_spider(6, 0)
+            self.spawn_spider(14, 0)
+        elif self.timer == 1488:
+            self.spawn_spider(5, 0)
+            self.spawn_spider(13, 0)
+        elif self.timer == 1554:
+            self.spawn_spider(4, 0)
+            self.spawn_spider(12, 0)
+        elif self.timer == 1617:
+            self.spawn_spider(3, 0)
+            self.spawn_spider(11, 0)
+        elif self.timer == 1682:
+            self.spawn_spider(2, 0)
+            self.spawn_spider(10, 0)
+        elif self.timer == 1747:
+            self.spawn_spider(1, 0)
+            self.spawn_spider(9, 0)
+        elif self.timer == 1813:
+            self.spawn_spider(0, 0)
+            self.spawn_spider(8, 0)
+        elif self.timer == 2100:
+            self.undertale_box.destroy_walls()
 
-                self.spawn_spider(0, 120)
-                self.spawn_spider(3, 120)
-
-                self.spawn_spider(13, 120)
-                self.spawn_spider(15, 120)
 
     def spawn_bone(self, slot: int, delay: int) -> None:
         try:

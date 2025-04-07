@@ -34,6 +34,7 @@ from entities.spider_spawner import SpiderSpawner
 from entities.undertale_box import UndertaleBox
 from entities.undertale_manager import UndertaleManager
 from entities.undertale_bg import UndertaleBg
+from entities.undertale_ui import UndertaleUi
 
 
 class MainScene(Scene):
@@ -78,6 +79,7 @@ class MainScene(Scene):
         elif self.name == "undertale_world":
             self.entities.add(UndertaleManager())
             self.entities.add(UndertaleBg())
+            self.entities.add(UndertaleUi())
         elif self.name == "castle_world":
             pass
 

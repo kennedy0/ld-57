@@ -135,6 +135,7 @@ class Boss(Entity):
                 self.destroy()
                 self.death_sfx.play()
                 self.game_manager.end_game()
+                Music.stop()
 
     def face_player(self) -> None:
         if self.player_direction > 0:
