@@ -11,7 +11,7 @@ icon = project_root / "icon.png"
 builds = project_root / "build"
 
 
-app_name = "LD57"
+app_name = "LD57 - That Underground Level"
 script_file = project_root / "main.py"
 content_root = project_root / "content"
 

@@ -8,18 +8,11 @@ from scenes.start_game_scene import StartGameScene
 
 
 def main() -> int:
-    Game.init(name="LD57", version="v1")
+    Game.init(name="LD57 - That Underground Level", version="v1")
     Engine.init_default()
     Window.init_default()
     Renderer.init_default()
     _init_input()
-
-    # ToDo: CHANGE VALUE HERE FOR TESTING
-    # game_globals.GO_TO_NEXT_WORLD = True
-    # game_globals.NEXT_WORLD_QUEUE.append("mario_world")
-    # game_globals.NEXT_WORLD_QUEUE.append("dark_souls_world")
-    # game_globals.NEXT_WORLD_QUEUE.append("zelda_world")
-    # game_globals.NEXT_WORLD_QUEUE.append("undertale_world")
 
     m = Music("music/ambience.wav")
     m.play()
