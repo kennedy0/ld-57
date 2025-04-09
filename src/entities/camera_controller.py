@@ -33,6 +33,8 @@ class CameraController(Entity):
         self.sfx_timer = 0
         self.sfx_timer_max = 180
 
+        self._dark_souls_fix = False
+
     def start(self) -> None:
         self.player = self.find("Player")
 
@@ -80,6 +82,10 @@ class CameraController(Entity):
             elif self.scene.name == "dark_souls_world":
                 self.dark_souls_sfx.play()
                 self.sfx_timer = self.sfx_timer_max
+                if not self._dark_souls_fix:
+                    self._dark_souls_fix = True
+                    if self.player.y > 129:
+                        self.player.y = 129
 
     def activate_level(self, level: int) -> None:
         for i, l in enumerate(self.scene.levels):
