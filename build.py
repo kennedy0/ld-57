@@ -20,7 +20,7 @@ debug_app_info = AppInfo(
     icon_path=icon,
     script_path=script_file,
     content_root=content_root,
-    version="v1",
+    version="v1.1",
 )
 
 release_app_info = AppInfo(
@@ -28,7 +28,7 @@ release_app_info = AppInfo(
     icon_path=icon,
     script_path=script_file,
     content_root=content_root,
-    version="v1",
+    version="v1.1",
 )
 
 debug_build_settings = BuildSettings(

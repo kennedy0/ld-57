@@ -8,7 +8,7 @@ from scenes.start_game_scene import StartGameScene
 
 
 def main() -> int:
-    Game.init(name="LD57 - That Underground Level", version="v1")
+    Game.init(name="LD57 - That Underground Level", version="v1.1")
     Engine.init_default()
     Window.init_default()
     Renderer.init_default()
